@@ -1,2 +1,2 @@
-# BarackO.github.io
-Personal Website
+# Barack Personal Website
+https://baracko.github.io/
