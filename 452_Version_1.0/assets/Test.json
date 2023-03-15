@@ -1,0 +1,22 @@
+{
+   "Game": "CSS Demo",
+    "DialogSet": [
+        {
+            "DialogCam": {
+                "CamCenter": [50, 20],
+                "Width": 100,
+                "Viewport": [120, 20, 1500, 300]
+            }
+
+        },
+        {
+        
+        },
+        {
+            
+        },
+        {
+            
+        }
+    ]
+}
