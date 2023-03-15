@@ -1,0 +1,283 @@
+{
+    "Game": "CSS 452 Demo1",
+    "Property": [
+        {
+            "Attribute": "Correct",
+            "Value": 0
+        },
+        {
+            "Attribute": "Wrong",
+            "Value": 0
+        },
+        {
+            "Attribute": "Skip",
+            "Value": 1
+        }
+    ],
+    "SceneSet": [
+        {
+            "DialogIndex": 0,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/transparency.png",
+                "NameString": "You",
+                "DialogText": "Where am I?"
+            }
+        },
+        {
+            "DialogIndex": 1,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "Welcome to the final day of the class. I am Mr. Question."
+            }
+        },
+        {   
+            "DialogIndex": 2,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "I will ask you a couple questions. If you can answer all of them, you will win my respect. You have 1 chance skip a question. Are you ready?"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "<#eab123#>Yes, I am ready!",
+                        "Execute": [["setCurDialog", [5]]]
+                    },
+                    {
+                        "Tag": "<#eabfff#>No.",
+                        "Execute": [["setCurDialog", [4]]]
+                    },
+                    {
+                        "Tag": "One more skip",
+                        "Execute": [["modifyPropertyByName", ["Skip", 1]], ["setCurDialog", [3]]]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Vertical",
+                "Spacing": 120,
+                "Relationship": "Together"
+            }
+        },
+        {
+            "DialogIndex": 3,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "Fine! One more skip. Are you ready now?"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "<#eab123#>Yes, I am ready!",
+                        "Execute": [["setCurDialog", [5]]]
+                    },
+                    {
+                        "Tag": "<#eabfff#>No.",
+                        "Execute": [["setCurDialog", [4]]]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Horizontal",
+                "Spacing": 450,
+                "Relationship": "Together"
+            }
+        },
+        {  
+            "DialogIndex": 4,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "You are failed the class. End!",
+                "EndTag": true
+            }
+        },
+
+        {
+            "DialogIndex": 5,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "First question. Do I like eating apples?"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "<#b73645#>Yes!",
+                        "Execute": [["setCurDialog", [7]], ["modifyPropertyByName", ["Wrong", 1]]]
+                    },
+                    {
+                        "Tag": "<#eab123#>No!",
+                        "Execute": [["setCurDialog", [6]], ["modifyPropertyByName", ["Correct", 1]]]
+                    },
+                    {
+                        "Tag": "<#fab4b2#>Skip!",
+                        "Execute": [
+                            ["modifyPropertyByName", ["Skip", -1]], 
+                            ["setCurDialog", [8]]
+                        ]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Vertical",
+                "Spacing": 120,
+                "Relationship": "Together"
+            }
+        },
+        {  
+            "DialogIndex": 6,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "Bingo! You are right"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "Next Question.",
+                        "Execute": [["setCurDialog", [8]]]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Vertical",
+                "Spacing": 120,
+                "Relationship": "Together"
+            }
+        },
+        {  
+            "DialogIndex": 7,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "Sorry! You are wrong"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "Next Question.",
+                        "Execute": [["setCurDialog", [8]]]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Vertical",
+                "Spacing": 120,
+                "Relationship": "Together"
+            }
+        },
+        {
+            "DialogIndex": 8,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "Which are even number?"
+            },
+            "Option": {
+                "Content": [
+                    {
+                        "Tag": "0",
+                        "Execute": [["modifyPropertyByName", ["Correct", 1]]]
+                    },
+                    {
+                        "Tag": "1",
+                        "Execute": [["modifyPropertyByName", ["Wrong", 1]]]
+                    },
+                    {
+                        "Tag": "2",
+                        "Execute": [["modifyPropertyByName", ["Correct", 1]]]
+                    },
+                    {
+                        "Tag": "Next",
+                        "Execute": [["setCurDialog", [9]]]
+                    }
+                ],
+                "Position": [[0, 0], 20, [100, 800, 350, 100]],
+                "Layout": "Vertical",
+                "Spacing": 120,
+                "Relationship": "Separate"
+            }
+        },
+        {
+            "DialogIndex": 9,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/avatar_1.png",
+                "NameString": "Mr. Question",
+                "DialogText": "That's the end."
+            }
+        },
+        {
+            "DialogIndex": 10,
+            "Dialog": {
+                "DialogCam": {
+                    "Center": [50, 20],
+                    "Width": 100,
+                    "Viewport": [120, 20, 1500, 300]
+                },
+                "DialogTexture": "assets/dialogueFrame_1.png",
+                "AvatarTexture": "assets/transparency.png",
+                "NameString": "You",
+                "DialogText": "Any quetion?",
+                "EndTag": true
+            }
+        }
+     ]
+ }

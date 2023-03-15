@@ -1,0 +1,26 @@
+{
+    "DialogueSet":
+    [
+        {
+            "Avatar": "assets/avatar_1.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "Kid",
+            "DialogueText": ["Hi, Adventurer.", "Welcome to the College of Fighting.", "I'm your buddy, Kid."]
+        },
+        {
+            "Avatar": "assets/avatar_2.png",
+            "TextBg": "assets/dialogueFrame_2.png",
+            "NameBg": "assets/dialogueFrame_2.png",
+            "NameText": "Didi",
+            "DialogueText": ["Nice to mee you, my warrior.", "I'm Didi, the goddess of Department of Magic.", "I have waited for you for 1,000 years."]
+        },
+        {
+            "Avatar": "assets/avatar_3.png",
+            "TextBg": "assets/dialogueFrame_3.png",
+            "NameBg": "assets/dialogueFrame_3.png",
+            "NameText": "Pikachu",
+            "DialogueText": ["Pika! Pika!", "I'm a wild mythical creature.", "Do you want to become my master?"]
+        }
+    ]
+}

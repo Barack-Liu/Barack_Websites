@@ -1,0 +1,197 @@
+{
+    "DialogueSet":
+    [
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Where am I?", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["I'm doing 452 progress demo one second ago!!", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["If I don't finish my presentation, Kelvin will kill me!!!", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/avatar_1.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "Kid",
+            "DialogueText": ["Hi, fresheman, no need for panic.", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/avatar_1.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "Kid",
+            "DialogueText": ["Welcome to the College of Fighting.", "I'm your academic advisor, Kid.", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/avatar_1.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "Kid",
+            "DialogueText": ["For some reason, you've fallen into the world of Qi.", "In our world, the stronger your Qi is, the more powerful you are.", "Since I'm quitely busy, now I'll hand you over to your mentor, Didi."]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/transparency.png",
+            "NameBg": "assets/transparency.png",
+            "NameText": "",
+            "DialogueText": ["", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Are you kidding?", "How can I enter a new college when I even haven't graduated from UW!", ""]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["I have no interests to learn Qi!", "Microsoft won't hire me for that stupid Qi!", ""]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Wait, don't go, Kid!", "Get me back to my world!", ""]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/avatar_2.png",
+            "TextBg": "assets/dialogueFrame_2.png",
+            "NameBg": "assets/dialogueFrame_2.png",
+            "NameText": "Didi",
+            "DialogueText": ["Calm down, young.", "I'm Didi, the dean of Department of Water in the College of Fighting.", "You should feel lucky because you're the only human student for past 1,000 years."]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/avatar_2.png",
+            "TextBg": "assets/dialogueFrame_2.png",
+            "NameBg": "assets/dialogueFrame_2.png",
+            "NameText": "Didi",
+            "DialogueText": ["In the world of Qi, Qi can be divided into five categories.", "Metal. Wood. Water. Fire. Earth.", ""]
+        },
+        {
+            "LargeBg": "assets/bg_2.png",
+            "Avatar": "assets/avatar_2.png",
+            "TextBg": "assets/dialogueFrame_2.png",
+            "NameBg": "assets/dialogueFrame_2.png",
+            "NameText": "Didi",
+            "DialogueText": ["I will teach you more about Qi, but before that, let me give you my first gift.", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/transparency.png",
+            "NameBg": "assets/transparency.png",
+            "NameText": "",
+            "DialogueText": ["", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Uhhh, she is really beatiful.", "I will definitely be a Straight A student if she was my mentor before.", "Emmm, maybe I can consider staying here a little longer..."]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Qi?", "Sounds like some primitive element of this world.", "Maybe I can utilize it to go back to my world if I can master it."]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["She meantion gift?", "A china? Or a gun?", "Let me see..."]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/avatar_3.png",
+            "TextBg": "assets/dialogueFrame_3.png",
+            "NameBg": "assets/dialogueFrame_3.png",
+            "NameText": "Pikachu",
+            "DialogueText": ["Pika! Pika!", "My name is Pikachu and I've followed Professor Didi for more than 300 years.", "Do you want to become my partner?"]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/avatar_3.png",
+            "TextBg": "assets/dialogueFrame_3.png",
+            "NameBg": "assets/dialogueFrame_3.png",
+            "NameText": "Pikachu",
+            "DialogueText": ["I'm really bored with the normal life.", "Silence means yes, and now you're the first partner in my life.", "Actually, you're the weakest student I've seen. Who knows why you're chosen..."]
+        },
+        {
+            "LargeBg": "assets/bg_3.png",
+            "Avatar": "assets/avatar_3.png",
+            "TextBg": "assets/dialogueFrame_3.png",
+            "NameBg": "assets/dialogueFrame_3.png",
+            "NameText": "Pikachu",
+            "DialogueText": ["But no worries.", "As the descendant of epic creature, I'll help you to grow into King of Qi.", "It's time for me to go for my 9th meal today, see you later."]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/transparency.png",
+            "NameBg": "assets/transparency.png",
+            "NameText": "",
+            "DialogueText": ["", "", ""]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Emm, he is cute.", "Maybe I can learn more about this world and so-called Qi from him later.", "But he looks far more powerful than me, what if he bites me..."]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Pikachu?", "Sounds really familiar...", "Some of my memory seems to be lost."]
+        },
+        {
+            "LargeBg": "assets/bg_1.png",
+            "Avatar": "assets/transparency.png",
+            "TextBg": "assets/dialogueFrame_1.png",
+            "NameBg": "assets/dialogueFrame_1.png",
+            "NameText": "You",
+            "DialogueText": ["Anyway, cheers up, the most handsome guy in UW.", "I believe nothing is tougher than Kelvin's MP.", "Let me start the new miraculous journey!"]
+        }
+    ]
+}
