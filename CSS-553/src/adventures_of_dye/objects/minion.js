@@ -130,10 +130,13 @@ class Minion extends engine.GameObject {
     }
 
     draw(aCamera) {
-        super.draw(aCamera);
-        this.mProjectiles.draw(aCamera);
+        if (this.isVisible()) {
+            super.draw(aCamera);
+            this.mProjectiles.draw(aCamera);
+        }
     }
 
+    
     changeSprite(atX, atY) {
         this.mMinion.setColor([1, 1, 1, 0]);
         this.mMinion.getXform().setPosition(atX, atY);

@@ -7,6 +7,7 @@
 import engine from "../engine/index.js";
 import GameLevel_01 from "./game_level_01.js";
 
+
 class AdventuresOfDye extends engine.Scene {
     constructor() {
         super();
@@ -50,8 +51,10 @@ class AdventuresOfDye extends engine.Scene {
     // anything from this function!
     update() {
         // select which character to work with
+
         if (engine.input.isKeyClicked(engine.input.keys.Space))
             this.next();
+            
     }
 
 
@@ -71,3 +74,42 @@ window.onload = function () {
     let myGame = new AdventuresOfDye();
     myGame.start();
 }
+
+// let playerId;
+// let playerRef;
+// let players = {};
+// let playerElements = {};
+
+
+// firebase.auth().onAuthStateChanged((user) => {
+//     console.log(user)
+//     if (user) {
+//       //You're logged in!
+//       playerId = user.uid;
+//       playerRef = firebase.database().ref(`players/${playerId}`);
+
+  
+//       playerRef.set({
+//         id: playerId,
+//         x:3,
+//         y:3,
+  
+//       })
+  
+//       //Remove me from Firebase when I diconnect
+//       playerRef.onDisconnect().remove();
+  
+//       //Begin the game now that we are signed in
+
+//     } else {
+//       //You're logged out.
+//     }
+//   })
+  
+  firebase.auth().signInAnonymously().catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    // ...
+    console.log(errorCode, errorMessage);
+  });
+

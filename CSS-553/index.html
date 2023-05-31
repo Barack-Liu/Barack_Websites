@@ -3,7 +3,22 @@
     <head>
         <title>Demo Game: The Adventures of Dye</title>
         <link rel ="icon" type ="image/x-icon" href="./assets/favicon.png">
-
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+        <script>
+      // NOTE - INCLUDE YOUR FIREBASE CONFIG HERE FOR ANYTHING TO WORK:
+      const firebaseConfig = {
+        apiKey: "AIzaSyDza2TOAc8XE5eqVL_-hW81nCrYs6GBE9o",
+        authDomain: "game-c2ecc.firebaseapp.com",
+        databaseURL: "https://game-c2ecc-default-rtdb.firebaseio.com",
+        projectId: "game-c2ecc",
+        storageBucket: "game-c2ecc.appspot.com",
+        messagingSenderId: "138445658356",
+        appId: "1:138445658356:web:453f450e1636d011b826a1"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
         
         <!-- external library -->
         <script type="text/javascript" src="./src/lib/gl-matrix.js"></script>
@@ -25,9 +40,15 @@
                 <b>Hero</b>
                 <ul>
                     <li>
-                        <b>A/D key</b>: Move left/right </li>
+                        <b>A/D key</b>: Hero 1: Move left/right </li>
+                    <li>
+                        <b>Left/Right key</b>: Hero 2: Move left/right </li>                        
                     <li>
                         <b>Space key</b>: Jump </li>
+                    <li>
+                        <b>K key</b>: Shoot particle 
+                    </li>
+                    
                 </ul>
             </div> <!-- Left side -->
             

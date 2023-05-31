@@ -1,14 +1,14 @@
 # CSS-553-G3
-CSS-553-G3
+Software Architecture
 
 # Team member
 Barack Liu
 
 Luo Leng
 
-Abdul-Muizz Imtiaz
-
 Chloe Ma
+
+Abdul-Muizz Imtiaz
 
 # Credits
 This system is built on Professor Kelvin's 2D Web Game Engine (Version in Chapter 12)

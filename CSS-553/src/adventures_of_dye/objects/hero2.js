@@ -8,7 +8,6 @@
 "use strict";
 import engine from "../../engine/index.js";
 import Health from "../objects/health.js";
-import HeroBullet from "../objects/herobullet.js";
 
 let eHeroState = Object.freeze({
     eFaceRight: 0,
@@ -19,8 +18,8 @@ let eHeroState = Object.freeze({
     eJumpLeft: 5
 });
 
-class Hero extends engine.GameObject {
-    constructor(spriteTexture, normalMap, atX, atY, lgtSet, healthTexture, heroId, bulletTexture) {
+class Hero2 extends engine.GameObject {
+    constructor(spriteTexture, normalMap, atX, atY, lgtSet, healthTexture, heroId) {
         super(null);
         this.kDelta = 0.1;
         this.kWidth = 2;
@@ -28,8 +27,6 @@ class Hero extends engine.GameObject {
 
         this.healthTexture = healthTexture;
         this.lgtSet = lgtSet;
-        this.mHeroBulletTexture = bulletTexture;
-        this.mHeroBullets = new engine.ParticleSet();
 
         if (normalMap !== null) {
             this.mDye = new engine.IllumRenderable(spriteTexture, normalMap);
@@ -82,7 +79,6 @@ class Hero extends engine.GameObject {
         r.setAcceleration(0, -30);
         this.setRigidBody(r);
 
-        
         this.heroId = heroId;
         this.firebaseRef = firebase.database().ref('heroes/' + this.heroId);
 
@@ -108,7 +104,10 @@ class Hero extends engine.GameObject {
 
     update() {
         super.update();
-        this.mHeroBullets.update();
+        // console.log('xPos:', this.mDye.getXform().getXPos());
+        // console.log('yPos:', this.mDye.getXform().getYPos());
+        // console.log('state:', this.mHeroState);
+        // console.log('health:', this.currentHealth);
         for (let i = 0; i < this.currentHealth; i++) {
             let health = this.healths[i];
             let healthX = this.mDye.getXform().getXPos() - 1 + this.healthInterval * i;
@@ -123,16 +122,7 @@ class Hero extends engine.GameObject {
         this.mIsMoving = false;
         let v = this.getRigidBody().getVelocity();
 
-        if (engine.input.isKeyClicked(engine.input.keys.K)) { //if player presses key 'K' then shoot bullet
-            console.log("I pressed the key K");
-            this.mPreviousHeroState = this.mHeroState;
-            this.mHeroBullet = new HeroBullet(this.mHeroBulletTexture, this.getXform().getXPos(), this.getXform().getYPos(), 0, 0, 1, 1); //create bullet        
-            this.mHeroBullet.shootBullet(this.mHeroState, eHeroState); //shoot the bullet
-
-            this.mHeroBullets.addToSet(this.mHeroBullet); 
-        }
-
-        if (engine.input.isKeyPressed(engine.input.keys.A)) {
+        if (engine.input.isKeyPressed(engine.input.keys.Left)) {
             if (this.mCanJump === true) {
                 this.mPreviousHeroState = this.mHeroState;
                 this.mHeroState = eHeroState.eRunLeft;
@@ -140,9 +130,8 @@ class Hero extends engine.GameObject {
             }
 
             xform.incXPosBy(-this.kDelta);
-            this.stateChanged = true;
         }
-        if (engine.input.isKeyPressed(engine.input.keys.D)) {
+        if (engine.input.isKeyPressed(engine.input.keys.Right)) {
             if (this.mCanJump === true) {
                 this.mPreviousHeroState = this.mHeroState;
                 this.mHeroState = eHeroState.eRunRight;
@@ -150,7 +139,6 @@ class Hero extends engine.GameObject {
             }
 
             xform.incXPosBy(this.kDelta);
-            this.stateChanged = true;
         }
 
 
@@ -163,7 +151,7 @@ class Hero extends engine.GameObject {
                     this.mHeroState = eHeroState.eFaceLeft;
             }
 
-            if (engine.input.isKeyPressed(engine.input.keys.Space)) {
+            if (engine.input.isKeyPressed(engine.input.keys.Up)) {
                 v[1] = 20; // Jump velocity
                 this.mPreviousHeroState = this.mHeroState;
                 if (this.mHeroState === eHeroState.eRunRight
@@ -175,7 +163,6 @@ class Hero extends engine.GameObject {
                 this.mIsMoving = true;
             }
         }
-        // Only sync the hero's state to Firebase if it changed.
         if (this.stateChanged) {
             this.state = {
                 xPos: this.mDye.getXform().getXPos(),
@@ -191,7 +178,7 @@ class Hero extends engine.GameObject {
                 .catch(error => {
                     console.error("Error writing to Firebase: ", error);
                 });
-        }      
+        }
 
         this.changeAnimation();
         this.mDye.updateAnimation();
@@ -199,7 +186,10 @@ class Hero extends engine.GameObject {
         this.mCanJump = false;
 
     }
-
+    // Left: 37,
+    // Up: 38,
+    // Right: 39,
+    // Down: 40,
     changeAnimation() {
         if (this.mHeroState !== this.mPreviousHeroState) {
             switch (this.mHeroState) {
@@ -240,7 +230,6 @@ class Hero extends engine.GameObject {
     draw(aCamera) {
         super.draw(aCamera);
         this.mJumpBox.draw(aCamera);
-        this.mHeroBullets.draw(aCamera); //draw bullets to screen
     }
 
     canJump(b) {
@@ -262,7 +251,6 @@ class Hero extends engine.GameObject {
         this.healths.pop();
         this.currentHealth = this.currentHealth - 1;
         this.lastInjuryTime = injuryTime;
-
         this.stateChanged = true;
     }
 
@@ -288,8 +276,7 @@ class Hero extends engine.GameObject {
         }
         //Bug: when Hero adds 1 point health, an extral health shows up in other place
     }
-      
         
 }
 
-export default Hero;
+export default Hero2;
