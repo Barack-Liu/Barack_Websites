@@ -1,6 +1,6 @@
-# Barack Hosted Website
+# All Hosted Websites
 
-## Personal webpage
+## Personal website
 
 https://barack-liu.github.io/Barack_Websites/
 
