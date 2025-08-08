@@ -1,839 +1,527 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="zh-CN">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>刘宏阳 - 个人网站</title>
-    <link rel="icon shortcut bookmark" type="image/png" href="favicon.ico">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <title>Barack Liu - 个人网站 | Barack Liu - Personal Website</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    
+    <!-- Modern CSS Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/modern-styles.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?d007b52664356a517965b6bc3481487f";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-<!-- Baidu analysis -->
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
 
-      </head>
-      <body id="top">
-        <header id="home">
-          <nav>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <nav class="pull">
-                    <ul class="top-nav">
-                      <li><a href="#intro">个人简介<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#features">专业技能<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#responsive">个人成果<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#portfolio">作品集<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-<!--                       <li><a href="#team">Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li> -->
-                      <li><a href="#contact">联系方式<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <section class="hero" id="hero">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown">刘宏阳</span></h1>
-                  <p class="animated fadeInUp delay-05s">穷则独善其身，达则兼济天下。</em></p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="#" class="learn-more-btn">返回顶部</a>
-                </div>
-              </div>
-            </div>
-          </section>
-        </header>
-        <section class="intro text-center section-padding" id="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">个人简介</h1>
-                <p>
-年龄性别：1996年出生，男。<br>
-教育状态：上海交通大学-计算机科学与工程系-硕士，华中科技大学-基于项目类专业教育实验班-本科，华中科技大学-金金融学-本科双学位。<br>
-研究方向：区块链，金融科技。<br>
-业余兴趣：读书，写作，美术，旅行，摄影，登山，骑行，攀岩，格斗，游泳。
-</p>
-              </div>
-            </div>
-          </div>
-        </section>
-<!--         <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div> -->
-        <section class="features text-center section-padding" id="features">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">专业技能</h1>
-                <div class="features-wrapper">
-                  <div class="col-md-4 wp2">
-                    <div class="icon">
-                      <i class="fa fa-laptop shadow"></i>
-                    </div>
-                    <h2>计算机</h2>
-                    <p>
-                    C++<br>
-                    Python<br>
-                  </p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-05s">
-                    <div class="icon">
-                      <i class="fa fa-code shadow"></i>
-                    </div>
-                    <h2>金融</h2>
-                    <p>
-                      本科双学位：金融学<br>
-                      硕士研究方向：区块链<br>
-                    </p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-1s">
-                    <div class="icon">
-                      <i class="fa fa-heart shadow"></i>
-                    </div>
-                    <h2>产品与美术</h2>
-                    <p>
-                      Axure<br>
-                      Unity<br>
-                    </p>
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="text-center" id="responsive">
-          <div class="container-fluid nopadding responsive-services">
-            <div class="wrapper">
-              <div class="iphone">
-                <div class="wp3"></div>
-              </div>
-              <div class="fluid-white"></div>
-            </div>
-            <div class="container designs">
-              <div class="row">
-                <div class="col-md-5 col-md-offset-7">
-                  <div id="servicesSlider">
-                    <ul class="slides">
-                   
-                      <li>
-                        <h1 class="arrow">创业经历</h1>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero. </p>
-                        <p>
-                        Mauris ultrices odio vitae nulla ultrices iaculis. Nulla rhoncus odio eu lectus faucibus facilisis. Maecenas ornare augue vitae sollicitudin accumsan. </p> -->
-                        <p>
-2014年12月，与1名同学课余完成的 “微弹幕” 项目得到国内多家知名风险投资机构关注，最终获100万人民币风险投资，该创业项目曾获得武汉市多家媒体报道。<br>
-2015年01月，成立武汉成启点信科技有限公司，截止到2017年06月，累计拥有用户量达30万，产品在公司年会、翻转课堂、演唱会等场合广泛使用，取得了一定社会影响力。<br>
-公司官网：<a href="http://www.vdanmu.com/">微弹幕官网</a><br>
-媒体报道：<a href="https://www.chsi.com.cn/jyzd/qzxd/201605/20160511/1533316809.html">武汉两大学生专攻“微弹幕” 一年“弹”出万场活动</a>
-                      </p>
-                      </li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text" data-zh="brand-text" data-en="brand-text"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
 
-                      <li>
-                        <h1 class="arrow">读书写作旅行</h1>
-                        <p>
-累计写读书笔记达210篇：<a href="https://www.jianshu.com/u/7e852639b180">简书个人主页</a><br>
-曾撰写1篇10万字小说《神国传》：<a href="https://book.qidian.com/info/1003801327">起点个人主页</a><br>
-技术博客：<a href="https://blog.csdn.net/u013851260">CSDN个人主页</a><br>
-旅行过的国家：美国、意大利、德国、法国、德国、日本、韩国。<br>
-旅行过的地区：珠峰大本营、青海湖、长白山、库布齐沙漠、稻城亚丁、丽江大理、喀纳斯吐鲁番。
-旅行笔记：<a href="http://www.mafengwo.cn/u/87087094.html">马蜂窝个人主页</a>
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">本科所获荣誉</h1>
-                        <p>
-    1. 2013级九月本科生军训优秀学员
-    2. 2014年12月，深圳创新谷投资公司投资我作为联合创始人成立的项目“微弹幕”，投资金额为100万人民币
-    3. 2015年01月，成立武汉成启点信科技有限公司
-    4. 2014年度自强大学生标兵
-    5. 五四演讲第二赛区一等奖
-    6. 2013至2014学年度华中科技大学“优秀共青团干部”
-    7. 华中科技大学大学生志愿者暑期“三下乡”社会实践活动优秀个人
-    8. 2014年湖北省大中专学生志愿者暑期“三下乡”社会实践活动先进个人
-    9. 优秀大学生志愿者
-    10. 第二届全国大学生创业实战大赛全国100强
-    11. 2015年大学生科技创新活动优秀个人
-    12. 第二届全国大学生创业实战大赛全国华中区二等奖
-    13. 2015至2016学年度华中科技大学“优秀共青团员”
-    14. 2016年大学生科技创新活动优秀个人
-    15. 华中科技大学2017届校友班级理事
-    16. 华中科技大学2017届校友年级理事
-    17. 华中科技大学启明学院荣誉学生
-    18. 华中科技大学2017届“优秀毕业生”
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">硕士所获荣誉</h1>
-                        <p>
-    19. “大数据管理实践及行业应用”系列研修班结业证书
-    20. “大数据管理实践及行业应用”系列研修班优秀学员
-    21. 第三届全球中小企业峰会（奥巴马总统演讲会）优秀志愿者
-    22. 上海交通大学2017年度“优秀党员”荣誉称号
-    23. 上海交通大学2017至2018年度“优秀团员”称号
-    24. 上海交通大学青年志愿者服务总队部长聘书
-    25. 韩国“165KM国土大长征”完赛证书
-    26. 上海交通大学2017至2018年度“三好学生”称号
-    27. 上海交通大学“健美之星”称号
-    28. 上海交通大学2018年秋季华为奖学金
-    29.  2018年世界顶尖科学家论坛1对1志愿者；
-    30. 2018年02月23日，发明专利“一种速度可变弹幕的弹道分配方法”获得授权；
-    31. 2018年04月10日，发明专利“一种带审核机制与关键字过滤的弹幕消息处理方法”获得授权。
-    32. 招商银行Fintech精英训练营学习认证证书
-    33.上海交通大学真人CS机电对抗赛MVP
-    34.上海交通大学2019年度Wish奖学金
-    35.上海国际半程马拉松赛志愿者服务证书
-    36.2019年上海市“智能计算与智能电网”研究生学术论坛一等奖
-    37.上海交通大学2018至2019年度“优秀团员称号
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">学习经历</h1>
-                        <p>
-一、学习情况
-研究生期间，获得总学分35.0个，学位课绩点3.88分（满绩4.0）。<br>
-
-二、科研经历
-2017年09月至2018年06月，针对主流的区块链方案开展调研，收集资料，阅读相关文献；
-2018年07月至2018年09月，针对异步网络下的拜占庭共识方案开展调研，收集资料，阅读相关文献；
-2018年10月至2018年12月，针对区块链系统中的分片方案设计开展调研，收集资料，阅读相关文献；
-2019年01月至2019年03月，在对现有方案的理解和掌握的基础上，设计新的基于拜占庭共识和分片机制的区块链方案；
-2019年05月01日，论文《A Secure and Practical Blockchain Scheme for IoT》被CCF-C类会议TrustCom2019录用。<br>
-
-三、科创比赛
-2019年03月，参加上海市“挑战杯”大学生课外学术科技作品竞赛。
-                      </p>
-                      </li>
-
-                                            <li>
-                        <h1 class="arrow">项目经历</h1>
-                        <p>
-四、创业经历
-2014年12月，与1名同学课余完成的 “微弹幕” 项目得到国内多家知名风险投资机构关注，最终获深圳创新谷100万人民币风险投资，该创业项目曾获得武汉市多家媒体报道。
-2015年01月，成立武汉成启点信科技有限公司，截止到2017年06月，累计拥有用户量达30万，产品在公司年会、翻转课堂、演唱会等场合广泛使用，取得了一定社会影响力。<br>
-
-五、发明专利
-2018年02月23日，发明专利“一种速度可变弹幕的弹道分配方法”获得授权；
-2018年04月10日，发明专利“一种带审核机制与关键字过滤的弹幕消息处理方法”获得授权。<br>
-
-六、社会实践
-2018.02（参与时间），参加寒假社会实践——“十九大宣讲团” （实践名称）；
-2018.07，参加暑假社会实践——“走进保税区 唱响新时代” 珠海暑期社会实践；
-2019.01，参加寒假社会实践——浦东新区创新创业孵化器实地调研。
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">学生工作</h1>
-                        <p>
-七、学生工作经历
-2017.09 - 至今（时间），电院计算机系B1703393班（学生组织），班长（担任职务）；
-2017.09 - 至今，电院计算机系B1703393团支部，团支部副书记；
-2017.09 - 2018.06，上海交通大学校青年志愿者服务总队，联络部部长；
-2017.09 - 2018.06，上海交通大学校社团总会，联络部副部长；
-2017.09 - 2018.06，上海交通大学野外生存协会，登山队副队长；
-2017.09 - 2018.06，上海交通大学电院研究生会，联络部干事；
-2015.09 - 2017.06，华中科技大学13级种子班，团支书；
-2015.09 - 2016.06，华中科技大学Dian团队，公关组组长；
-2014.09 - 2015.06， 华中科技大学大学生科学技术协会，网宣部副部长；
-2014.09 - 2015.06， 华中科技大学新媒体中心，视频组副组长。
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">志愿者活动</h1>
-                        <p>
-八、志愿者活动
-2017.03（参与时间），参与上海交通大学研究生毕业典礼志愿服务工作（服务名称）；
-2017.11，参加 “第三届全球中小企业峰会暨奥巴马总统演讲会” ，作为私人掌务负责香港艺人杜德伟先生的接待工作；
-2018.04，参与全国高校社联峰会的组织工作；
-2018.04，参加上海交通大学红十字会组织的义务献血活动；
-2018.10，参加上海交通大学红十字会组织的义务献血活动；
-2018.10，参加世界顶尖科学家论坛，作为学生负责人负责志愿者的工作管理，同时自己作为一对一志愿者，负责一对一接待图灵奖获得者、MIT计算机系教授Shafi Goldwasser，负责为图灵奖获得者、Stanford计算机系教授Martin Hellman送机；
-2018.11，参加 “沪港大学联盟” 成立仪式，作为志愿者拍摄现场照片；
-2019.01，参加“电院校友新年茶话会”，作为志愿者负责PPT、音乐、视频播放等场控工作；
-2019.04，参加“上海半程马拉松”，作为存衣组志愿者。
-                      </p>
-                      </li>
-
-                      <li>
-                        <h1 class="arrow">文体活动</h1>
-                        <p>
-九、文体活动
-2018年04月，作为队长，带领3人小队代表上海交通大学前往内蒙古，参加由北京大学主办的库布齐沙漠徒步活动。
-2018年05月，作为领队，带领30人前往浙东大峡谷徒步露营。
-2018年07月，作为队长，带领3人小队代表上海交通大学前往韩国首尔，参加由韩国成均馆大学主办的三八线160KM徒步活动。
-2018年08月，主动发起欧洲自由行，前往意大利、梵蒂冈、法国和德国等国进行旅行。
-2019年04月，作为副押队，带领30人前往浙江千八进行徒步露营。
-                      </p>
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-<!--         <section class="swag text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1>I got 99 Problems<span>but <em>design</em> 'aint one</span></h1>
-                <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        <section class="portfolio text-center section-padding" id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div id="portfolioSlider">
-                <ul class="slides">
-                  <li>
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/01-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>柯南</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/02-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>灰原哀</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/03-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>艾斯</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/04-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>游戏王</p>
-                    </div>                    
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/05-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>
-                        爱因斯坦  
-                      </p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/06-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>
-                      犬夜叉
-                    </p>
-                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-zh="nav-experience" data-en="nav-experience"></a>
                     </li>
-
-                    <li>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/07-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>
-                      疯狂动物城
-                    </p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/08-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>不知火舞</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/09-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>蛇姬</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/10-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>你的名字</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/11-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>周恩来</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/12-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>罗宾</p>
-                    </div>               
-                  </li>
-
-                    <li>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/13-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>
-                      乔巴
-                    </p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/14-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>水粉</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/15-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>索隆</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/16-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>水彩</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/17-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>香吉士</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/18-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>我要读书</p>
-                    </div>               
-                  </li>
-
-                    <li>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/19-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>
-                      游园惊梦
-                    </p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/20-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>王下七武海</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/21-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>索隆</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/22-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>人像</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/23-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>草薙京</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/24-p.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a href="#" class="expand"><i class="fa fa-search"></i><br>返回首页</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>手绘</h2>
-                      <p>哆啦A梦</p>
-                    </div>               
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-<!--         <div class="ignite-cta text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <a href="#" class="ignite-btn">Ignite Your Passion</a>
-              </div>
-            </div>
-          </div>
-        </div> -->
- <!--        <section class="team text-center section-padding" id="team">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">We're a team that adore what we do</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/team-01.png" alt="Team Member">
-                        <h2>Jon Snow</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/team-02.png" alt="Team Member">
-                        <h2>Cersei Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/team-03.png" alt="Team Member">
-                        <h2>Jamie Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" data-zh="nav-education" data-en="nav-education"></a>
                     </li>
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/team-01.png" alt="Team Member">
-                        <h2>Jon Snow</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/team-02.png" alt="Team Member">
-                        <h2>Cersei Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/team-03.png" alt="Team Member">
-                        <h2>Jamie Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications" data-zh="nav-publications" data-en="nav-publications"></a>
                     </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-<!--         <section class="subscribe text-center">
-          <div class="container">
-            <h1><i class="fa fa-paper-plane"></i><span>Subscribe to stay in the loop</span></h1>
-            <form action="#">
-              <input type="text" name="" value="" placeholder="" required>
-              <input type="submit" name="" value="Send">
-            </form>
-          </div>
-        </section> -->
-        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">联系方式</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>地址</span></h2>
-                  <p>上海交通大学闵行校区</p>
-                </div>
-              </div>
-               <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>微信</span></h2>
-                  <p>liuhongyang199601</p>
-                </div>
-              </div> 
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>邮箱</span></h2>
-                  <p><a href="#">yanghongliu2013@outlook.com</a></p>
-                </div>
-              </div>
-            </div>
-<!--                 <a href="https://info.flagcounter.com/mDT6"><img src="https://s11.flagcounter.com/count2/mDT6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
-    <!--         <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" data-zh="nav-portfolio" data-en="nav-portfolio"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-zh="nav-contact" data-en="nav-contact"></a>
+                    </li>
                 </ul>
-              </div>
-            </div> -->
-          </div>
-        </section>
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="legals">
-                  <li><a href="#">版权所有 © 刘宏阳 更新于2019/07/20 </a></li>
-<!--                   <li><a href="#">Legals</a></li> -->
-                </ul>
-              </div>
-<!--               <div class="col-md-6 credit">
-                <p>Designed &amp; Developed by <a href="#">Peter Finlan</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></p>
-              </div> -->
             </div>
-          </div>
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
-        <script src="js/modernizr.js"></script>
-      </body>
-    </html>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="name" data-zh="hero-name" data-en="hero-name"></span>
+                        </h1>
+                        <p class="hero-subtitle" data-zh="hero-subtitle" data-en="hero-subtitle"></p>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-primary btn-lg">
+                                <span data-zh="hero-learn-more" data-en="hero-learn-more"></span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                <span data-zh="hero-contact" data-en="hero-contact"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-experience" data-en="section-experience"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-current-title" data-en="experience-current-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-current-company" data-en="experience-current-company"></span>
+                                    <span class="work-period" data-zh="experience-current-period" data-en="experience-current-period"></span>
+                                </div>
+                                <p data-zh="experience-current-text" data-en="experience-current-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-microsoft-title" data-en="experience-microsoft-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-microsoft-company" data-en="experience-microsoft-company"></span>
+                                    <span class="work-period" data-zh="experience-microsoft-period" data-en="experience-microsoft-period"></span>
+                                </div>
+                                <p data-zh="experience-microsoft-text" data-en="experience-microsoft-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-tencent-title" data-en="experience-tencent-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-tencent-company" data-en="experience-tencent-company"></span>
+                                    <span class="work-period" data-zh="experience-tencent-period" data-en="experience-tencent-period"></span>
+                                </div>
+                                <p data-zh="experience-tencent-text" data-en="experience-tencent-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-entrepreneurship-title" data-en="experience-entrepreneurship-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-entrepreneurship-company" data-en="experience-entrepreneurship-company"></span>
+                                    <span class="work-period" data-zh="experience-entrepreneurship-period" data-en="experience-entrepreneurship-period"></span>
+                                </div>
+                                <p data-zh="experience-entrepreneurship-text" data-en="experience-entrepreneurship-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-education" data-en="section-education"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-uw-title" data-en="education-uw-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-uw-institution" data-en="education-uw-institution"></span>
+                                    <span class="work-period" data-zh="education-uw-period" data-en="education-uw-period"></span>
+                                </div>
+                                <p data-zh="education-uw-details" data-en="education-uw-details"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-sjtu-title" data-en="education-sjtu-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-sjtu-institution" data-en="education-sjtu-institution"></span>
+                                    <span class="work-period" data-zh="education-sjtu-period" data-en="education-sjtu-period"></span>
+                                </div>
+                                <p data-zh="education-sjtu-details" data-en="education-sjtu-details"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-hust-title" data-en="education-hust-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-hust-institution" data-en="education-hust-institution"></span>
+                                    <span class="work-period" data-zh="education-hust-period" data-en="education-hust-period"></span>
+                                </div>
+                                <p data-zh="education-hust-details" data-en="education-hust-details"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Patents Section -->
+    <section id="publications" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-publications" data-en="section-publications"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="publication-blockchain" data-en="publication-blockchain"></h3>
+                                <p data-zh="publication-blockchain-text" data-en="publication-blockchain-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="patent-barrage-review" data-en="patent-barrage-review"></h3>
+                                <p data-zh="patent-barrage-review-text" data-en="patent-barrage-review-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="patent-barrage-distribution" data-en="patent-barrage-distribution"></h3>
+                                <p data-zh="patent-barrage-distribution-text" data-en="patent-barrage-distribution-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-zh="section-portfolio" data-en="section-portfolio"></h2>
+                    <p class="section-subtitle" data-zh="portfolio-subtitle" data-en="portfolio-subtitle"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item" data-img="img/01-p.jpg" data-title="柯南">
+                            <img src="img/01-p.jpg" alt="柯南" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="柯南" data-en="Conan"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/02-p.jpg" data-title="灰原哀">
+                            <img src="img/02-p.jpg" alt="灰原哀" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="灰原哀" data-en="Ai Haibara"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/03-p.jpg" data-title="艾斯">
+                            <img src="img/03-p.jpg" alt="艾斯" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="艾斯" data-en="Ace"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/04-p.jpg" data-title="游戏王">
+                            <img src="img/04-p.jpg" alt="游戏王" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="游戏王" data-en="Yu-Gi-Oh!"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/05-p.jpg" data-title="爱因斯坦">
+                            <img src="img/05-p.jpg" alt="爱因斯坦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="爱因斯坦" data-en="Einstein"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/06-p.jpg" data-title="犬夜叉">
+                            <img src="img/06-p.jpg" alt="犬夜叉" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="犬夜叉" data-en="Inuyasha"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/07-p.jpg" data-title="疯狂动物城">
+                            <img src="img/07-p.jpg" alt="疯狂动物城" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="疯狂动物城" data-en="Zootopia"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/08-p.jpg" data-title="不知火舞">
+                            <img src="img/08-p.jpg" alt="不知火舞" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="不知火舞" data-en="Mai Shiranui"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/09-p.jpg" data-title="蛇姬">
+                            <img src="img/09-p.jpg" alt="蛇姬" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="蛇姬" data-en="Boa Hancock"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/10-p.jpg" data-title="你的名字">
+                            <img src="img/10-p.jpg" alt="你的名字" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="你的名字" data-en="Your Name"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/11-p.jpg" data-title="周恩来">
+                            <img src="img/11-p.jpg" alt="Zhou Enlai" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="周恩来" data-en="Zhou Enlai"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/12-p.jpg" data-title="罗宾">
+                            <img src="img/12-p.jpg" alt="罗宾" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="罗宾" data-en="Robin"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/13-p.jpg" data-title="乔巴">
+                            <img src="img/13-p.jpg" alt="乔巴" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="乔巴" data-en="Chopper"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/14-p.jpg" data-title="东海龙王">
+                            <img src="img/14-p.jpg" alt="东海龙王" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="东海龙王" data-en="Dragon King"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/15-p.jpg" data-title="索隆">
+                            <img src="img/15-p.jpg" alt="索隆" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="索隆" data-en="Zoro"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/16-p.jpg" data-title="田园风光">
+                            <img src="img/16-p.jpg" alt="田园风光" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="田园风光" data-en="Rural Landscape"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/17-p.jpg" data-title="香吉士">
+                            <img src="img/17-p.jpg" alt="香吉士" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="香吉士" data-en="Sanji"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/18-p.jpg" data-title="我要读书">
+                            <img src="img/18-p.jpg" alt="我要读书" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="我要读书" data-en="I Want to Study"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/19-p.jpg" data-title="游园惊梦">
+                            <img src="img/19-p.jpg" alt="游园惊梦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="游园惊梦" data-en="Dream in the Garden"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/20-p.jpg" data-title="王下七武海">
+                            <img src="img/20-p.jpg" alt="王下七武海" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="王下七武海" data-en="Seven Warlords"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/21-p.jpg" data-title="索隆">
+                            <img src="img/21-p.jpg" alt="索隆" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="索隆" data-en="Zoro"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/22-p.jpg" data-title="佚名">
+                            <img src="img/22-p.jpg" alt="佚名" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="佚名" data-en="Anonymous"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/23-p.jpg" data-title="草薙京">
+                            <img src="img/23-p.jpg" alt="草薙京" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="草薙京" data-en="Kyo Kusanagi"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/24-p.jpg" data-title="哆啦A梦">
+                            <img src="img/24-p.jpg" alt="哆啦A梦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="哆啦A梦" data-en="Doraemon"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/25-p.jpg" data-title="佚名">
+                            <img src="img/25-p.jpg" alt="佚名" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="佚名" data-en="Anonymous"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/240810-海贼王-路飞.png" data-title="海贼王-路飞">
+                            <img src="img/240810-海贼王-路飞.png" alt="海贼王-路飞" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="海贼王-路飞" data-en="One Piece - Luffy"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/180325-蜡笔小新.jpg" data-title="蜡笔小新">
+                            <img src="img/180325-蜡笔小新.jpg" alt="蜡笔小新" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="蜡笔小新" data-en="Crayon Shin-chan"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200321-速写-凯旋门-Final.jpg" data-title="速写-凯旋门">
+                            <img src="img/200321-速写-凯旋门-Final.jpg" alt="速写-凯旋门" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-凯旋门" data-en="Sketch - Arc de Triomphe"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/190417-神乐.jpg" data-title="神乐">
+                            <img src="img/190417-神乐.jpg" alt="神乐" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="神乐" data-en="Kagura"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200320-速写-东大门-Final.jpg" data-title="速写-东大门">
+                            <img src="img/200320-速写-东大门-Final.jpg" alt="速写-东大门" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-东大门" data-en="Sketch - Dongdaemun"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/180527-皮卡丘.jpg" data-title="皮卡丘">
+                            <img src="img/180527-皮卡丘.jpg" alt="皮卡丘" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="皮卡丘" data-en="Pikachu"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200322-速写-电信群楼-Final.jpg" data-title="速写-电信群楼">
+                            <img src="img/200322-速写-电信群楼-Final.jpg" alt="速写-电信群楼" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-电信群楼" data-en="Sketch - Telecom Building"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200211-怪盗基德-Final.jpg" data-title="怪盗基德">
+                            <img src="img/200211-怪盗基德-Final.jpg" alt="怪盗基德" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="怪盗基德" data-en="Kaitou Kid"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200323-速写-I LOVE SJTU-Final.jpg" data-title="速写-I LOVE SJTU">
+                            <img src="img/200323-速写-I LOVE SJTU-Final.jpg" alt="速写-I LOVE SJTU" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-I LOVE SJTU" data-en="Sketch - I LOVE SJTU"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/190422-やつがれを見たミ!!.jpg" data-title="やつがれを見たミ!!">
+                            <img src="img/190422-やつがれを見たミ!!.jpg" alt="やつがれを見たミ!!" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="やつがれを見たミ!!" data-en="やつがれを見たミ!!"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h3 id="modalTitle"></h3>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-zh="section-contact" data-en="section-contact"></h2>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                                <div class="contact-card">
+                                    <i class="fas fa-envelope"></i>
+                                    <h4 data-zh="contact-email" data-en="contact-email"></h4>
+                                    <p>yanghongliu2013@outlook.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <h3 data-zh="social-media" data-en="social-media"></h3>
+                        <div class="social-grid">
+                            <a href="https://www.linkedin.com/in/barackliu/" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.goodreads.com/user/show/112166097-barack-liu" target="_blank" class="social-link goodreads">
+                                <i class="fas fa-book-open"></i>
+                                <span>GoodReads</span>
+                            </a>
+                            <a href="https://www.douban.com/people/208732375/?_i=4676572TobW03e,46816786PirZx8" target="_blank" class="social-link douban">
+                                <i class="fas fa-star"></i>
+                                <span data-zh="豆瓣" data-en="Douban"></span>
+                            </a>
+                            <a href="https://hongyi.ai/" target="_blank" class="social-link ai-product">
+                                <i class="fas fa-robot"></i>
+                                <span data-zh="AI产品名：" data-en="AI Product: "></span><span class="product-name" data-zh="宏依" data-en="Hongyi.ai"></span>
+                            </a>
+                            <a href="https://space.bilibili.com/428266039/lists/4654943?type=series" target="_blank" class="social-link bilibili">
+                                <i class="fab fa-bilibili"></i>
+                                <span>Bilibili</span>
+                            </a>
+                            <a href="https://www.qidian.com/book/1040689941/" target="_blank" class="social-link qidian">
+                                <i class="fas fa-book"></i>
+                                <span data-zh="起点" data-en="Qidian"></span>
+                            </a>
+                            <a href="https://www.youtube.com/playlist?list=PL70VRVU1GJLX_w-1dKT4lBBtEmmU2vZva" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 <span data-zh="brand-text" data-en="brand-text"></span>. <span data-zh="footer-copyright" data-en="footer-copyright"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/modern-scripts.js?v=1.1"></script>
+</body>
+</html>
