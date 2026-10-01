@@ -1,0 +1,7639 @@
+{
+ "generated": "2026-10-01T07:37:09.639Z",
+ "total": 476,
+ "counts": {
+  "project": 2,
+  "drawing": 16,
+  "code": 16,
+  "research": 5,
+  "chapter": 300,
+  "devlog": 119,
+  "film": 14,
+  "blooper": 4
+ },
+ "first": "2014-10-01",
+ "last": "2026-09-30",
+ "sources": {
+  "manual": {
+   "ok": true,
+   "count": 44
+  },
+  "qidian": {
+   "ok": true,
+   "count": 300,
+   "fetched": "2026-10-01T07:37:08.745Z"
+  },
+  "bilibili": {
+   "ok": true,
+   "count": 119,
+   "fetched": "2026-10-01T07:37:09.503Z"
+  },
+  "github": {
+   "ok": true,
+   "count": 13,
+   "fetched": "2026-10-01T07:37:09.634Z"
+  }
+ },
+ "extra": {
+  "book": {
+   "name": "不使意难平",
+   "status": "完本",
+   "chapters": 300,
+   "chars": 1216712,
+   "updated": "2026-06-28 08:40:26"
+  }
+ },
+ "items": [
+  {
+   "id": "project-vdanmu",
+   "cat": "project",
+   "date": "2014-10-01",
+   "w": 3,
+   "title": {
+    "en": "Vdanmu 微弹幕 — co-founded (product site, archived)",
+    "zh": "微弹幕 Vdanmu — 联合创办（官网存档）"
+   },
+   "url": "https://web.archive.org/web/20160825110045/http://www.vdanmu.com:80/",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-ace",
+   "cat": "drawing",
+   "date": "2017-07-15",
+   "w": 2,
+   "img": "ace",
+   "title": {
+    "en": "Ace — pencil, 3h45m",
+    "zh": "艾斯 · 铅笔 3 小时 45 分"
+   },
+   "url": "/assets/drawings/ace.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-mai",
+   "cat": "drawing",
+   "date": "2017-08-19",
+   "w": 2,
+   "img": "mai",
+   "title": {
+    "en": "Mai Shiranui — pencil, 4h50m",
+    "zh": "不知火舞 · 铅笔 4 小时 50 分"
+   },
+   "url": "/assets/drawings/mai.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-kyo",
+   "cat": "drawing",
+   "date": "2017-09-16",
+   "w": 2,
+   "img": "kyo",
+   "title": {
+    "en": "Kyo Kusanagi — pencil, 4h10m",
+    "zh": "草薙京 · 铅笔 4 小时 10 分"
+   },
+   "url": "/assets/drawings/kyo.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-inuyasha",
+   "cat": "drawing",
+   "date": "2017-09-23",
+   "w": 2,
+   "img": "inuyasha",
+   "title": {
+    "en": "Inuyasha — pencil, 4h25m",
+    "zh": "犬夜叉 · 铅笔 4 小时 25 分"
+   },
+   "url": "/assets/drawings/inuyasha.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-your-name",
+   "cat": "drawing",
+   "date": "2017-10-29",
+   "w": 2,
+   "img": "your-name",
+   "title": {
+    "en": "Your Name — pencil, 3h18m",
+    "zh": "你的名字 · 铅笔 3 小时 18 分"
+   },
+   "url": "/assets/drawings/your-name.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-yugioh",
+   "cat": "drawing",
+   "date": "2017-11-05",
+   "w": 2,
+   "img": "yugioh",
+   "title": {
+    "en": "Yu-Gi-Oh! — pencil, 3h03m",
+    "zh": "游戏王 · 铅笔 3 小时 03 分"
+   },
+   "url": "/assets/drawings/yugioh.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "code-statics-learning",
+   "cat": "code",
+   "date": "2017-12-15",
+   "w": 1,
+   "title": {
+    "en": "Statistical learning course project (SJTU)",
+    "zh": "统计学习课程项目（上海交大）"
+   },
+   "url": "https://github.com/Barack-Liu/Statics-Learning",
+   "src": "github"
+  },
+  {
+   "id": "research-patent-089",
+   "cat": "research",
+   "date": "2018-02-23",
+   "w": 2,
+   "title": {
+    "en": "Patent CN106412089B — danmaku message processing with moderation and keyword filtering",
+    "zh": "发明专利 CN106412089B · 一种带审核机制与关键字过滤的弹幕消息处理方法"
+   },
+   "url": "https://patents.google.com/patent/CN106412089B/zh",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-shinchan",
+   "cat": "drawing",
+   "date": "2018-03-25",
+   "w": 2,
+   "img": "shinchan",
+   "title": {
+    "en": "Crayon Shin-chan — pencil",
+    "zh": "蜡笔小新 · 铅笔"
+   },
+   "url": "/assets/drawings/shinchan.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "research-patent-485",
+   "cat": "research",
+   "date": "2018-04-10",
+   "w": 2,
+   "title": {
+    "en": "Patent CN106454485B — lane allocation for variable-speed danmaku",
+    "zh": "发明专利 CN106454485B · 一种速度可变弹幕的弹道分配方法"
+   },
+   "url": "https://patents.google.com/patent/CN106454485B/zh",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-pikachu",
+   "cat": "drawing",
+   "date": "2018-05-27",
+   "w": 2,
+   "img": "pikachu",
+   "title": {
+    "en": "Pikachu — pencil, 60 min",
+    "zh": "皮卡丘 · 铅笔 60 分钟"
+   },
+   "url": "/assets/drawings/pikachu.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "code-machine-learning",
+   "cat": "code",
+   "date": "2018-06-11",
+   "w": 1,
+   "title": {
+    "en": "Machine-Learning",
+    "zh": "Machine-Learning"
+   },
+   "note": {
+    "en": "License-plate recognition with machine learning (course project)",
+    "zh": "用机器学习做车牌识别（课程项目）"
+   },
+   "url": "https://github.com/Barack-Liu/Machine-Learning",
+   "src": "github"
+  },
+  {
+   "id": "code-software-innovation",
+   "cat": "code",
+   "date": "2018-06-13",
+   "w": 1,
+   "title": {
+    "en": "Software-Innovation",
+    "zh": "Software-Innovation"
+   },
+   "note": {
+    "en": "A minimal app taken through a full DevOps flow (course project)",
+    "zh": "把一个最小应用走完整个 DevOps 流程（课程项目）"
+   },
+   "url": "https://github.com/Barack-Liu/Software-Innovation",
+   "src": "github"
+  },
+  {
+   "id": "code-chainspacetest",
+   "cat": "code",
+   "date": "2018-10-21",
+   "w": 1,
+   "title": {
+    "en": "ChainspaceTest",
+    "zh": "ChainspaceTest"
+   },
+   "note": {
+    "en": "Tests of the Chainspace blockchain prototype (SJTU research)",
+    "zh": "Chainspace 区块链原型测试（上海交大研究）"
+   },
+   "url": "https://github.com/Barack-Liu/ChainspaceTest",
+   "src": "github"
+  },
+  {
+   "id": "drawing-kagura",
+   "cat": "drawing",
+   "date": "2019-04-17",
+   "w": 2,
+   "img": "kagura",
+   "title": {
+    "en": "Kagura — pencil",
+    "zh": "神乐 · 铅笔"
+   },
+   "url": "/assets/drawings/kagura.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-yatsugare",
+   "cat": "drawing",
+   "date": "2019-04-22",
+   "w": 2,
+   "img": "yatsugare",
+   "title": {
+    "en": "やつがれを見たミ!! — pencil, 120 min",
+    "zh": "やつがれを見たミ!! · 铅笔 120 分钟"
+   },
+   "url": "/assets/drawings/yatsugare.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "research-trustcom-2019",
+   "cat": "research",
+   "date": "2019-08-05",
+   "w": 2,
+   "title": {
+    "en": "A Secure and Practical Blockchain Scheme for IoT — IEEE TrustCom 2019 (first author)",
+    "zh": "A Secure and Practical Blockchain Scheme for IoT · IEEE TrustCom 2019（第一作者）"
+   },
+   "url": "https://doi.org/10.1109/TrustCom/BigDataSE.2019.00078",
+   "src": "manual"
+  },
+  {
+   "id": "research-nss-2019",
+   "cat": "research",
+   "date": "2019-12-01",
+   "w": 2,
+   "title": {
+    "en": "A Practical Dynamic Enhanced BFT Protocol — NSS 2019",
+    "zh": "A Practical Dynamic Enhanced BFT Protocol · NSS 2019"
+   },
+   "url": "https://doi.org/10.1007/978-3-030-36938-5_17",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-kid",
+   "cat": "drawing",
+   "date": "2020-02-11",
+   "w": 2,
+   "img": "kid",
+   "title": {
+    "en": "Kaitou Kid — pencil",
+    "zh": "怪盗基德 · 铅笔"
+   },
+   "url": "/assets/drawings/kid.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-sjtu-east-gate",
+   "cat": "drawing",
+   "date": "2020-03-20",
+   "w": 2,
+   "img": "sjtu-east-gate",
+   "title": {
+    "en": "Sketch — SJTU East Gate, Xuhui campus",
+    "zh": "速写 · 交大徐汇校区东大门"
+   },
+   "url": "/assets/drawings/sjtu-east-gate.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-sjtu-minhang-gate",
+   "cat": "drawing",
+   "date": "2020-03-21",
+   "w": 2,
+   "img": "sjtu-minhang-gate",
+   "title": {
+    "en": "Sketch — SJTU Minhang campus gate",
+    "zh": "速写 · 交大闵行校区「凯旋门」"
+   },
+   "url": "/assets/drawings/sjtu-minhang-gate.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-sjtu-seiee",
+   "cat": "drawing",
+   "date": "2020-03-22",
+   "w": 2,
+   "img": "sjtu-seiee",
+   "title": {
+    "en": "Sketch — SJTU SEIEE buildings",
+    "zh": "速写 · 交大电信群楼"
+   },
+   "url": "/assets/drawings/sjtu-seiee.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "drawing-i-love-sjtu",
+   "cat": "drawing",
+   "date": "2020-03-23",
+   "w": 2,
+   "img": "i-love-sjtu",
+   "title": {
+    "en": "Sketch — I LOVE SJTU",
+    "zh": "速写 · I LOVE SJTU"
+   },
+   "url": "/assets/drawings/i-love-sjtu.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "code-css_451_finalproject",
+   "cat": "code",
+   "date": "2022-12-07",
+   "w": 1,
+   "title": {
+    "en": "CSS 451 final project: 3D computer graphics",
+    "zh": "CSS 451 期末项目：3D 计算机图形学"
+   },
+   "url": "https://github.com/Barack-Liu/CSS_451_FinalProject",
+   "src": "github"
+  },
+  {
+   "id": "code-css452_mp5_davion_barack",
+   "cat": "code",
+   "date": "2023-02-21",
+   "w": 1,
+   "title": {
+    "en": "CSS 452 game-engine project (team of two)",
+    "zh": "CSS 452 游戏引擎课程项目（两人合作）"
+   },
+   "url": "https://github.com/Barack-Liu/CSS452_MP5_Davion_Barack",
+   "src": "github"
+  },
+  {
+   "id": "code-barack_davion_finalproject_dialoguesystem",
+   "cat": "code",
+   "date": "2023-02-28",
+   "w": 1,
+   "title": {
+    "en": "CSS 452 final project: dialogue system (team of two)",
+    "zh": "CSS 452 期末项目：对话系统（两人合作）"
+   },
+   "url": "https://github.com/Barack-Liu/Barack_Davion_FinalProject_DialogueSystem",
+   "src": "github"
+  },
+  {
+   "id": "code-css452-v1",
+   "cat": "code",
+   "date": "2023-03-15",
+   "w": 1,
+   "title": {
+    "en": "CSS 452 game demo — dialogue system, v1.0 (playable)",
+    "zh": "CSS 452 游戏 Demo · 对话系统 v1.0（可试玩）"
+   },
+   "url": "https://barackliu.org/452_Version_1.0/",
+   "src": "manual"
+  },
+  {
+   "id": "code-css452-v2",
+   "cat": "code",
+   "date": "2023-03-15",
+   "w": 1,
+   "title": {
+    "en": "CSS 452 game demo — dialogue system, v2.0 (playable)",
+    "zh": "CSS 452 游戏 Demo · 对话系统 v2.0（可试玩）"
+   },
+   "url": "https://barackliu.org/452_Version_2.0/",
+   "src": "manual"
+  },
+  {
+   "id": "code-css-553-g3",
+   "cat": "code",
+   "date": "2023-05-11",
+   "w": 1,
+   "title": {
+    "en": "CSS 553 group project",
+    "zh": "CSS 553 小组项目"
+   },
+   "url": "https://github.com/Barack-Liu/CSS-553-G3",
+   "src": "github"
+  },
+  {
+   "id": "code-css553",
+   "cat": "code",
+   "date": "2023-05-27",
+   "w": 1,
+   "title": {
+    "en": "CSS 553 demo game — The Adventures of Dye (playable)",
+    "zh": "CSS 553 Demo 游戏 · The Adventures of Dye（可试玩）"
+   },
+   "url": "https://barackliu.org/CSS-553/",
+   "src": "manual"
+  },
+  {
+   "id": "code-a-comprehensive-categorization-framework-for-interactive-fiction-games",
+   "cat": "code",
+   "date": "2024-02-26",
+   "w": 1,
+   "title": {
+    "en": "Interactive-fiction games: thesis data and survey",
+    "zh": "互动小说游戏：学位论文数据与综述"
+   },
+   "url": "https://github.com/Barack-Liu/A-Comprehensive-Categorization-Framework-for-Interactive-Fiction-Games",
+   "src": "github"
+  },
+  {
+   "id": "chapter-796975324",
+   "cat": "chapter",
+   "date": "2024-06-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第1章 重生穿越",
+    "zh": "不使意难平 · 第1章 重生穿越"
+   },
+   "note": {
+    "en": "3,143 characters",
+    "zh": "3,143 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/796975324/",
+   "n": 1,
+   "chars": 3143,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797066209",
+   "cat": "chapter",
+   "date": "2024-06-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第2章 轮回世界",
+    "zh": "不使意难平 · 第2章 轮回世界"
+   },
+   "note": {
+    "en": "3,098 characters",
+    "zh": "3,098 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797066209/",
+   "n": 2,
+   "chars": 3098,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797227632",
+   "cat": "chapter",
+   "date": "2024-06-20",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第3章 任务开启",
+    "zh": "不使意难平 · 第3章 任务开启"
+   },
+   "note": {
+    "en": "3,600 characters",
+    "zh": "3,600 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797227632/",
+   "n": 3,
+   "chars": 3600,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797306056",
+   "cat": "chapter",
+   "date": "2024-06-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第4章 三大重臣",
+    "zh": "不使意难平 · 第4章 三大重臣"
+   },
+   "note": {
+    "en": "3,360 characters",
+    "zh": "3,360 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797306056/",
+   "n": 4,
+   "chars": 3360,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797455409",
+   "cat": "chapter",
+   "date": "2024-06-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第5章 论持久战",
+    "zh": "不使意难平 · 第5章 论持久战"
+   },
+   "note": {
+    "en": "3,511 characters",
+    "zh": "3,511 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797455409/",
+   "n": 5,
+   "chars": 3511,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797529727",
+   "cat": "chapter",
+   "date": "2024-06-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第6章 知行合一",
+    "zh": "不使意难平 · 第6章 知行合一"
+   },
+   "note": {
+    "en": "3,428 characters",
+    "zh": "3,428 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797529727/",
+   "n": 6,
+   "chars": 3428,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797632039",
+   "cat": "chapter",
+   "date": "2024-06-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第7章 法外狂徒",
+    "zh": "不使意难平 · 第7章 法外狂徒"
+   },
+   "note": {
+    "en": "2,081 characters",
+    "zh": "2,081 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797632039/",
+   "n": 7,
+   "chars": 2081,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797686346",
+   "cat": "chapter",
+   "date": "2024-06-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第8章 寡人有疾",
+    "zh": "不使意难平 · 第8章 寡人有疾"
+   },
+   "note": {
+    "en": "2,483 characters",
+    "zh": "2,483 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797686346/",
+   "n": 8,
+   "chars": 2483,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797698837",
+   "cat": "chapter",
+   "date": "2024-06-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第9章 轮流刷我",
+    "zh": "不使意难平 · 第9章 轮流刷我"
+   },
+   "note": {
+    "en": "2,293 characters",
+    "zh": "2,293 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797698837/",
+   "n": 9,
+   "chars": 2293,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797706563",
+   "cat": "chapter",
+   "date": "2024-06-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第10章 哼！臭道士",
+    "zh": "不使意难平 · 第10章 哼！臭道士"
+   },
+   "note": {
+    "en": "2,104 characters",
+    "zh": "2,104 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797706563/",
+   "n": 10,
+   "chars": 2104,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797805803",
+   "cat": "chapter",
+   "date": "2024-06-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第11章 九大境界",
+    "zh": "不使意难平 · 第11章 九大境界"
+   },
+   "note": {
+    "en": "3,323 characters",
+    "zh": "3,323 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797805803/",
+   "n": 11,
+   "chars": 3323,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-797944101",
+   "cat": "chapter",
+   "date": "2024-06-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第12章 误中副车",
+    "zh": "不使意难平 · 第12章 误中副车"
+   },
+   "note": {
+    "en": "3,787 characters",
+    "zh": "3,787 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/797944101/",
+   "n": 12,
+   "chars": 3787,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798081487",
+   "cat": "chapter",
+   "date": "2024-06-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第13章 张玉，卒！",
+    "zh": "不使意难平 · 第13章 张玉，卒！"
+   },
+   "note": {
+    "en": "3,022 characters",
+    "zh": "3,022 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798081487/",
+   "n": 13,
+   "chars": 3022,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798213406",
+   "cat": "chapter",
+   "date": "2024-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第14章 楚狂接舆",
+    "zh": "不使意难平 · 第14章 楚狂接舆"
+   },
+   "note": {
+    "en": "3,998 characters",
+    "zh": "3,998 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798213406/",
+   "n": 14,
+   "chars": 3998,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798317730",
+   "cat": "chapter",
+   "date": "2024-06-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第15章 小说成瘾",
+    "zh": "不使意难平 · 第15章 小说成瘾"
+   },
+   "note": {
+    "en": "3,388 characters",
+    "zh": "3,388 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798317730/",
+   "n": 15,
+   "chars": 3388,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798386319",
+   "cat": "chapter",
+   "date": "2024-06-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第16章 琼林宴",
+    "zh": "不使意难平 · 第16章 琼林宴"
+   },
+   "note": {
+    "en": "3,997 characters",
+    "zh": "3,997 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798386319/",
+   "n": 16,
+   "chars": 3997,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798396088",
+   "cat": "chapter",
+   "date": "2024-06-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第17章 严公公",
+    "zh": "不使意难平 · 第17章 严公公"
+   },
+   "note": {
+    "en": "3,995 characters",
+    "zh": "3,995 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798396088/",
+   "n": 17,
+   "chars": 3995,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798513139",
+   "cat": "chapter",
+   "date": "2024-07-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第18章 格竹",
+    "zh": "不使意难平 · 第18章 格竹"
+   },
+   "note": {
+    "en": "2,160 characters",
+    "zh": "2,160 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798513139/",
+   "n": 18,
+   "chars": 2160,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798517431",
+   "cat": "chapter",
+   "date": "2024-07-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第19章 盐铁会议",
+    "zh": "不使意难平 · 第19章 盐铁会议"
+   },
+   "note": {
+    "en": "2,458 characters",
+    "zh": "2,458 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798517431/",
+   "n": 19,
+   "chars": 2458,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798526816",
+   "cat": "chapter",
+   "date": "2024-07-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第20章 酒来！诗来！",
+    "zh": "不使意难平 · 第20章 酒来！诗来！"
+   },
+   "note": {
+    "en": "2,467 characters",
+    "zh": "2,467 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798526816/",
+   "n": 20,
+   "chars": 2467,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798665851",
+   "cat": "chapter",
+   "date": "2024-07-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第21章 雄县夜袭",
+    "zh": "不使意难平 · 第21章 雄县夜袭"
+   },
+   "note": {
+    "en": "3,356 characters",
+    "zh": "3,356 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798665851/",
+   "n": 21,
+   "chars": 3356,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-798841062",
+   "cat": "chapter",
+   "date": "2024-07-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第22章 万军之中，取上将首级",
+    "zh": "不使意难平 · 第22章 万军之中，取上将首级"
+   },
+   "note": {
+    "en": "3,365 characters",
+    "zh": "3,365 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/798841062/",
+   "n": 22,
+   "chars": 3365,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799004259",
+   "cat": "chapter",
+   "date": "2024-07-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第23章 道衍法师",
+    "zh": "不使意难平 · 第23章 道衍法师"
+   },
+   "note": {
+    "en": "3,935 characters",
+    "zh": "3,935 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799004259/",
+   "n": 23,
+   "chars": 3935,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799104998",
+   "cat": "chapter",
+   "date": "2024-07-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第24章 不可用，则杀之",
+    "zh": "不使意难平 · 第24章 不可用，则杀之"
+   },
+   "note": {
+    "en": "3,121 characters",
+    "zh": "3,121 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799104998/",
+   "n": 24,
+   "chars": 3121,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799198006",
+   "cat": "chapter",
+   "date": "2024-07-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第25章 舌战子澄",
+    "zh": "不使意难平 · 第25章 舌战子澄"
+   },
+   "note": {
+    "en": "3,993 characters",
+    "zh": "3,993 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799198006/",
+   "n": 25,
+   "chars": 3993,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799249918",
+   "cat": "chapter",
+   "date": "2024-07-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第26章 蚕室",
+    "zh": "不使意难平 · 第26章 蚕室"
+   },
+   "note": {
+    "en": "2,231 characters",
+    "zh": "2,231 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799249918/",
+   "n": 26,
+   "chars": 2231,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799255083",
+   "cat": "chapter",
+   "date": "2024-07-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第27章 明月依旧",
+    "zh": "不使意难平 · 第27章 明月依旧"
+   },
+   "note": {
+    "en": "2,285 characters",
+    "zh": "2,285 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799255083/",
+   "n": 27,
+   "chars": 2285,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799269398",
+   "cat": "chapter",
+   "date": "2024-07-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第28章 反间",
+    "zh": "不使意难平 · 第28章 反间"
+   },
+   "note": {
+    "en": "2,244 characters",
+    "zh": "2,244 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799269398/",
+   "n": 28,
+   "chars": 2244,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799324346",
+   "cat": "chapter",
+   "date": "2024-07-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第29章 战略转移",
+    "zh": "不使意难平 · 第29章 战略转移"
+   },
+   "note": {
+    "en": "2,180 characters",
+    "zh": "2,180 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799324346/",
+   "n": 29,
+   "chars": 2180,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799334903",
+   "cat": "chapter",
+   "date": "2024-07-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第30章 笛与火铳",
+    "zh": "不使意难平 · 第30章 笛与火铳"
+   },
+   "note": {
+    "en": "2,202 characters",
+    "zh": "2,202 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799334903/",
+   "n": 30,
+   "chars": 2202,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799544629",
+   "cat": "chapter",
+   "date": "2024-07-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第31章 “隐”杀",
+    "zh": "不使意难平 · 第31章 “隐”杀"
+   },
+   "note": {
+    "en": "3,364 characters",
+    "zh": "3,364 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799544629/",
+   "n": 31,
+   "chars": 3364,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799628620",
+   "cat": "chapter",
+   "date": "2024-07-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第32章 杀人诛心",
+    "zh": "不使意难平 · 第32章 杀人诛心"
+   },
+   "note": {
+    "en": "3,656 characters",
+    "zh": "3,656 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799628620/",
+   "n": 32,
+   "chars": 3656,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799759661",
+   "cat": "chapter",
+   "date": "2024-07-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第33章 再聚首",
+    "zh": "不使意难平 · 第33章 再聚首"
+   },
+   "note": {
+    "en": "3,368 characters",
+    "zh": "3,368 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799759661/",
+   "n": 33,
+   "chars": 3368,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799885018",
+   "cat": "chapter",
+   "date": "2024-07-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第34章 隆中对",
+    "zh": "不使意难平 · 第34章 隆中对"
+   },
+   "note": {
+    "en": "3,998 characters",
+    "zh": "3,998 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799885018/",
+   "n": 34,
+   "chars": 3998,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-799982206",
+   "cat": "chapter",
+   "date": "2024-07-13",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第35章 二炮",
+    "zh": "不使意难平 · 第35章 二炮"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/799982206/",
+   "n": 35,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800049042",
+   "cat": "chapter",
+   "date": "2024-07-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第36章 司令员",
+    "zh": "不使意难平 · 第36章 司令员"
+   },
+   "note": {
+    "en": "2,996 characters",
+    "zh": "2,996 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800049042/",
+   "n": 36,
+   "chars": 2996,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800052998",
+   "cat": "chapter",
+   "date": "2024-07-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第37章 总指导员",
+    "zh": "不使意难平 · 第37章 总指导员"
+   },
+   "note": {
+    "en": "2,335 characters",
+    "zh": "2,335 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800052998/",
+   "n": 37,
+   "chars": 2335,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800056088",
+   "cat": "chapter",
+   "date": "2024-07-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第38章 装备部部长",
+    "zh": "不使意难平 · 第38章 装备部部长"
+   },
+   "note": {
+    "en": "2,999 characters",
+    "zh": "2,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800056088/",
+   "n": 38,
+   "chars": 2999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800145240",
+   "cat": "chapter",
+   "date": "2024-07-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第39章 王懂遇刺",
+    "zh": "不使意难平 · 第39章 王懂遇刺"
+   },
+   "note": {
+    "en": "2,410 characters",
+    "zh": "2,410 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800145240/",
+   "n": 39,
+   "chars": 2410,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800151533",
+   "cat": "chapter",
+   "date": "2024-07-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第40章 第一滴血",
+    "zh": "不使意难平 · 第40章 第一滴血"
+   },
+   "note": {
+    "en": "2,260 characters",
+    "zh": "2,260 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800151533/",
+   "n": 40,
+   "chars": 2260,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800250165",
+   "cat": "chapter",
+   "date": "2024-07-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第41章 少年匹马出凉州",
+    "zh": "不使意难平 · 第41章 少年匹马出凉州"
+   },
+   "note": {
+    "en": "3,334 characters",
+    "zh": "3,334 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800250165/",
+   "n": 41,
+   "chars": 3334,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800368850",
+   "cat": "chapter",
+   "date": "2024-07-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第42章 当带三尺剑，立不世之功",
+    "zh": "不使意难平 · 第42章 当带三尺剑，立不世之功"
+   },
+   "note": {
+    "en": "3,380 characters",
+    "zh": "3,380 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800368850/",
+   "n": 42,
+   "chars": 3380,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800508357",
+   "cat": "chapter",
+   "date": "2024-07-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第43章 打爆婚车车轴",
+    "zh": "不使意难平 · 第43章 打爆婚车车轴"
+   },
+   "note": {
+    "en": "3,402 characters",
+    "zh": "3,402 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800508357/",
+   "n": 43,
+   "chars": 3402,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800567435",
+   "cat": "chapter",
+   "date": "2024-07-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第44章 英雄救美",
+    "zh": "不使意难平 · 第44章 英雄救美"
+   },
+   "note": {
+    "en": "3,240 characters",
+    "zh": "3,240 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800567435/",
+   "n": 44,
+   "chars": 3240,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800762740",
+   "cat": "chapter",
+   "date": "2024-07-20",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第45章 白衣骑士",
+    "zh": "不使意难平 · 第45章 白衣骑士"
+   },
+   "note": {
+    "en": "3,276 characters",
+    "zh": "3,276 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800762740/",
+   "n": 45,
+   "chars": 3276,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800839724",
+   "cat": "chapter",
+   "date": "2024-07-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第46章 封侯非我意，但愿海波平",
+    "zh": "不使意难平 · 第46章 封侯非我意，但愿海波平"
+   },
+   "note": {
+    "en": "2,269 characters",
+    "zh": "2,269 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800839724/",
+   "n": 46,
+   "chars": 2269,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800844569",
+   "cat": "chapter",
+   "date": "2024-07-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第47章 瞿能",
+    "zh": "不使意难平 · 第47章 瞿能"
+   },
+   "note": {
+    "en": "2,434 characters",
+    "zh": "2,434 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800844569/",
+   "n": 47,
+   "chars": 2434,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800898288",
+   "cat": "chapter",
+   "date": "2024-07-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第48章 围城",
+    "zh": "不使意难平 · 第48章 围城"
+   },
+   "note": {
+    "en": "2,627 characters",
+    "zh": "2,627 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800898288/",
+   "n": 48,
+   "chars": 2627,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800913423",
+   "cat": "chapter",
+   "date": "2024-07-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第49章 乱命",
+    "zh": "不使意难平 · 第49章 乱命"
+   },
+   "note": {
+    "en": "2,454 characters",
+    "zh": "2,454 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800913423/",
+   "n": 49,
+   "chars": 2454,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-800920964",
+   "cat": "chapter",
+   "date": "2024-07-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第50章 溃败",
+    "zh": "不使意难平 · 第50章 溃败"
+   },
+   "note": {
+    "en": "2,570 characters",
+    "zh": "2,570 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/800920964/",
+   "n": 50,
+   "chars": 2570,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801121101",
+   "cat": "chapter",
+   "date": "2024-07-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第51章 往事泊于心头，不肯远走",
+    "zh": "不使意难平 · 第51章 往事泊于心头，不肯远走"
+   },
+   "note": {
+    "en": "3,208 characters",
+    "zh": "3,208 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801121101/",
+   "n": 51,
+   "chars": 3208,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801226310",
+   "cat": "chapter",
+   "date": "2024-07-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第52章 白虎节堂",
+    "zh": "不使意难平 · 第52章 白虎节堂"
+   },
+   "note": {
+    "en": "3,141 characters",
+    "zh": "3,141 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801226310/",
+   "n": 52,
+   "chars": 3141,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801371776",
+   "cat": "chapter",
+   "date": "2024-07-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第53章 蒋干到此一游",
+    "zh": "不使意难平 · 第53章 蒋干到此一游"
+   },
+   "note": {
+    "en": "3,382 characters",
+    "zh": "3,382 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801371776/",
+   "n": 53,
+   "chars": 3382,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801460618",
+   "cat": "chapter",
+   "date": "2024-07-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第54章 狱",
+    "zh": "不使意难平 · 第54章 狱"
+   },
+   "note": {
+    "en": "3,657 characters",
+    "zh": "3,657 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801460618/",
+   "n": 54,
+   "chars": 3657,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801579919",
+   "cat": "chapter",
+   "date": "2024-07-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第55章 悄悄的营救计划",
+    "zh": "不使意难平 · 第55章 悄悄的营救计划"
+   },
+   "note": {
+    "en": "3,423 characters",
+    "zh": "3,423 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801579919/",
+   "n": 55,
+   "chars": 3423,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801659107",
+   "cat": "chapter",
+   "date": "2024-07-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第56章 水淹真定",
+    "zh": "不使意难平 · 第56章 水淹真定"
+   },
+   "note": {
+    "en": "2,052 characters",
+    "zh": "2,052 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801659107/",
+   "n": 56,
+   "chars": 2052,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801665356",
+   "cat": "chapter",
+   "date": "2024-07-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第57章 巾帼不让须眉",
+    "zh": "不使意难平 · 第57章 巾帼不让须眉"
+   },
+   "note": {
+    "en": "2,148 characters",
+    "zh": "2,148 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801665356/",
+   "n": 57,
+   "chars": 2148,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801714355",
+   "cat": "chapter",
+   "date": "2024-07-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第58章 以孝治天下",
+    "zh": "不使意难平 · 第58章 以孝治天下"
+   },
+   "note": {
+    "en": "2,993 characters",
+    "zh": "2,993 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801714355/",
+   "n": 58,
+   "chars": 2993,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801742307",
+   "cat": "chapter",
+   "date": "2024-07-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第59章 周公辅成王论",
+    "zh": "不使意难平 · 第59章 周公辅成王论"
+   },
+   "note": {
+    "en": "2,998 characters",
+    "zh": "2,998 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801742307/",
+   "n": 59,
+   "chars": 2998,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801750595",
+   "cat": "chapter",
+   "date": "2024-07-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第60章 帮你画眉可好",
+    "zh": "不使意难平 · 第60章 帮你画眉可好"
+   },
+   "note": {
+    "en": "2,462 characters",
+    "zh": "2,462 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801750595/",
+   "n": 60,
+   "chars": 2462,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801867653",
+   "cat": "chapter",
+   "date": "2024-07-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第61章 请诛贼臣疏",
+    "zh": "不使意难平 · 第61章 请诛贼臣疏"
+   },
+   "note": {
+    "en": "3,143 characters",
+    "zh": "3,143 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801867653/",
+   "n": 61,
+   "chars": 3143,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802013262",
+   "cat": "chapter",
+   "date": "2024-07-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第62章 梦之队",
+    "zh": "不使意难平 · 第62章 梦之队"
+   },
+   "note": {
+    "en": "3,363 characters",
+    "zh": "3,363 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802013262/",
+   "n": 62,
+   "chars": 3363,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802200490",
+   "cat": "chapter",
+   "date": "2024-08-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第63章 出入平安",
+    "zh": "不使意难平 · 第63章 出入平安"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802200490/",
+   "n": 63,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802421219",
+   "cat": "chapter",
+   "date": "2024-08-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第64章 酒厂",
+    "zh": "不使意难平 · 第64章 酒厂"
+   },
+   "note": {
+    "en": "3,323 characters",
+    "zh": "3,323 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802421219/",
+   "n": 64,
+   "chars": 3323,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802515776",
+   "cat": "chapter",
+   "date": "2024-08-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第65章 出征",
+    "zh": "不使意难平 · 第65章 出征"
+   },
+   "note": {
+    "en": "3,113 characters",
+    "zh": "3,113 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802515776/",
+   "n": 65,
+   "chars": 3113,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802594453",
+   "cat": "chapter",
+   "date": "2024-08-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第66章 苏家桥",
+    "zh": "不使意难平 · 第66章 苏家桥"
+   },
+   "note": {
+    "en": "2,043 characters",
+    "zh": "2,043 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802594453/",
+   "n": 66,
+   "chars": 2043,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802600215",
+   "cat": "chapter",
+   "date": "2024-08-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第67章 渡河",
+    "zh": "不使意难平 · 第67章 渡河"
+   },
+   "note": {
+    "en": "2,178 characters",
+    "zh": "2,178 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802600215/",
+   "n": 67,
+   "chars": 2178,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802672107",
+   "cat": "chapter",
+   "date": "2024-08-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第68章 白河沟之战",
+    "zh": "不使意难平 · 第68章 白河沟之战"
+   },
+   "note": {
+    "en": "2,215 characters",
+    "zh": "2,215 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802672107/",
+   "n": 68,
+   "chars": 2215,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802678350",
+   "cat": "chapter",
+   "date": "2024-08-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第69章 姚广孝",
+    "zh": "不使意难平 · 第69章 姚广孝"
+   },
+   "note": {
+    "en": "2,054 characters",
+    "zh": "2,054 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802678350/",
+   "n": 69,
+   "chars": 2054,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802696618",
+   "cat": "chapter",
+   "date": "2024-08-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第70章 朱棣",
+    "zh": "不使意难平 · 第70章 朱棣"
+   },
+   "note": {
+    "en": "2,498 characters",
+    "zh": "2,498 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802696618/",
+   "n": 70,
+   "chars": 2498,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802803358",
+   "cat": "chapter",
+   "date": "2024-08-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第71章 重返轮回空间",
+    "zh": "不使意难平 · 第71章 重返轮回空间"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802803358/",
+   "n": 71,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-802947952",
+   "cat": "chapter",
+   "date": "2024-08-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第72章 剁手一时爽",
+    "zh": "不使意难平 · 第72章 剁手一时爽"
+   },
+   "note": {
+    "en": "3,377 characters",
+    "zh": "3,377 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/802947952/",
+   "n": 72,
+   "chars": 3377,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803184032",
+   "cat": "chapter",
+   "date": "2024-08-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第73章 世界湍急",
+    "zh": "不使意难平 · 第73章 世界湍急"
+   },
+   "note": {
+    "en": "3,399 characters",
+    "zh": "3,399 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803184032/",
+   "n": 73,
+   "chars": 3399,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803367111",
+   "cat": "chapter",
+   "date": "2024-08-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第74章 其乐融融",
+    "zh": "不使意难平 · 第74章 其乐融融"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803367111/",
+   "n": 74,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "drawing-luffy",
+   "cat": "drawing",
+   "date": "2024-08-10",
+   "w": 2,
+   "img": "luffy",
+   "title": {
+    "en": "Luffy (One Piece) — pencil",
+    "zh": "海贼王 · 路飞 · 铅笔"
+   },
+   "url": "/assets/drawings/luffy.jpg",
+   "src": "manual"
+  },
+  {
+   "id": "chapter-803463261",
+   "cat": "chapter",
+   "date": "2024-08-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第75章 守得云开见月明",
+    "zh": "不使意难平 · 第75章 守得云开见月明"
+   },
+   "note": {
+    "en": "4,999 characters",
+    "zh": "4,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803463261/",
+   "n": 75,
+   "chars": 4999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803540581",
+   "cat": "chapter",
+   "date": "2024-08-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第76章 跳出三贷之外，不在五险之中",
+    "zh": "不使意难平 · 第76章 跳出三贷之外，不在五险之中"
+   },
+   "note": {
+    "en": "2,994 characters",
+    "zh": "2,994 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803540581/",
+   "n": 76,
+   "chars": 2994,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803546948",
+   "cat": "chapter",
+   "date": "2024-08-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第77章 上官婉",
+    "zh": "不使意难平 · 第77章 上官婉"
+   },
+   "note": {
+    "en": "2,751 characters",
+    "zh": "2,751 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803546948/",
+   "n": 77,
+   "chars": 2751,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803628909",
+   "cat": "chapter",
+   "date": "2024-08-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第78章 火之女王",
+    "zh": "不使意难平 · 第78章 火之女王"
+   },
+   "note": {
+    "en": "3,997 characters",
+    "zh": "3,997 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803628909/",
+   "n": 78,
+   "chars": 3997,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803635715",
+   "cat": "chapter",
+   "date": "2024-08-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第79章 宁小涯",
+    "zh": "不使意难平 · 第79章 宁小涯"
+   },
+   "note": {
+    "en": "2,998 characters",
+    "zh": "2,998 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803635715/",
+   "n": 79,
+   "chars": 2998,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803647706",
+   "cat": "chapter",
+   "date": "2024-08-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第80章 丹穴山",
+    "zh": "不使意难平 · 第80章 丹穴山"
+   },
+   "note": {
+    "en": "2,436 characters",
+    "zh": "2,436 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803647706/",
+   "n": 80,
+   "chars": 2436,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803798292",
+   "cat": "chapter",
+   "date": "2024-08-13",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第81章 解惑",
+    "zh": "不使意难平 · 第81章 解惑"
+   },
+   "note": {
+    "en": "3,995 characters",
+    "zh": "3,995 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803798292/",
+   "n": 81,
+   "chars": 3995,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-803963820",
+   "cat": "chapter",
+   "date": "2024-08-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第82章 体能训练",
+    "zh": "不使意难平 · 第82章 体能训练"
+   },
+   "note": {
+    "en": "3,501 characters",
+    "zh": "3,501 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/803963820/",
+   "n": 82,
+   "chars": 3501,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804096647",
+   "cat": "chapter",
+   "date": "2024-08-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第83章 小周天和大周天",
+    "zh": "不使意难平 · 第83章 小周天和大周天"
+   },
+   "note": {
+    "en": "3,866 characters",
+    "zh": "3,866 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804096647/",
+   "n": 83,
+   "chars": 3866,
+   "src": "qidian"
+  },
+  {
+   "id": "research-thesis-2024",
+   "cat": "research",
+   "date": "2024-08-16",
+   "w": 2,
+   "title": {
+    "en": "M.S. thesis — A Comprehensive Categorization Framework for Interactive Fiction Games",
+    "zh": "硕士论文 · A Comprehensive Categorization Framework for Interactive Fiction Games"
+   },
+   "url": "https://hdl.handle.net/1773/52459",
+   "src": "manual"
+  },
+  {
+   "id": "chapter-804193432",
+   "cat": "chapter",
+   "date": "2024-08-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第84章 莫邪堂",
+    "zh": "不使意难平 · 第84章 莫邪堂"
+   },
+   "note": {
+    "en": "3,706 characters",
+    "zh": "3,706 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804193432/",
+   "n": 84,
+   "chars": 3706,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804298080",
+   "cat": "chapter",
+   "date": "2024-08-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第85章 盗跖",
+    "zh": "不使意难平 · 第85章 盗跖"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804298080/",
+   "n": 85,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804405656",
+   "cat": "chapter",
+   "date": "2024-08-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第86章 何为同伴",
+    "zh": "不使意难平 · 第86章 何为同伴"
+   },
+   "note": {
+    "en": "2,238 characters",
+    "zh": "2,238 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804405656/",
+   "n": 86,
+   "chars": 2238,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804504801",
+   "cat": "chapter",
+   "date": "2024-08-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第87章 你的笑像一条恶犬",
+    "zh": "不使意难平 · 第87章 你的笑像一条恶犬"
+   },
+   "note": {
+    "en": "2,995 characters",
+    "zh": "2,995 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804504801/",
+   "n": 87,
+   "chars": 2995,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804511656",
+   "cat": "chapter",
+   "date": "2024-08-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第88章 炼器与炼丹",
+    "zh": "不使意难平 · 第88章 炼器与炼丹"
+   },
+   "note": {
+    "en": "2,986 characters",
+    "zh": "2,986 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804511656/",
+   "n": 88,
+   "chars": 2986,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804524378",
+   "cat": "chapter",
+   "date": "2024-08-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第89章 凤凰",
+    "zh": "不使意难平 · 第89章 凤凰"
+   },
+   "note": {
+    "en": "2,443 characters",
+    "zh": "2,443 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804524378/",
+   "n": 89,
+   "chars": 2443,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804542212",
+   "cat": "chapter",
+   "date": "2024-08-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第90章 奇门，六壬，太乙",
+    "zh": "不使意难平 · 第90章 奇门，六壬，太乙"
+   },
+   "note": {
+    "en": "2,889 characters",
+    "zh": "2,889 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804542212/",
+   "n": 90,
+   "chars": 2889,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804626181",
+   "cat": "chapter",
+   "date": "2024-08-20",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第91章 凤凰现世",
+    "zh": "不使意难平 · 第91章 凤凰现世"
+   },
+   "note": {
+    "en": "3,427 characters",
+    "zh": "3,427 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804626181/",
+   "n": 91,
+   "chars": 3427,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804731239",
+   "cat": "chapter",
+   "date": "2024-08-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第92章 贪嗔痴",
+    "zh": "不使意难平 · 第92章 贪嗔痴"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804731239/",
+   "n": 92,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-804909639",
+   "cat": "chapter",
+   "date": "2024-08-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第93章 三毒",
+    "zh": "不使意难平 · 第93章 三毒"
+   },
+   "note": {
+    "en": "5,994 characters",
+    "zh": "5,994 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/804909639/",
+   "n": 93,
+   "chars": 5994,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805020067",
+   "cat": "chapter",
+   "date": "2024-08-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第94章 你的名字",
+    "zh": "不使意难平 · 第94章 你的名字"
+   },
+   "note": {
+    "en": "5,994 characters",
+    "zh": "5,994 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805020067/",
+   "n": 94,
+   "chars": 5994,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805193585",
+   "cat": "chapter",
+   "date": "2024-08-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第95章 天命人",
+    "zh": "不使意难平 · 第95章 天命人"
+   },
+   "note": {
+    "en": "6,999 characters",
+    "zh": "6,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805193585/",
+   "n": 95,
+   "chars": 6999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805284932",
+   "cat": "chapter",
+   "date": "2024-08-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第96章 银枪杀神",
+    "zh": "不使意难平 · 第96章 银枪杀神"
+   },
+   "note": {
+    "en": "3,846 characters",
+    "zh": "3,846 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805284932/",
+   "n": 96,
+   "chars": 3846,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805349888",
+   "cat": "chapter",
+   "date": "2024-08-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第97章 依笛仙子",
+    "zh": "不使意难平 · 第97章 依笛仙子"
+   },
+   "note": {
+    "en": "3,930 characters",
+    "zh": "3,930 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805349888/",
+   "n": 97,
+   "chars": 3930,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805352377",
+   "cat": "chapter",
+   "date": "2024-08-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第98章 机关术",
+    "zh": "不使意难平 · 第98章 机关术"
+   },
+   "note": {
+    "en": "2,649 characters",
+    "zh": "2,649 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805352377/",
+   "n": 98,
+   "chars": 2649,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805366960",
+   "cat": "chapter",
+   "date": "2024-08-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第99章 却像隔着银河",
+    "zh": "不使意难平 · 第99章 却像隔着银河"
+   },
+   "note": {
+    "en": "3,478 characters",
+    "zh": "3,478 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805366960/",
+   "n": 99,
+   "chars": 3478,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805373768",
+   "cat": "chapter",
+   "date": "2024-08-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第100章 万物有灵",
+    "zh": "不使意难平 · 第100章 万物有灵"
+   },
+   "note": {
+    "en": "3,333 characters",
+    "zh": "3,333 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805373768/",
+   "n": 100,
+   "chars": 3333,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805457569",
+   "cat": "chapter",
+   "date": "2024-08-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第101章 天意从来高难问",
+    "zh": "不使意难平 · 第101章 天意从来高难问"
+   },
+   "note": {
+    "en": "3,226 characters",
+    "zh": "3,226 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805457569/",
+   "n": 101,
+   "chars": 3226,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805585694",
+   "cat": "chapter",
+   "date": "2024-08-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第102章 不义而富且贵，于我如浮云",
+    "zh": "不使意难平 · 第102章 不义而富且贵，于我如浮云"
+   },
+   "note": {
+    "en": "4,505 characters",
+    "zh": "4,505 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805585694/",
+   "n": 102,
+   "chars": 4505,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805686320",
+   "cat": "chapter",
+   "date": "2024-08-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第103章 九宫八卦阵",
+    "zh": "不使意难平 · 第103章 九宫八卦阵"
+   },
+   "note": {
+    "en": "5,338 characters",
+    "zh": "5,338 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805686320/",
+   "n": 103,
+   "chars": 5338,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805804273",
+   "cat": "chapter",
+   "date": "2024-08-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第104章 拉撒路",
+    "zh": "不使意难平 · 第104章 拉撒路"
+   },
+   "note": {
+    "en": "3,634 characters",
+    "zh": "3,634 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805804273/",
+   "n": 104,
+   "chars": 3634,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-805909649",
+   "cat": "chapter",
+   "date": "2024-08-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第105章 青釭剑",
+    "zh": "不使意难平 · 第105章 青釭剑"
+   },
+   "note": {
+    "en": "4,436 characters",
+    "zh": "4,436 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/805909649/",
+   "n": 105,
+   "chars": 4436,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806038379",
+   "cat": "chapter",
+   "date": "2024-09-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第106章 雪山飞狐",
+    "zh": "不使意难平 · 第106章 雪山飞狐"
+   },
+   "note": {
+    "en": "2,932 characters",
+    "zh": "2,932 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806038379/",
+   "n": 106,
+   "chars": 2932,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806042139",
+   "cat": "chapter",
+   "date": "2024-09-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第107章 提亲",
+    "zh": "不使意难平 · 第107章 提亲"
+   },
+   "note": {
+    "en": "3,622 characters",
+    "zh": "3,622 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806042139/",
+   "n": 107,
+   "chars": 3622,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806098587",
+   "cat": "chapter",
+   "date": "2024-09-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第108章 天选打工人",
+    "zh": "不使意难平 · 第108章 天选打工人"
+   },
+   "note": {
+    "en": "2,780 characters",
+    "zh": "2,780 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806098587/",
+   "n": 108,
+   "chars": 2780,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806125154",
+   "cat": "chapter",
+   "date": "2024-09-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第109章 凤舞九天",
+    "zh": "不使意难平 · 第109章 凤舞九天"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806125154/",
+   "n": 109,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806141575",
+   "cat": "chapter",
+   "date": "2024-09-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第110章 有些事，现在不做，一辈子都不会有机会做了",
+    "zh": "不使意难平 · 第110章 有些事，现在不做，一辈子都不会有机会做了"
+   },
+   "note": {
+    "en": "3,351 characters",
+    "zh": "3,351 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806141575/",
+   "n": 110,
+   "chars": 3351,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-801198943",
+   "cat": "chapter",
+   "date": "2024-09-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第111章 轮回再启",
+    "zh": "不使意难平 · 第111章 轮回再启"
+   },
+   "note": {
+    "en": "6,675 characters",
+    "zh": "6,675 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/801198943/",
+   "n": 111,
+   "chars": 6675,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806365592",
+   "cat": "chapter",
+   "date": "2024-09-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第112章 兵分三路",
+    "zh": "不使意难平 · 第112章 兵分三路"
+   },
+   "note": {
+    "en": "6,252 characters",
+    "zh": "6,252 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806365592/",
+   "n": 112,
+   "chars": 6252,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806471964",
+   "cat": "chapter",
+   "date": "2024-09-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第113章 苏悯",
+    "zh": "不使意难平 · 第113章 苏悯"
+   },
+   "note": {
+    "en": "6,676 characters",
+    "zh": "6,676 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806471964/",
+   "n": 113,
+   "chars": 6676,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806608452",
+   "cat": "chapter",
+   "date": "2024-09-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第114章 苏家有女初长成",
+    "zh": "不使意难平 · 第114章 苏家有女初长成"
+   },
+   "note": {
+    "en": "4,999 characters",
+    "zh": "4,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806608452/",
+   "n": 114,
+   "chars": 4999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806710225",
+   "cat": "chapter",
+   "date": "2024-09-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第115章 康王赵构",
+    "zh": "不使意难平 · 第115章 康王赵构"
+   },
+   "note": {
+    "en": "7,040 characters",
+    "zh": "7,040 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806710225/",
+   "n": 115,
+   "chars": 7040,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806808804",
+   "cat": "chapter",
+   "date": "2024-09-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第116章 暗杀之道",
+    "zh": "不使意难平 · 第116章 暗杀之道"
+   },
+   "note": {
+    "en": "3,442 characters",
+    "zh": "3,442 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806808804/",
+   "n": 116,
+   "chars": 3442,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806813316",
+   "cat": "chapter",
+   "date": "2024-09-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第117章 燕京投军",
+    "zh": "不使意难平 · 第117章 燕京投军"
+   },
+   "note": {
+    "en": "3,332 characters",
+    "zh": "3,332 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806813316/",
+   "n": 117,
+   "chars": 3332,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806874468",
+   "cat": "chapter",
+   "date": "2024-09-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第118章 夜空最亮的星",
+    "zh": "不使意难平 · 第118章 夜空最亮的星"
+   },
+   "note": {
+    "en": "3,401 characters",
+    "zh": "3,401 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806874468/",
+   "n": 118,
+   "chars": 3401,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806886694",
+   "cat": "chapter",
+   "date": "2024-09-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第119章 太原知府",
+    "zh": "不使意难平 · 第119章 太原知府"
+   },
+   "note": {
+    "en": "3,055 characters",
+    "zh": "3,055 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806886694/",
+   "n": 119,
+   "chars": 3055,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-806895673",
+   "cat": "chapter",
+   "date": "2024-09-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第120章 太阴月华诀",
+    "zh": "不使意难平 · 第120章 太阴月华诀"
+   },
+   "note": {
+    "en": "3,614 characters",
+    "zh": "3,614 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/806895673/",
+   "n": 120,
+   "chars": 3614,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807006619",
+   "cat": "chapter",
+   "date": "2024-09-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第121章 六贼",
+    "zh": "不使意难平 · 第121章 六贼"
+   },
+   "note": {
+    "en": "5,036 characters",
+    "zh": "5,036 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807006619/",
+   "n": 121,
+   "chars": 5036,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807144027",
+   "cat": "chapter",
+   "date": "2024-09-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第122章 红枫煮酒论英雄",
+    "zh": "不使意难平 · 第122章 红枫煮酒论英雄"
+   },
+   "note": {
+    "en": "4,057 characters",
+    "zh": "4,057 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807144027/",
+   "n": 122,
+   "chars": 4057,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807289491",
+   "cat": "chapter",
+   "date": "2024-09-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第123章 李纲、宗泽",
+    "zh": "不使意难平 · 第123章 李纲、宗泽"
+   },
+   "note": {
+    "en": "5,448 characters",
+    "zh": "5,448 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807289491/",
+   "n": 123,
+   "chars": 5448,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807399895",
+   "cat": "chapter",
+   "date": "2024-09-13",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第124章 种师道、韩世忠",
+    "zh": "不使意难平 · 第124章 种师道、韩世忠"
+   },
+   "note": {
+    "en": "7,032 characters",
+    "zh": "7,032 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807399895/",
+   "n": 124,
+   "chars": 7032,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807564658",
+   "cat": "chapter",
+   "date": "2024-09-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第125章 若得时光梭，不使意难平",
+    "zh": "不使意难平 · 第125章 若得时光梭，不使意难平"
+   },
+   "note": {
+    "en": "9,222 characters",
+    "zh": "9,222 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807564658/",
+   "n": 125,
+   "chars": 9222,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807639817",
+   "cat": "chapter",
+   "date": "2024-09-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第126章 完颜宗望",
+    "zh": "不使意难平 · 第126章 完颜宗望"
+   },
+   "note": {
+    "en": "4,164 characters",
+    "zh": "4,164 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807639817/",
+   "n": 126,
+   "chars": 4164,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807644528",
+   "cat": "chapter",
+   "date": "2024-09-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第127章 叛",
+    "zh": "不使意难平 · 第127章 叛"
+   },
+   "note": {
+    "en": "5,070 characters",
+    "zh": "5,070 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807644528/",
+   "n": 127,
+   "chars": 5070,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807701597",
+   "cat": "chapter",
+   "date": "2024-09-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第128章 完颜宗翰",
+    "zh": "不使意难平 · 第128章 完颜宗翰"
+   },
+   "note": {
+    "en": "4,651 characters",
+    "zh": "4,651 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807701597/",
+   "n": 128,
+   "chars": 4651,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807704133",
+   "cat": "chapter",
+   "date": "2024-09-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第129章 守",
+    "zh": "不使意难平 · 第129章 守"
+   },
+   "note": {
+    "en": "4,150 characters",
+    "zh": "4,150 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807704133/",
+   "n": 129,
+   "chars": 4150,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807709038",
+   "cat": "chapter",
+   "date": "2024-09-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第130章 刀山火海愿随君",
+    "zh": "不使意难平 · 第130章 刀山火海愿随君"
+   },
+   "note": {
+    "en": "3,608 characters",
+    "zh": "3,608 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807709038/",
+   "n": 130,
+   "chars": 3608,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807781411",
+   "cat": "chapter",
+   "date": "2024-09-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第131章 逃跑计划",
+    "zh": "不使意难平 · 第131章 逃跑计划"
+   },
+   "note": {
+    "en": "6,257 characters",
+    "zh": "6,257 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807781411/",
+   "n": 131,
+   "chars": 6257,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-807854016",
+   "cat": "chapter",
+   "date": "2024-09-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第132章 战与逃",
+    "zh": "不使意难平 · 第132章 战与逃"
+   },
+   "note": {
+    "en": "7,456 characters",
+    "zh": "7,456 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/807854016/",
+   "n": 132,
+   "chars": 7456,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808006464",
+   "cat": "chapter",
+   "date": "2024-09-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第133章 人祸",
+    "zh": "不使意难平 · 第133章 人祸"
+   },
+   "note": {
+    "en": "7,732 characters",
+    "zh": "7,732 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808006464/",
+   "n": 133,
+   "chars": 7732,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808151831",
+   "cat": "chapter",
+   "date": "2024-09-20",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第134章 少女三千",
+    "zh": "不使意难平 · 第134章 少女三千"
+   },
+   "note": {
+    "en": "7,125 characters",
+    "zh": "7,125 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808151831/",
+   "n": 134,
+   "chars": 7125,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808250024",
+   "cat": "chapter",
+   "date": "2024-09-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第135章 臣请为质",
+    "zh": "不使意难平 · 第135章 臣请为质"
+   },
+   "note": {
+    "en": "6,690 characters",
+    "zh": "6,690 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808250024/",
+   "n": 135,
+   "chars": 6690,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808350464",
+   "cat": "chapter",
+   "date": "2024-09-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第136章 还能一战",
+    "zh": "不使意难平 · 第136章 还能一战"
+   },
+   "note": {
+    "en": "4,600 characters",
+    "zh": "4,600 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808350464/",
+   "n": 136,
+   "chars": 4600,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808353378",
+   "cat": "chapter",
+   "date": "2024-09-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第137章 完颜宗弼",
+    "zh": "不使意难平 · 第137章 完颜宗弼"
+   },
+   "note": {
+    "en": "3,850 characters",
+    "zh": "3,850 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808353378/",
+   "n": 137,
+   "chars": 3850,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808427361",
+   "cat": "chapter",
+   "date": "2024-09-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第138章 笛、弓、机关",
+    "zh": "不使意难平 · 第138章 笛、弓、机关"
+   },
+   "note": {
+    "en": "4,251 characters",
+    "zh": "4,251 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808427361/",
+   "n": 138,
+   "chars": 4251,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808433159",
+   "cat": "chapter",
+   "date": "2024-09-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第139章 圣旨到",
+    "zh": "不使意难平 · 第139章 圣旨到"
+   },
+   "note": {
+    "en": "4,406 characters",
+    "zh": "4,406 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808433159/",
+   "n": 139,
+   "chars": 4406,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808457839",
+   "cat": "chapter",
+   "date": "2024-09-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第140章 金营比箭",
+    "zh": "不使意难平 · 第140章 金营比箭"
+   },
+   "note": {
+    "en": "4,635 characters",
+    "zh": "4,635 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808457839/",
+   "n": 140,
+   "chars": 4635,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808562984",
+   "cat": "chapter",
+   "date": "2024-09-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第141章 勤王",
+    "zh": "不使意难平 · 第141章 勤王"
+   },
+   "note": {
+    "en": "5,648 characters",
+    "zh": "5,648 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808562984/",
+   "n": 141,
+   "chars": 5648,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808673403",
+   "cat": "chapter",
+   "date": "2024-09-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第142章 宋金大战",
+    "zh": "不使意难平 · 第142章 宋金大战"
+   },
+   "note": {
+    "en": "6,341 characters",
+    "zh": "6,341 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808673403/",
+   "n": 142,
+   "chars": 6341,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-808875591",
+   "cat": "chapter",
+   "date": "2024-09-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第143章 二十万对六万",
+    "zh": "不使意难平 · 第143章 二十万对六万"
+   },
+   "note": {
+    "en": "4,848 characters",
+    "zh": "4,848 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/808875591/",
+   "n": 143,
+   "chars": 4848,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809037456",
+   "cat": "chapter",
+   "date": "2024-09-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第144章 优势在我",
+    "zh": "不使意难平 · 第144章 优势在我"
+   },
+   "note": {
+    "en": "5,640 characters",
+    "zh": "5,640 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809037456/",
+   "n": 144,
+   "chars": 5640,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809150121",
+   "cat": "chapter",
+   "date": "2024-09-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第145章 夜袭金营",
+    "zh": "不使意难平 · 第145章 夜袭金营"
+   },
+   "note": {
+    "en": "5,556 characters",
+    "zh": "5,556 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809150121/",
+   "n": 145,
+   "chars": 5556,
+   "src": "qidian"
+  },
+  {
+   "id": "code-let-no-regrets-remain",
+   "cat": "code",
+   "date": "2024-09-28",
+   "w": 1,
+   "title": {
+    "en": "Let-No-Regrets-Remain",
+    "zh": "Let-No-Regrets-Remain"
+   },
+   "note": {
+    "en": "A visual novel based on my Novel, Let No Regrets Remain (不使意难平)",
+    "zh": "A visual novel based on my Novel, Let No Regrets Remain (不使意难平)"
+   },
+   "url": "https://github.com/Barack-Liu/Let-No-Regrets-Remain",
+   "src": "github"
+  },
+  {
+   "id": "chapter-809251384",
+   "cat": "chapter",
+   "date": "2024-09-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第146章 宋奸",
+    "zh": "不使意难平 · 第146章 宋奸"
+   },
+   "note": {
+    "en": "3,904 characters",
+    "zh": "3,904 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809251384/",
+   "n": 146,
+   "chars": 3904,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809267767",
+   "cat": "chapter",
+   "date": "2024-09-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第147章 侠女",
+    "zh": "不使意难平 · 第147章 侠女"
+   },
+   "note": {
+    "en": "4,511 characters",
+    "zh": "4,511 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809267767/",
+   "n": 147,
+   "chars": 4511,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809353122",
+   "cat": "chapter",
+   "date": "2024-09-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第148章 粮尽",
+    "zh": "不使意难平 · 第148章 粮尽"
+   },
+   "note": {
+    "en": "3,701 characters",
+    "zh": "3,701 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809353122/",
+   "n": 148,
+   "chars": 3701,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809355796",
+   "cat": "chapter",
+   "date": "2024-09-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第149章 除夕夜",
+    "zh": "不使意难平 · 第149章 除夕夜"
+   },
+   "note": {
+    "en": "3,464 characters",
+    "zh": "3,464 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809355796/",
+   "n": 149,
+   "chars": 3464,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809359549",
+   "cat": "chapter",
+   "date": "2024-09-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第150章 退兵",
+    "zh": "不使意难平 · 第150章 退兵"
+   },
+   "note": {
+    "en": "4,216 characters",
+    "zh": "4,216 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809359549/",
+   "n": 150,
+   "chars": 4216,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809440707",
+   "cat": "chapter",
+   "date": "2024-10-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第151章 返回汴京",
+    "zh": "不使意难平 · 第151章 返回汴京"
+   },
+   "note": {
+    "en": "4,278 characters",
+    "zh": "4,278 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809440707/",
+   "n": 151,
+   "chars": 4278,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809521971",
+   "cat": "chapter",
+   "date": "2024-10-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第152章 咦，这位姑娘是？",
+    "zh": "不使意难平 · 第152章 咦，这位姑娘是？"
+   },
+   "note": {
+    "en": "7,056 characters",
+    "zh": "7,056 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809521971/",
+   "n": 152,
+   "chars": 7056,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809604736",
+   "cat": "chapter",
+   "date": "2024-10-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第153章 乌云",
+    "zh": "不使意难平 · 第153章 乌云"
+   },
+   "note": {
+    "en": "6,314 characters",
+    "zh": "6,314 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809604736/",
+   "n": 153,
+   "chars": 6314,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809695574",
+   "cat": "chapter",
+   "date": "2024-10-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第154章 面具男",
+    "zh": "不使意难平 · 第154章 面具男"
+   },
+   "note": {
+    "en": "8,121 characters",
+    "zh": "8,121 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809695574/",
+   "n": 154,
+   "chars": 8121,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809769144",
+   "cat": "chapter",
+   "date": "2024-10-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第155章 侧卧之榻，岂容他人鼾睡",
+    "zh": "不使意难平 · 第155章 侧卧之榻，岂容他人鼾睡"
+   },
+   "note": {
+    "en": "6,057 characters",
+    "zh": "6,057 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809769144/",
+   "n": 155,
+   "chars": 6057,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809829374",
+   "cat": "chapter",
+   "date": "2024-10-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第156章 兵分两路",
+    "zh": "不使意难平 · 第156章 兵分两路"
+   },
+   "note": {
+    "en": "5,018 characters",
+    "zh": "5,018 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809829374/",
+   "n": 156,
+   "chars": 5018,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809831762",
+   "cat": "chapter",
+   "date": "2024-10-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第157章 六甲法",
+    "zh": "不使意难平 · 第157章 六甲法"
+   },
+   "note": {
+    "en": "3,669 characters",
+    "zh": "3,669 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809831762/",
+   "n": 157,
+   "chars": 3669,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809835028",
+   "cat": "chapter",
+   "date": "2024-10-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第158章 汴京外城，破！",
+    "zh": "不使意难平 · 第158章 汴京外城，破！"
+   },
+   "note": {
+    "en": "6,093 characters",
+    "zh": "6,093 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809835028/",
+   "n": 158,
+   "chars": 6093,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809896474",
+   "cat": "chapter",
+   "date": "2024-10-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第159章 二帝被俘",
+    "zh": "不使意难平 · 第159章 二帝被俘"
+   },
+   "note": {
+    "en": "4,352 characters",
+    "zh": "4,352 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809896474/",
+   "n": 159,
+   "chars": 4352,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-809898947",
+   "cat": "chapter",
+   "date": "2024-10-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第160章 建炎皇帝",
+    "zh": "不使意难平 · 第160章 建炎皇帝"
+   },
+   "note": {
+    "en": "3,743 characters",
+    "zh": "3,743 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/809898947/",
+   "n": 160,
+   "chars": 3743,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-810009055",
+   "cat": "chapter",
+   "date": "2024-10-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第161章 朝堂换血",
+    "zh": "不使意难平 · 第161章 朝堂换血"
+   },
+   "note": {
+    "en": "4,086 characters",
+    "zh": "4,086 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/810009055/",
+   "n": 161,
+   "chars": 4086,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-810124953",
+   "cat": "chapter",
+   "date": "2024-10-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第162章 俘虏天子",
+    "zh": "不使意难平 · 第162章 俘虏天子"
+   },
+   "note": {
+    "en": "4,783 characters",
+    "zh": "4,783 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/810124953/",
+   "n": 162,
+   "chars": 4783,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-811087486",
+   "cat": "chapter",
+   "date": "2024-10-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第163章 备战",
+    "zh": "不使意难平 · 第163章 备战"
+   },
+   "note": {
+    "en": "5,605 characters",
+    "zh": "5,605 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/811087486/",
+   "n": 163,
+   "chars": 5605,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-811966683",
+   "cat": "chapter",
+   "date": "2024-10-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第164章 观国之光",
+    "zh": "不使意难平 · 第164章 观国之光"
+   },
+   "note": {
+    "en": "4,100 characters",
+    "zh": "4,100 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/811966683/",
+   "n": 164,
+   "chars": 4100,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812017199",
+   "cat": "chapter",
+   "date": "2024-10-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第165章 三英战宗弼",
+    "zh": "不使意难平 · 第165章 三英战宗弼"
+   },
+   "note": {
+    "en": "5,916 characters",
+    "zh": "5,916 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812017199/",
+   "n": 165,
+   "chars": 5916,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812023376",
+   "cat": "chapter",
+   "date": "2024-10-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第166章 一往无前",
+    "zh": "不使意难平 · 第166章 一往无前"
+   },
+   "note": {
+    "en": "2,711 characters",
+    "zh": "2,711 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812023376/",
+   "n": 166,
+   "chars": 2711,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812041223",
+   "cat": "chapter",
+   "date": "2024-10-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第167章 下次不许这样了",
+    "zh": "不使意难平 · 第167章 下次不许这样了"
+   },
+   "note": {
+    "en": "3,746 characters",
+    "zh": "3,746 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812041223/",
+   "n": 167,
+   "chars": 3746,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812194637",
+   "cat": "chapter",
+   "date": "2024-10-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第168章 看上谁了",
+    "zh": "不使意难平 · 第168章 看上谁了"
+   },
+   "note": {
+    "en": "2,532 characters",
+    "zh": "2,532 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812194637/",
+   "n": 168,
+   "chars": 2532,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812465971",
+   "cat": "chapter",
+   "date": "2024-10-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第169章 水战",
+    "zh": "不使意难平 · 第169章 水战"
+   },
+   "note": {
+    "en": "3,914 characters",
+    "zh": "3,914 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812465971/",
+   "n": 169,
+   "chars": 3914,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-812469976",
+   "cat": "chapter",
+   "date": "2024-10-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第170章 张叔夜",
+    "zh": "不使意难平 · 第170章 张叔夜"
+   },
+   "note": {
+    "en": "4,130 characters",
+    "zh": "4,130 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/812469976/",
+   "n": 170,
+   "chars": 4130,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-813988810",
+   "cat": "chapter",
+   "date": "2024-11-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第171章 罪己诏",
+    "zh": "不使意难平 · 第171章 罪己诏"
+   },
+   "note": {
+    "en": "3,706 characters",
+    "zh": "3,706 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/813988810/",
+   "n": 171,
+   "chars": 3706,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-814039359",
+   "cat": "chapter",
+   "date": "2024-11-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第172章 带我一起走",
+    "zh": "不使意难平 · 第172章 带我一起走"
+   },
+   "note": {
+    "en": "3,914 characters",
+    "zh": "3,914 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/814039359/",
+   "n": 172,
+   "chars": 3914,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-815123403",
+   "cat": "chapter",
+   "date": "2024-11-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第173章 转机",
+    "zh": "不使意难平 · 第173章 转机"
+   },
+   "note": {
+    "en": "2,581 characters",
+    "zh": "2,581 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/815123403/",
+   "n": 173,
+   "chars": 2581,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-815203982",
+   "cat": "chapter",
+   "date": "2024-11-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第174章 疯狂的计划",
+    "zh": "不使意难平 · 第174章 疯狂的计划"
+   },
+   "note": {
+    "en": "3,480 characters",
+    "zh": "3,480 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/815203982/",
+   "n": 174,
+   "chars": 3480,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-816105536",
+   "cat": "chapter",
+   "date": "2024-11-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第175章 刺客信条",
+    "zh": "不使意难平 · 第175章 刺客信条"
+   },
+   "note": {
+    "en": "2,577 characters",
+    "zh": "2,577 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/816105536/",
+   "n": 175,
+   "chars": 2577,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-816202219",
+   "cat": "chapter",
+   "date": "2024-11-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第176章 鏖战",
+    "zh": "不使意难平 · 第176章 鏖战"
+   },
+   "note": {
+    "en": "2,330 characters",
+    "zh": "2,330 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/816202219/",
+   "n": 176,
+   "chars": 2330,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-816967873",
+   "cat": "chapter",
+   "date": "2024-12-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第177章 击杀宗望",
+    "zh": "不使意难平 · 第177章 击杀宗望"
+   },
+   "note": {
+    "en": "2,815 characters",
+    "zh": "2,815 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/816967873/",
+   "n": 177,
+   "chars": 2815,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-817215943",
+   "cat": "chapter",
+   "date": "2024-12-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第178章 射杀宗翰",
+    "zh": "不使意难平 · 第178章 射杀宗翰"
+   },
+   "note": {
+    "en": "3,152 characters",
+    "zh": "3,152 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/817215943/",
+   "n": 178,
+   "chars": 3152,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-819628694",
+   "cat": "chapter",
+   "date": "2024-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第179章 斩杀宗弼",
+    "zh": "不使意难平 · 第179章 斩杀宗弼"
+   },
+   "note": {
+    "en": "3,725 characters",
+    "zh": "3,725 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/819628694/",
+   "n": 179,
+   "chars": 3725,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-822260209",
+   "cat": "chapter",
+   "date": "2024-12-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第180章 我愿意",
+    "zh": "不使意难平 · 第180章 我愿意"
+   },
+   "note": {
+    "en": "2,892 characters",
+    "zh": "2,892 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/822260209/",
+   "n": 180,
+   "chars": 2892,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-825705653",
+   "cat": "chapter",
+   "date": "2025-01-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第181章 发工资了",
+    "zh": "不使意难平 · 第181章 发工资了"
+   },
+   "note": {
+    "en": "2,513 characters",
+    "zh": "2,513 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/825705653/",
+   "n": 181,
+   "chars": 2513,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-827298122",
+   "cat": "chapter",
+   "date": "2025-02-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第182章 我要成亲了",
+    "zh": "不使意难平 · 第182章 我要成亲了"
+   },
+   "note": {
+    "en": "3,060 characters",
+    "zh": "3,060 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/827298122/",
+   "n": 182,
+   "chars": 3060,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-827307350",
+   "cat": "chapter",
+   "date": "2025-02-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第183章 打爆她婚车的车轴",
+    "zh": "不使意难平 · 第183章 打爆她婚车的车轴"
+   },
+   "note": {
+    "en": "3,027 characters",
+    "zh": "3,027 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/827307350/",
+   "n": 183,
+   "chars": 3027,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-831612445",
+   "cat": "chapter",
+   "date": "2025-03-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第184章 为你照顾她",
+    "zh": "不使意难平 · 第184章 为你照顾她"
+   },
+   "note": {
+    "en": "3,271 characters",
+    "zh": "3,271 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/831612445/",
+   "n": 184,
+   "chars": 3271,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-833165296",
+   "cat": "chapter",
+   "date": "2025-03-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第185章 回家",
+    "zh": "不使意难平 · 第185章 回家"
+   },
+   "note": {
+    "en": "4,106 characters",
+    "zh": "4,106 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/833165296/",
+   "n": 185,
+   "chars": 4106,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-834027968",
+   "cat": "chapter",
+   "date": "2025-03-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第186章 我，嫁",
+    "zh": "不使意难平 · 第186章 我，嫁"
+   },
+   "note": {
+    "en": "2,921 characters",
+    "zh": "2,921 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/834027968/",
+   "n": 186,
+   "chars": 2921,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1u2XaYjExw",
+   "cat": "devlog",
+   "date": "2025-03-23",
+   "w": 1,
+   "title": {
+    "en": "250323-AI产品测评-AI Product Review- Generative Agents: Interactive Simulacra of Hum",
+    "zh": "250323-AI产品测评-AI Product Review- Generative Agents: Interactive Simulacra of Hum"
+   },
+   "url": "https://www.bilibili.com/video/BV1u2XaYjExw/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-834129447",
+   "cat": "chapter",
+   "date": "2025-03-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第187章 人生若只如初见",
+    "zh": "不使意难平 · 第187章 人生若只如初见"
+   },
+   "note": {
+    "en": "3,900 characters",
+    "zh": "3,900 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/834129447/",
+   "n": 187,
+   "chars": 3900,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-834150759",
+   "cat": "chapter",
+   "date": "2025-03-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第188章 当时只道是寻常",
+    "zh": "不使意难平 · 第188章 当时只道是寻常"
+   },
+   "note": {
+    "en": "4,323 characters",
+    "zh": "4,323 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/834150759/",
+   "n": 188,
+   "chars": 4323,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-834157598",
+   "cat": "chapter",
+   "date": "2025-03-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第189章 半缘修道半缘君",
+    "zh": "不使意难平 · 第189章 半缘修道半缘君"
+   },
+   "note": {
+    "en": "3,081 characters",
+    "zh": "3,081 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/834157598/",
+   "n": 189,
+   "chars": 3081,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1DFo1YfENv",
+   "cat": "devlog",
+   "date": "2025-03-24",
+   "w": 1,
+   "title": {
+    "en": "Renpy",
+    "zh": "Renpy"
+   },
+   "url": "https://www.bilibili.com/video/BV1DFo1YfENv/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-834933219",
+   "cat": "chapter",
+   "date": "2025-03-29",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第190章 家人",
+    "zh": "不使意难平 · 第190章 家人"
+   },
+   "note": {
+    "en": "4,309 characters",
+    "zh": "4,309 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/834933219/",
+   "n": 190,
+   "chars": 4309,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-835011633",
+   "cat": "chapter",
+   "date": "2025-03-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第191章 六茶道",
+    "zh": "不使意难平 · 第191章 六茶道"
+   },
+   "note": {
+    "en": "3,187 characters",
+    "zh": "3,187 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/835011633/",
+   "n": 191,
+   "chars": 3187,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-835077474",
+   "cat": "chapter",
+   "date": "2025-03-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第192章 爱",
+    "zh": "不使意难平 · 第192章 爱"
+   },
+   "note": {
+    "en": "3,672 characters",
+    "zh": "3,672 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/835077474/",
+   "n": 192,
+   "chars": 3672,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-836868049",
+   "cat": "chapter",
+   "date": "2025-04-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第193章 不得而觉",
+    "zh": "不使意难平 · 第193章 不得而觉"
+   },
+   "note": {
+    "en": "3,395 characters",
+    "zh": "3,395 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/836868049/",
+   "n": 193,
+   "chars": 3395,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-837989600",
+   "cat": "chapter",
+   "date": "2025-04-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第194章 想念是会呼吸的痛",
+    "zh": "不使意难平 · 第194章 想念是会呼吸的痛"
+   },
+   "note": {
+    "en": "2,454 characters",
+    "zh": "2,454 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/837989600/",
+   "n": 194,
+   "chars": 2454,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-839978034",
+   "cat": "chapter",
+   "date": "2025-05-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第195章 薛蟠",
+    "zh": "不使意难平 · 第195章 薛蟠"
+   },
+   "note": {
+    "en": "3,046 characters",
+    "zh": "3,046 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/839978034/",
+   "n": 195,
+   "chars": 3046,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-840613346",
+   "cat": "chapter",
+   "date": "2025-05-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第196章 逃婚",
+    "zh": "不使意难平 · 第196章 逃婚"
+   },
+   "note": {
+    "en": "3,945 characters",
+    "zh": "3,945 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/840613346/",
+   "n": 196,
+   "chars": 3945,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-840688405",
+   "cat": "chapter",
+   "date": "2025-05-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第197章 绝情丹",
+    "zh": "不使意难平 · 第197章 绝情丹"
+   },
+   "note": {
+    "en": "2,926 characters",
+    "zh": "2,926 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/840688405/",
+   "n": 197,
+   "chars": 2926,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-840704155",
+   "cat": "chapter",
+   "date": "2025-05-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第198章 恋爱脑",
+    "zh": "不使意难平 · 第198章 恋爱脑"
+   },
+   "note": {
+    "en": "2,500 characters",
+    "zh": "2,500 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/840704155/",
+   "n": 198,
+   "chars": 2500,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-840713099",
+   "cat": "chapter",
+   "date": "2025-05-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第199章 抢婚",
+    "zh": "不使意难平 · 第199章 抢婚"
+   },
+   "note": {
+    "en": "2,517 characters",
+    "zh": "2,517 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/840713099/",
+   "n": 199,
+   "chars": 2517,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-840718814",
+   "cat": "chapter",
+   "date": "2025-05-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第200章 特训",
+    "zh": "不使意难平 · 第200章 特训"
+   },
+   "note": {
+    "en": "3,354 characters",
+    "zh": "3,354 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/840718814/",
+   "n": 200,
+   "chars": 3354,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-841676965",
+   "cat": "chapter",
+   "date": "2025-05-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第201章 战",
+    "zh": "不使意难平 · 第201章 战"
+   },
+   "note": {
+    "en": "2,588 characters",
+    "zh": "2,588 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/841676965/",
+   "n": 201,
+   "chars": 2588,
+   "src": "qidian"
+  },
+  {
+   "id": "code-leave-no-regrests-unity",
+   "cat": "code",
+   "date": "2025-05-19",
+   "w": 1,
+   "title": {
+    "en": "Leave-No-Regrests-Unity",
+    "zh": "Leave-No-Regrests-Unity"
+   },
+   "note": {
+    "en": "A visual novel game based on my novel, 不使意难平, developed by Unity",
+    "zh": "A visual novel game based on my novel, 不使意难平, developed by Unity"
+   },
+   "url": "https://github.com/Barack-Liu/Leave-No-Regrests-Unity",
+   "src": "github"
+  },
+  {
+   "id": "devlog-BV1EAJhznEHA",
+   "cat": "devlog",
+   "date": "2025-05-20",
+   "w": 1,
+   "title": {
+    "en": "01-不使意难平",
+    "zh": "01-不使意难平"
+   },
+   "url": "https://www.bilibili.com/video/BV1EAJhznEHA/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1aoJJzyEsa",
+   "cat": "devlog",
+   "date": "2025-05-22",
+   "w": 1,
+   "title": {
+    "en": "02-不使意难平",
+    "zh": "02-不使意难平"
+   },
+   "url": "https://www.bilibili.com/video/BV1aoJJzyEsa/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1tZj7zsEaA",
+   "cat": "devlog",
+   "date": "2025-05-23",
+   "w": 1,
+   "title": {
+    "en": "03-不使意难平",
+    "zh": "03-不使意难平"
+   },
+   "url": "https://www.bilibili.com/video/BV1tZj7zsEaA/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1aGjMzNEnB",
+   "cat": "devlog",
+   "date": "2025-05-25",
+   "w": 1,
+   "title": {
+    "en": "04-不使意难平-视觉小说",
+    "zh": "04-不使意难平-视觉小说"
+   },
+   "url": "https://www.bilibili.com/video/BV1aGjMzNEnB/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-842652418",
+   "cat": "chapter",
+   "date": "2025-05-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第202章 围攻",
+    "zh": "不使意难平 · 第202章 围攻"
+   },
+   "note": {
+    "en": "2,386 characters",
+    "zh": "2,386 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/842652418/",
+   "n": 202,
+   "chars": 2386,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1otj1zUEk8",
+   "cat": "devlog",
+   "date": "2025-05-26",
+   "w": 1,
+   "title": {
+    "en": "250525-视觉小说-开发笔记",
+    "zh": "250525-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1otj1zUEk8/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1gqjRzeEQA",
+   "cat": "devlog",
+   "date": "2025-05-27",
+   "w": 1,
+   "title": {
+    "en": "250526-视觉小说-开发笔记",
+    "zh": "250526-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1gqjRzeEQA/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1vVjvzEEVa",
+   "cat": "devlog",
+   "date": "2025-05-28",
+   "w": 1,
+   "title": {
+    "en": "250527-视觉小说-开发笔记",
+    "zh": "250527-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1vVjvzEEVa/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1eC7GzWEvG",
+   "cat": "devlog",
+   "date": "2025-05-29",
+   "w": 1,
+   "title": {
+    "en": "250528-视觉小说-开发笔记",
+    "zh": "250528-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1eC7GzWEvG/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1Ni7nzcECx",
+   "cat": "devlog",
+   "date": "2025-05-30",
+   "w": 1,
+   "title": {
+    "en": "250529-视觉小说-开发笔记",
+    "zh": "250529-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1Ni7nzcECx/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-843418925",
+   "cat": "chapter",
+   "date": "2025-06-01",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第203章 猛火雷",
+    "zh": "不使意难平 · 第203章 猛火雷"
+   },
+   "note": {
+    "en": "2,173 characters",
+    "zh": "2,173 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/843418925/",
+   "n": 203,
+   "chars": 2173,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-843631331",
+   "cat": "chapter",
+   "date": "2025-06-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第204章 一箫一剑平生意",
+    "zh": "不使意难平 · 第204章 一箫一剑平生意"
+   },
+   "note": {
+    "en": "2,974 characters",
+    "zh": "2,974 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/843631331/",
+   "n": 204,
+   "chars": 2974,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1UB7mzCEEY",
+   "cat": "devlog",
+   "date": "2025-06-02",
+   "w": 1,
+   "title": {
+    "en": "250601-视觉小说-开发笔记",
+    "zh": "250601-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1UB7mzCEEY/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1cf7bz7E9u",
+   "cat": "devlog",
+   "date": "2025-06-03",
+   "w": 1,
+   "title": {
+    "en": "250602-视觉小说-开发笔记",
+    "zh": "250602-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1cf7bz7E9u/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1hiT7zTEwv",
+   "cat": "devlog",
+   "date": "2025-06-04",
+   "w": 1,
+   "title": {
+    "en": "250603-视觉小说-开发笔记",
+    "zh": "250603-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1hiT7zTEwv/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1izTxzTEL3",
+   "cat": "devlog",
+   "date": "2025-06-05",
+   "w": 1,
+   "title": {
+    "en": "250604-视觉小说-开发笔记",
+    "zh": "250604-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1izTxzTEL3/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ASTKzfESd",
+   "cat": "devlog",
+   "date": "2025-06-06",
+   "w": 1,
+   "title": {
+    "en": "250605-视觉小说-开发笔记",
+    "zh": "250605-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1ASTKzfESd/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-844386122",
+   "cat": "chapter",
+   "date": "2025-06-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第205章 世间安得两全法",
+    "zh": "不使意难平 · 第205章 世间安得两全法"
+   },
+   "note": {
+    "en": "3,085 characters",
+    "zh": "3,085 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/844386122/",
+   "n": 205,
+   "chars": 3085,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-844428110",
+   "cat": "chapter",
+   "date": "2025-06-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第206章 问世间情为何物",
+    "zh": "不使意难平 · 第206章 问世间情为何物"
+   },
+   "note": {
+    "en": "2,672 characters",
+    "zh": "2,672 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/844428110/",
+   "n": 206,
+   "chars": 2672,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1xLTvzyE23",
+   "cat": "devlog",
+   "date": "2025-06-09",
+   "w": 1,
+   "title": {
+    "en": "250608-视觉小说-开发笔记",
+    "zh": "250608-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1xLTvzyE23/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1TUTkzKEeu",
+   "cat": "devlog",
+   "date": "2025-06-10",
+   "w": 1,
+   "title": {
+    "en": "250609-视觉小说-开发笔记",
+    "zh": "250609-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1TUTkzKEeu/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1NLMEzeEWP",
+   "cat": "devlog",
+   "date": "2025-06-11",
+   "w": 1,
+   "title": {
+    "en": "250610-视觉小说-开发笔记",
+    "zh": "250610-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1NLMEzeEWP/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1nQTfzMExX",
+   "cat": "devlog",
+   "date": "2025-06-12",
+   "w": 1,
+   "title": {
+    "en": "250611-视觉小说-开发笔记",
+    "zh": "250611-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1nQTfzMExX/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV116Mgz5E1e",
+   "cat": "devlog",
+   "date": "2025-06-13",
+   "w": 1,
+   "title": {
+    "en": "250612-视觉小说-开发笔记",
+    "zh": "250612-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV116Mgz5E1e/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-845304749",
+   "cat": "chapter",
+   "date": "2025-06-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第207章 吉米多维奇",
+    "zh": "不使意难平 · 第207章 吉米多维奇"
+   },
+   "note": {
+    "en": "2,554 characters",
+    "zh": "2,554 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/845304749/",
+   "n": 207,
+   "chars": 2554,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV19mNiz9EPU",
+   "cat": "devlog",
+   "date": "2025-06-17",
+   "w": 1,
+   "title": {
+    "en": "250616-视觉小说-开发笔记",
+    "zh": "250616-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV19mNiz9EPU/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1JCKAzGEP6",
+   "cat": "devlog",
+   "date": "2025-06-20",
+   "w": 1,
+   "title": {
+    "en": "250619-视觉小说-开发笔记",
+    "zh": "250619-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1JCKAzGEP6/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ooK8z7EUR",
+   "cat": "devlog",
+   "date": "2025-06-23",
+   "w": 1,
+   "title": {
+    "en": "250622-视觉小说-开发笔记",
+    "zh": "250622-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1ooK8z7EUR/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1rdK3zKEgg",
+   "cat": "devlog",
+   "date": "2025-06-24",
+   "w": 1,
+   "title": {
+    "en": "250623-视觉小说-开发笔记",
+    "zh": "250623-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1rdK3zKEgg/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1irKJzmETT",
+   "cat": "devlog",
+   "date": "2025-06-25",
+   "w": 1,
+   "title": {
+    "en": "250624-视觉小说-开发笔记",
+    "zh": "250624-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1irKJzmETT/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1gvKRzzEuu",
+   "cat": "devlog",
+   "date": "2025-06-26",
+   "w": 1,
+   "title": {
+    "en": "250625-视觉小说-开发笔记",
+    "zh": "250625-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1gvKRzzEuu/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1rPKzzyEAF",
+   "cat": "devlog",
+   "date": "2025-06-27",
+   "w": 1,
+   "title": {
+    "en": "250626-视觉小说-开发笔记",
+    "zh": "250626-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1rPKzzyEAF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1UNg6zqExF",
+   "cat": "devlog",
+   "date": "2025-06-30",
+   "w": 1,
+   "title": {
+    "en": "250629-视觉小说-开发笔记",
+    "zh": "250629-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1UNg6zqExF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1cRgmz7Ez8",
+   "cat": "devlog",
+   "date": "2025-07-01",
+   "w": 1,
+   "title": {
+    "en": "250630-视觉小说-开发笔记",
+    "zh": "250630-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1cRgmz7Ez8/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1oG34zEERQ",
+   "cat": "devlog",
+   "date": "2025-07-02",
+   "w": 1,
+   "title": {
+    "en": "250701-视觉小说-开发笔记",
+    "zh": "250701-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1oG34zEERQ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV15C3Tz4ESG",
+   "cat": "devlog",
+   "date": "2025-07-03",
+   "w": 1,
+   "title": {
+    "en": "250702-视觉小说-开发笔记",
+    "zh": "250702-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV15C3Tz4ESG/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ck3VzHENk",
+   "cat": "devlog",
+   "date": "2025-07-04",
+   "w": 1,
+   "title": {
+    "en": "250703-视觉小说-开发笔记",
+    "zh": "250703-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1ck3VzHENk/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848130248",
+   "cat": "chapter",
+   "date": "2025-07-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第208章 只怕有薪人",
+    "zh": "不使意难平 · 第208章 只怕有薪人"
+   },
+   "note": {
+    "en": "2,863 characters",
+    "zh": "2,863 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848130248/",
+   "n": 208,
+   "chars": 2863,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1tF39zGEL8",
+   "cat": "devlog",
+   "date": "2025-07-05",
+   "w": 1,
+   "title": {
+    "en": "250704-视觉小说-开发笔记",
+    "zh": "250704-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1tF39zGEL8/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848229979",
+   "cat": "chapter",
+   "date": "2025-07-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第209章 九死不悔",
+    "zh": "不使意难平 · 第209章 九死不悔"
+   },
+   "note": {
+    "en": "3,296 characters",
+    "zh": "3,296 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848229979/",
+   "n": 209,
+   "chars": 3296,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1jaGFzyEom",
+   "cat": "devlog",
+   "date": "2025-07-06",
+   "w": 1,
+   "title": {
+    "en": "250705-视觉小说-开发笔记",
+    "zh": "250705-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1jaGFzyEom/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848316891",
+   "cat": "chapter",
+   "date": "2025-07-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第210章 “而立”一段",
+    "zh": "不使意难平 · 第210章 “而立”一段"
+   },
+   "note": {
+    "en": "4,284 characters",
+    "zh": "4,284 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848316891/",
+   "n": 210,
+   "chars": 4284,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1Ys36zmEMo",
+   "cat": "devlog",
+   "date": "2025-07-07",
+   "w": 1,
+   "title": {
+    "en": "250706-视觉小说-开发笔记",
+    "zh": "250706-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1Ys36zmEMo/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848492890",
+   "cat": "chapter",
+   "date": "2025-07-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第211章 不敢问来人",
+    "zh": "不使意难平 · 第211章 不敢问来人"
+   },
+   "note": {
+    "en": "3,688 characters",
+    "zh": "3,688 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848492890/",
+   "n": 211,
+   "chars": 3688,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1FqG7zNEQC",
+   "cat": "devlog",
+   "date": "2025-07-08",
+   "w": 1,
+   "title": {
+    "en": "250707-视觉小说-开发笔记",
+    "zh": "250707-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1FqG7zNEQC/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848623500",
+   "cat": "chapter",
+   "date": "2025-07-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第212章 我怕来不及",
+    "zh": "不使意难平 · 第212章 我怕来不及"
+   },
+   "note": {
+    "en": "3,030 characters",
+    "zh": "3,030 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848623500/",
+   "n": 212,
+   "chars": 3030,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-848626319",
+   "cat": "chapter",
+   "date": "2025-07-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第213章 关于腹黑这件小事",
+    "zh": "不使意难平 · 第213章 关于腹黑这件小事"
+   },
+   "note": {
+    "en": "3,310 characters",
+    "zh": "3,310 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848626319/",
+   "n": 213,
+   "chars": 3310,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1jJGxzUEFW",
+   "cat": "devlog",
+   "date": "2025-07-09",
+   "w": 1,
+   "title": {
+    "en": "250708-视觉小说-开发笔记",
+    "zh": "250708-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1jJGxzUEFW/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-848753297",
+   "cat": "chapter",
+   "date": "2025-07-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第214章 第一颗，你们一起上吧",
+    "zh": "不使意难平 · 第214章 第一颗，你们一起上吧"
+   },
+   "note": {
+    "en": "4,242 characters",
+    "zh": "4,242 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848753297/",
+   "n": 214,
+   "chars": 4242,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-848936414",
+   "cat": "chapter",
+   "date": "2025-07-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第215章 第二颗，来，战！",
+    "zh": "不使意难平 · 第215章 第二颗，来，战！"
+   },
+   "note": {
+    "en": "4,366 characters",
+    "zh": "4,366 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/848936414/",
+   "n": 215,
+   "chars": 4366,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-849090278",
+   "cat": "chapter",
+   "date": "2025-07-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第216章 第三颗，幸不辱命",
+    "zh": "不使意难平 · 第216章 第三颗，幸不辱命"
+   },
+   "note": {
+    "en": "5,497 characters",
+    "zh": "5,497 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/849090278/",
+   "n": 216,
+   "chars": 5497,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-849751412",
+   "cat": "chapter",
+   "date": "2025-07-17",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第217章 小幸运",
+    "zh": "不使意难平 · 第217章 小幸运"
+   },
+   "note": {
+    "en": "4,047 characters",
+    "zh": "4,047 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/849751412/",
+   "n": 217,
+   "chars": 4047,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1Fagcz2EhT",
+   "cat": "devlog",
+   "date": "2025-07-17",
+   "w": 1,
+   "title": {
+    "en": "250716-视觉小说-开发笔记",
+    "zh": "250716-视觉小说-开发笔记"
+   },
+   "url": "https://www.bilibili.com/video/BV1Fagcz2EhT/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1rKbSzYExh",
+   "cat": "devlog",
+   "date": "2025-07-25",
+   "w": 1,
+   "title": {
+    "en": "250724-把三千字长文切成可执行场景：新增“预切分Agent”，大幅降低 Token 成本与延迟 / Splitting a 3k-Char Chapter",
+    "zh": "250724-把三千字长文切成可执行场景：新增“预切分Agent”，大幅降低 Token 成本与延迟 / Splitting a 3k-Char Chapter"
+   },
+   "url": "https://www.bilibili.com/video/BV1rKbSzYExh/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1Y88xzXEgG",
+   "cat": "devlog",
+   "date": "2025-07-26",
+   "w": 1,
+   "title": {
+    "en": "250725-视觉小说开发进度：反馈功能启用与场景优化 / Visual Novel Dev Update: Feedback & Scene Segmenta",
+    "zh": "250725-视觉小说开发进度：反馈功能启用与场景优化 / Visual Novel Dev Update: Feedback & Scene Segmenta"
+   },
+   "url": "https://www.bilibili.com/video/BV1Y88xzXEgG/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV13T8ezrEBF",
+   "cat": "devlog",
+   "date": "2025-07-27",
+   "w": 1,
+   "title": {
+    "en": "250726-视觉小说开发日志：AI场景解析与文本切割优化方案- Visual Novel Development Log: AI Scene Parsing",
+    "zh": "250726-视觉小说开发日志：AI场景解析与文本切割优化方案- Visual Novel Development Log: AI Scene Parsing"
+   },
+   "url": "https://www.bilibili.com/video/BV13T8ezrEBF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1DC8XzZEVH",
+   "cat": "devlog",
+   "date": "2025-07-29",
+   "w": 1,
+   "title": {
+    "en": "250728-视觉小说游戏开发日志：实现角色头像生成Agent / Visual Novel Dev Log: Avatar Generation Agent",
+    "zh": "250728-视觉小说游戏开发日志：实现角色头像生成Agent / Visual Novel Dev Log: Avatar Generation Agent"
+   },
+   "url": "https://www.bilibili.com/video/BV1DC8XzZEVH/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1frhczwEEH",
+   "cat": "devlog",
+   "date": "2025-07-30",
+   "w": 1,
+   "title": {
+    "en": "250729-视觉小说AI开发日志：角色生成Agent实现与挑战 / VN AI Dev Log: Character Generation Agents",
+    "zh": "250729-视觉小说AI开发日志：角色生成Agent实现与挑战 / VN AI Dev Log: Character Generation Agents"
+   },
+   "url": "https://www.bilibili.com/video/BV1frhczwEEH/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV19RtjzoEz5",
+   "cat": "devlog",
+   "date": "2025-08-05",
+   "w": 1,
+   "title": {
+    "en": "250804-视觉小说开发日志：11个AI Agent流程打通，音频生成遇挑战 / Visual Novel Dev Log: 11 AI Agents Con",
+    "zh": "250804-视觉小说开发日志：11个AI Agent流程打通，音频生成遇挑战 / Visual Novel Dev Log: 11 AI Agents Con"
+   },
+   "url": "https://www.bilibili.com/video/BV19RtjzoEz5/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1KqtRz9E6N",
+   "cat": "devlog",
+   "date": "2025-08-12",
+   "w": 1,
+   "title": {
+    "en": "250811-从命令行到网页：视觉小说AI工具进展 / From CLI to Web: VN AI Tool Update",
+    "zh": "250811-从命令行到网页：视觉小说AI工具进展 / From CLI to Web: VN AI Tool Update"
+   },
+   "url": "https://www.bilibili.com/video/BV1KqtRz9E6N/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1v1b8zNEBQ",
+   "cat": "devlog",
+   "date": "2025-08-13",
+   "w": 1,
+   "title": {
+    "en": "250812-视觉小说AI开发：Agent迁移与图像生成挑战 | Visual Novel AI Dev: Agent Migration & Image Ge",
+    "zh": "250812-视觉小说AI开发：Agent迁移与图像生成挑战 | Visual Novel AI Dev: Agent Migration & Image Ge"
+   },
+   "url": "https://www.bilibili.com/video/BV1v1b8zNEBQ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1snbzzVEiF",
+   "cat": "devlog",
+   "date": "2025-08-14",
+   "w": 1,
+   "title": {
+    "en": "250813- 🎮 视觉小说游戏AI生成系统进展：3个Agent成功迁移 / Visual Novel AI Generation System Progre",
+    "zh": "250813- 🎮 视觉小说游戏AI生成系统进展：3个Agent成功迁移 / Visual Novel AI Generation System Progre"
+   },
+   "url": "https://www.bilibili.com/video/BV1snbzzVEiF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1UzbJzbEsN",
+   "cat": "devlog",
+   "date": "2025-08-15",
+   "w": 1,
+   "title": {
+    "en": "250814-视觉小说游戏开发：AI代理工作流完成，一键生成功能即将实现 / Visual Novel Game Dev: AI Agent Workflow",
+    "zh": "250814-视觉小说游戏开发：AI代理工作流完成，一键生成功能即将实现 / Visual Novel Game Dev: AI Agent Workflow"
+   },
+   "url": "https://www.bilibili.com/video/BV1UzbJzbEsN/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1Rfb4zZEn7",
+   "cat": "devlog",
+   "date": "2025-08-16",
+   "w": 1,
+   "title": {
+    "en": "250815-视觉小说开发进展：多Agent流程与UI优化 / Visual Novel Dev Progress: Multi-Agent Flow & UI",
+    "zh": "250815-视觉小说开发进展：多Agent流程与UI优化 / Visual Novel Dev Progress: Multi-Agent Flow & UI"
+   },
+   "url": "https://www.bilibili.com/video/BV1Rfb4zZEn7/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1rNYkzREvo",
+   "cat": "devlog",
+   "date": "2025-08-17",
+   "w": 1,
+   "title": {
+    "en": "250816- AI工具限额挑战：视觉小说开发遇阻 / AI Tool Limits Challenge Visual Novel Dev",
+    "zh": "250816- AI工具限额挑战：视觉小说开发遇阻 / AI Tool Limits Challenge Visual Novel Dev"
+   },
+   "url": "https://www.bilibili.com/video/BV1rNYkzREvo/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1nLYWzKENe",
+   "cat": "devlog",
+   "date": "2025-08-18",
+   "w": 1,
+   "title": {
+    "en": "250817-视觉小说开发日志：第二Agent突破 | Visual Novel Dev Log: 2nd Agent Breakthrough",
+    "zh": "250817-视觉小说开发日志：第二Agent突破 | Visual Novel Dev Log: 2nd Agent Breakthrough"
+   },
+   "url": "https://www.bilibili.com/video/BV1nLYWzKENe/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1TteczXEo2",
+   "cat": "devlog",
+   "date": "2025-08-19",
+   "w": 1,
+   "title": {
+    "en": "250818-视觉小说AI生成器开发进展 | Visual Novel AI Generator Development Progress",
+    "zh": "250818-视觉小说AI生成器开发进展 | Visual Novel AI Generator Development Progress"
+   },
+   "url": "https://www.bilibili.com/video/BV1TteczXEo2/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1A3euziEbB",
+   "cat": "devlog",
+   "date": "2025-08-20",
+   "w": 1,
+   "title": {
+    "en": "250819-视觉小说开发遇阻：AI编程助手陷入循环修复，资源加载问题待解 / Visual Novel Dev Hit Snag: AI Coding Ass",
+    "zh": "250819-视觉小说开发遇阻：AI编程助手陷入循环修复，资源加载问题待解 / Visual Novel Dev Hit Snag: AI Coding Ass"
+   },
+   "url": "https://www.bilibili.com/video/BV1A3euziEbB/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1vvYDzTEHL",
+   "cat": "devlog",
+   "date": "2025-08-21",
+   "w": 1,
+   "title": {
+    "en": "250820-视觉小说生成器开发日志：UI优化与资源加载问题修复进展 / Visual Novel Generator DevLog: UI Optimizat",
+    "zh": "250820-视觉小说生成器开发日志：UI优化与资源加载问题修复进展 / Visual Novel Generator DevLog: UI Optimizat"
+   },
+   "url": "https://www.bilibili.com/video/BV1vvYDzTEHL/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV18weFzDELD",
+   "cat": "devlog",
+   "date": "2025-08-22",
+   "w": 1,
+   "title": {
+    "en": "250821-视觉小说生成器开发日志：Agent解析优化中，配音系统架构待定 / Visual Novel Generator DevLog: Agent Pa",
+    "zh": "250821-视觉小说生成器开发日志：Agent解析优化中，配音系统架构待定 / Visual Novel Generator DevLog: Agent Pa"
+   },
+   "url": "https://www.bilibili.com/video/BV18weFzDELD/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1cwevzBEd9",
+   "cat": "devlog",
+   "date": "2025-08-23",
+   "w": 1,
+   "title": {
+    "en": "250822-视觉小说生成器第12代理调试：语音功能导致界面崩溃，修复进行中 / Visual Novel Generator Agent 12 Debug:",
+    "zh": "250822-视觉小说生成器第12代理调试：语音功能导致界面崩溃，修复进行中 / Visual Novel Generator Agent 12 Debug:"
+   },
+   "url": "https://www.bilibili.com/video/BV1cwevzBEd9/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1LWvwzMEPh",
+   "cat": "devlog",
+   "date": "2025-08-26",
+   "w": 1,
+   "title": {
+    "en": "250825-视觉小说生成器突破：图片bug修复完成，语音功能开发中 / Visual Novel Generator Breakthrough: Image",
+    "zh": "250825-视觉小说生成器突破：图片bug修复完成，语音功能开发中 / Visual Novel Generator Breakthrough: Image"
+   },
+   "url": "https://www.bilibili.com/video/BV1LWvwzMEPh/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1j2ekzDEpd",
+   "cat": "devlog",
+   "date": "2025-08-27",
+   "w": 1,
+   "title": {
+    "en": "250826-视觉小说生成器Demo成功：30秒生成可玩链接，一键生成功能开发中 / Visual Novel Generator Demo Success:",
+    "zh": "250826-视觉小说生成器Demo成功：30秒生成可玩链接，一键生成功能开发中 / Visual Novel Generator Demo Success:"
+   },
+   "url": "https://www.bilibili.com/video/BV1j2ekzDEpd/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV13bhXzAEDU",
+   "cat": "devlog",
+   "date": "2025-08-29",
+   "w": 1,
+   "title": {
+    "en": "250828-视觉小说生成器项目管理升级：多项目支持+AI分段完成 / Visual Novel Generator: Multi-Project Suppor",
+    "zh": "250828-视觉小说生成器项目管理升级：多项目支持+AI分段完成 / Visual Novel Generator: Multi-Project Suppor"
+   },
+   "url": "https://www.bilibili.com/video/BV13bhXzAEDU/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-856527266",
+   "cat": "chapter",
+   "date": "2025-08-30",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第218章 天命",
+    "zh": "不使意难平 · 第218章 天命"
+   },
+   "note": {
+    "en": "6,076 characters",
+    "zh": "6,076 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/856527266/",
+   "n": 218,
+   "chars": 6076,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1gsa3zmEtK",
+   "cat": "devlog",
+   "date": "2025-09-03",
+   "w": 1,
+   "title": {
+    "en": "250902-代码重构翻车现场：5200行巨无霸文件vs三款AI工具的较量 / Code Refactoring Gone Wrong: 5200-Line M",
+    "zh": "250902-代码重构翻车现场：5200行巨无霸文件vs三款AI工具的较量 / Code Refactoring Gone Wrong: 5200-Line M"
+   },
+   "url": "https://www.bilibili.com/video/BV1gsa3zmEtK/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ZUaCznEnj",
+   "cat": "devlog",
+   "date": "2025-09-04",
+   "w": 1,
+   "title": {
+    "en": "250903-视觉小说生成器开发：AI重构代码的挑战与新思路 / Visual Novel Generator Dev: AI Refactoring Chal",
+    "zh": "250903-视觉小说生成器开发：AI重构代码的挑战与新思路 / Visual Novel Generator Dev: AI Refactoring Chal"
+   },
+   "url": "https://www.bilibili.com/video/BV1ZUaCznEnj/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-856527090",
+   "cat": "chapter",
+   "date": "2025-09-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第219章 三人行",
+    "zh": "不使意难平 · 第219章 三人行"
+   },
+   "note": {
+    "en": "5,884 characters",
+    "zh": "5,884 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/856527090/",
+   "n": 219,
+   "chars": 5884,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1B9aszNEdJ",
+   "cat": "devlog",
+   "date": "2025-09-05",
+   "w": 1,
+   "title": {
+    "en": "250904-视觉小说生成器模块化重构：从5200行到220行的代码优化之路 / Visual Novel Generator Modularization:",
+    "zh": "250904-视觉小说生成器模块化重构：从5200行到220行的代码优化之路 / Visual Novel Generator Modularization:"
+   },
+   "url": "https://www.bilibili.com/video/BV1B9aszNEdJ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-857986135",
+   "cat": "chapter",
+   "date": "2025-09-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第220章 轮回再启",
+    "zh": "不使意难平 · 第220章 轮回再启"
+   },
+   "note": {
+    "en": "5,212 characters",
+    "zh": "5,212 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/857986135/",
+   "n": 220,
+   "chars": 5212,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1iZaizwEft",
+   "cat": "devlog",
+   "date": "2025-09-06",
+   "w": 1,
+   "title": {
+    "en": "250905-代码重构大成功！视觉小说生成器无1000行文件 / Code Refactor Win! Visual Novel Generator: No 1",
+    "zh": "250905-代码重构大成功！视觉小说生成器无1000行文件 / Code Refactor Win! Visual Novel Generator: No 1"
+   },
+   "url": "https://www.bilibili.com/video/BV1iZaizwEft/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1iMYPzuEuB",
+   "cat": "devlog",
+   "date": "2025-09-09",
+   "w": 1,
+   "title": {
+    "en": "250908- Coding Agent实战心得：从工具到伙伴的协作之道 / Coding Agent Mastery: Collaborative Devel",
+    "zh": "250908- Coding Agent实战心得：从工具到伙伴的协作之道 / Coding Agent Mastery: Collaborative Devel"
+   },
+   "url": "https://www.bilibili.com/video/BV1iMYPzuEuB/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1xZHUzWERf",
+   "cat": "devlog",
+   "date": "2025-09-10",
+   "w": 1,
+   "title": {
+    "en": "250909- AI代理开发视觉小说生成器：成功与挑战并存的开发日志 / AI Agent Visual Novel Dev: Progress & Pitfa",
+    "zh": "250909- AI代理开发视觉小说生成器：成功与挑战并存的开发日志 / AI Agent Visual Novel Dev: Progress & Pitfa"
+   },
+   "url": "https://www.bilibili.com/video/BV1xZHUzWERf/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1kDHbz4ETu",
+   "cat": "devlog",
+   "date": "2025-09-11",
+   "w": 1,
+   "title": {
+    "en": "250910-文件系统重构完成：多用户多项目架构就绪 / Visual Novel Generator: File System Restructure Com",
+    "zh": "250910-文件系统重构完成：多用户多项目架构就绪 / Visual Novel Generator: File System Restructure Com"
+   },
+   "url": "https://www.bilibili.com/video/BV1kDHbz4ETu/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1CMH6zRETt",
+   "cat": "devlog",
+   "date": "2025-09-12",
+   "w": 1,
+   "title": {
+    "en": "250911-视觉小说生成器突破：12个AI代理接力开发，9月上线在即 / Visual Novel Generator Breakthrough: 12 AI",
+    "zh": "250911-视觉小说生成器突破：12个AI代理接力开发，9月上线在即 / Visual Novel Generator Breakthrough: 12 AI"
+   },
+   "url": "https://www.bilibili.com/video/BV1CMH6zRETt/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV15TpLzVECd",
+   "cat": "devlog",
+   "date": "2025-09-13",
+   "w": 1,
+   "title": {
+    "en": "250912-视觉小说生成器开发日志：第二Agent部分突破，系统设计反思 / Visual Novel Generator Dev Log: Agent 2",
+    "zh": "250912-视觉小说生成器开发日志：第二Agent部分突破，系统设计反思 / Visual Novel Generator Dev Log: Agent 2"
+   },
+   "url": "https://www.bilibili.com/video/BV15TpLzVECd/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-859556944",
+   "cat": "chapter",
+   "date": "2025-09-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第221章 治国平天下",
+    "zh": "不使意难平 · 第221章 治国平天下"
+   },
+   "note": {
+    "en": "3,057 characters",
+    "zh": "3,057 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/859556944/",
+   "n": 221,
+   "chars": 3057,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1iXHozfE1U",
+   "cat": "devlog",
+   "date": "2025-09-14",
+   "w": 1,
+   "title": {
+    "en": "250913-视觉小说生成器第3个Agent突破：图像生成功能上线，语音合成即将到来 / Visual Novel Generator Agent 3 Live",
+    "zh": "250913-视觉小说生成器第3个Agent突破：图像生成功能上线，语音合成即将到来 / Visual Novel Generator Agent 3 Live"
+   },
+   "url": "https://www.bilibili.com/video/BV1iXHozfE1U/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-859673185",
+   "cat": "chapter",
+   "date": "2025-09-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第222章 新的征程",
+    "zh": "不使意难平 · 第222章 新的征程"
+   },
+   "note": {
+    "en": "3,085 characters",
+    "zh": "3,085 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/859673185/",
+   "n": 222,
+   "chars": 3085,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1SCpTz1ECu",
+   "cat": "devlog",
+   "date": "2025-09-15",
+   "w": 1,
+   "title": {
+    "en": "250914-视觉小说生成器遇挫：Gemini API异常，UX简化有进展 / Visual Novel Gen Hits Snag: Gemini API I",
+    "zh": "250914-视觉小说生成器遇挫：Gemini API异常，UX简化有进展 / Visual Novel Gen Hits Snag: Gemini API I"
+   },
+   "url": "https://www.bilibili.com/video/BV1SCpTz1ECu/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ggp1zXEg9",
+   "cat": "devlog",
+   "date": "2025-09-16",
+   "w": 1,
+   "title": {
+    "en": "250915-视觉小说生成器突破：AI自动生成角色头像成功 / Visual Novel Dev: AI Avatar Generation Breakthro",
+    "zh": "250915-视觉小说生成器突破：AI自动生成角色头像成功 / Visual Novel Dev: AI Avatar Generation Breakthro"
+   },
+   "url": "https://www.bilibili.com/video/BV1ggp1zXEg9/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1jHpxzCEyw",
+   "cat": "devlog",
+   "date": "2025-09-17",
+   "w": 1,
+   "title": {
+    "en": "250916-编程模型选择比Prompt更重要？2.5小时bug vs 10分钟解决 / Model Choice > Prompt Quality? 2.5h",
+    "zh": "250916-编程模型选择比Prompt更重要？2.5小时bug vs 10分钟解决 / Model Choice > Prompt Quality? 2.5h"
+   },
+   "url": "https://www.bilibili.com/video/BV1jHpxzCEyw/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1n8pezgEyk",
+   "cat": "devlog",
+   "date": "2025-09-18",
+   "w": 1,
+   "title": {
+    "en": "250917- AI视觉小说生成器第5代理完成：角色表情生成突破，背景图片生成即将启动 / Visual Novel AI Generator: 5th Age",
+    "zh": "250917- AI视觉小说生成器第5代理完成：角色表情生成突破，背景图片生成即将启动 / Visual Novel AI Generator: 5th Age"
+   },
+   "url": "https://www.bilibili.com/video/BV1n8pezgEyk/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1CmWuzyEfY",
+   "cat": "devlog",
+   "date": "2025-09-19",
+   "w": 1,
+   "title": {
+    "en": "250918-第7个Agent完成背景图生成，视觉小说生成器进展显著 / Agent 7 Completes Background Generation, Ma",
+    "zh": "250918-第7个Agent完成背景图生成，视觉小说生成器进展显著 / Agent 7 Completes Background Generation, Ma"
+   },
+   "url": "https://www.bilibili.com/video/BV1CmWuzyEfY/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1xQpDzFEcf",
+   "cat": "devlog",
+   "date": "2025-09-20",
+   "w": 1,
+   "title": {
+    "en": "250919-视觉小说生成器突破：音乐音效Agent上线 / Visual Novel AI: Music & SFX Agents Live",
+    "zh": "250919-视觉小说生成器突破：音乐音效Agent上线 / Visual Novel AI: Music & SFX Agents Live"
+   },
+   "url": "https://www.bilibili.com/video/BV1xQpDzFEcf/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-860701180",
+   "cat": "chapter",
+   "date": "2025-09-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第223章 猥琐发育",
+    "zh": "不使意难平 · 第223章 猥琐发育"
+   },
+   "note": {
+    "en": "5,656 characters",
+    "zh": "5,656 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/860701180/",
+   "n": 223,
+   "chars": 5656,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV16qpfzrEnF",
+   "cat": "devlog",
+   "date": "2025-09-21",
+   "w": 1,
+   "title": {
+    "en": "250920-视觉小说生成器突破：音效+语音双AI代理上线 / Visual Novel AI: Sound & Voice Agents Live",
+    "zh": "250920-视觉小说生成器突破：音效+语音双AI代理上线 / Visual Novel AI: Sound & Voice Agents Live"
+   },
+   "url": "https://www.bilibili.com/video/BV16qpfzrEnF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-860881116",
+   "cat": "chapter",
+   "date": "2025-09-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第224章 分田地",
+    "zh": "不使意难平 · 第224章 分田地"
+   },
+   "note": {
+    "en": "9,150 characters",
+    "zh": "9,150 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/860881116/",
+   "n": 224,
+   "chars": 9150,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1n7JrzDEt2",
+   "cat": "devlog",
+   "date": "2025-09-23",
+   "w": 1,
+   "title": {
+    "en": "250922-第10个Agent完成！视觉小说生成器工作流即将打通 / 10th Agent Complete! Visual Novel Generator",
+    "zh": "250922-第10个Agent完成！视觉小说生成器工作流即将打通 / 10th Agent Complete! Visual Novel Generator"
+   },
+   "url": "https://www.bilibili.com/video/BV1n7JrzDEt2/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV111JDzpEZY",
+   "cat": "devlog",
+   "date": "2025-09-24",
+   "w": 1,
+   "title": {
+    "en": "250923-视觉小说生成器突破：Agent 11-12实现翻译+网页生成 / Visual Novel Generator Breakthrough: Age",
+    "zh": "250923-视觉小说生成器突破：Agent 11-12实现翻译+网页生成 / Visual Novel Generator Breakthrough: Age"
+   },
+   "url": "https://www.bilibili.com/video/BV111JDzpEZY/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV12tnxzQETq",
+   "cat": "devlog",
+   "date": "2025-09-25",
+   "w": 1,
+   "title": {
+    "en": "250924-视觉小说生成器突破：最后Agent部分跑通，4个链接1个可用 / Visual Novel Generator Breakthrough: Fin",
+    "zh": "250924-视觉小说生成器突破：最后Agent部分跑通，4个链接1个可用 / Visual Novel Generator Breakthrough: Fin"
+   },
+   "url": "https://www.bilibili.com/video/BV12tnxzQETq/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV13QnYzJEXb",
+   "cat": "devlog",
+   "date": "2025-09-26",
+   "w": 1,
+   "title": {
+    "en": "250925- Agent 12跑通了，但角色不显示、配音很怪、音乐不停 / Agent 12 Works, But Characters Missing, V",
+    "zh": "250925- Agent 12跑通了，但角色不显示、配音很怪、音乐不停 / Agent 12 Works, But Characters Missing, V"
+   },
+   "url": "https://www.bilibili.com/video/BV13QnYzJEXb/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1xMnLzREZd",
+   "cat": "devlog",
+   "date": "2025-09-27",
+   "w": 1,
+   "title": {
+    "en": "250926-视觉小说生成器开发日志：12个AI代理的编排挑战与代码重构 / Visual Novel Generator DevLog: Orchestrat",
+    "zh": "250926-视觉小说生成器开发日志：12个AI代理的编排挑战与代码重构 / Visual Novel Generator DevLog: Orchestrat"
+   },
+   "url": "https://www.bilibili.com/video/BV1xMnLzREZd/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1TRnQzFEHh",
+   "cat": "devlog",
+   "date": "2025-09-28",
+   "w": 1,
+   "title": {
+    "en": "250927-视觉小说生成器开发：多Agent协作突破初步实现，但核心串联仍存瓶颈 / Visual Novel Generator Dev: Multi-Ag",
+    "zh": "250927-视觉小说生成器开发：多Agent协作突破初步实现，但核心串联仍存瓶颈 / Visual Novel Generator Dev: Multi-Ag"
+   },
+   "url": "https://www.bilibili.com/video/BV1TRnQzFEHh/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1eNnyznEBx",
+   "cat": "devlog",
+   "date": "2025-09-30",
+   "w": 1,
+   "title": {
+    "en": "250929-视觉小说生成器开发日志：12个Agent映射表完成，但遇到OpenAI限流 / Visual Novel Generator Dev Log: 1",
+    "zh": "250929-视觉小说生成器开发日志：12个Agent映射表完成，但遇到OpenAI限流 / Visual Novel Generator Dev Log: 1"
+   },
+   "url": "https://www.bilibili.com/video/BV1eNnyznEBx/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1QLHnzEEnF",
+   "cat": "devlog",
+   "date": "2025-10-01",
+   "w": 1,
+   "title": {
+    "en": "250930-视觉小说生成器进展：前3个AI代理跑通，角色头像自动生成实现 / Visual Novel Generator: First 3 AI Agent",
+    "zh": "250930-视觉小说生成器进展：前3个AI代理跑通，角色头像自动生成实现 / Visual Novel Generator: First 3 AI Agent"
+   },
+   "url": "https://www.bilibili.com/video/BV1QLHnzEEnF/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ijHPzCETt",
+   "cat": "devlog",
+   "date": "2025-10-02",
+   "w": 1,
+   "title": {
+    "en": "251001-视觉小说生成器开发日志：四个AI代理跑通，细节优化进行中 / Visual Novel Generator Dev Log: Four AI Ag",
+    "zh": "251001-视觉小说生成器开发日志：四个AI代理跑通，细节优化进行中 / Visual Novel Generator Dev Log: Four AI Ag"
+   },
+   "url": "https://www.bilibili.com/video/BV1ijHPzCETt/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ZkHuzcEUj",
+   "cat": "devlog",
+   "date": "2025-10-03",
+   "w": 1,
+   "title": {
+    "en": "251002-视觉小说生成器开发进展：多Agent协同成型，核心功能突破瓶颈 / Visual Novel Generator: Multi-Agent Wor",
+    "zh": "251002-视觉小说生成器开发进展：多Agent协同成型，核心功能突破瓶颈 / Visual Novel Generator: Multi-Agent Wor"
+   },
+   "url": "https://www.bilibili.com/video/BV1ZkHuzcEUj/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1WExDzYE6o",
+   "cat": "devlog",
+   "date": "2025-10-07",
+   "w": 1,
+   "title": {
+    "en": "251006-视觉小说生成器开发：Coding Agent连环翻车，三款工具无一幸免 / Visual Novel Generator Dev: Coding",
+    "zh": "251006-视觉小说生成器开发：Coding Agent连环翻车，三款工具无一幸免 / Visual Novel Generator Dev: Coding"
+   },
+   "url": "https://www.bilibili.com/video/BV1WExDzYE6o/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1GoxfzzEvJ",
+   "cat": "devlog",
+   "date": "2025-10-08",
+   "w": 1,
+   "title": {
+    "en": "251007-代码重构实战：如何驯服1000+行JS文件 / Refactoring 1000+ Line JS Files: Lessons Learned",
+    "zh": "251007-代码重构实战：如何驯服1000+行JS文件 / Refactoring 1000+ Line JS Files: Lessons Learned"
+   },
+   "url": "https://www.bilibili.com/video/BV1GoxfzzEvJ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1yq4WzbEoE",
+   "cat": "devlog",
+   "date": "2025-10-11",
+   "w": 1,
+   "title": {
+    "en": "251010-视觉小说生成器一键生成测试：4个Agent跑通，遭遇JSON路径Bug / Visual Novel Generator One-Click Te",
+    "zh": "251010-视觉小说生成器一键生成测试：4个Agent跑通，遭遇JSON路径Bug / Visual Novel Generator One-Click Te"
+   },
+   "url": "https://www.bilibili.com/video/BV1yq4WzbEoE/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1jN4MzKEjr",
+   "cat": "devlog",
+   "date": "2025-10-12",
+   "w": 1,
+   "title": {
+    "en": "251011-视觉小说生成器开发日志：前4个Agent跑通，卡在表情变体生成 / Visual Novel Generator Dev Log: First 4",
+    "zh": "251011-视觉小说生成器开发日志：前4个Agent跑通，卡在表情变体生成 / Visual Novel Generator Dev Log: First 4"
+   },
+   "url": "https://www.bilibili.com/video/BV1jN4MzKEjr/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1St4vzNEXo",
+   "cat": "devlog",
+   "date": "2025-10-15",
+   "w": 1,
+   "title": {
+    "en": "251014-视觉小说生成器开发日志：九个Agent已跑通，文件路径问题待解决 / Visual Novel Generator Dev Log: 9 Agen",
+    "zh": "251014-视觉小说生成器开发日志：九个Agent已跑通，文件路径问题待解决 / Visual Novel Generator Dev Log: 9 Agen"
+   },
+   "url": "https://www.bilibili.com/video/BV1St4vzNEXo/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1m2WezpEm7",
+   "cat": "devlog",
+   "date": "2025-10-16",
+   "w": 1,
+   "title": {
+    "en": "251015-一键生成已跑通！Agent 12组装Bug待修复 / One-Click Generation Works! Agent 12 Assembly",
+    "zh": "251015-一键生成已跑通！Agent 12组装Bug待修复 / One-Click Generation Works! Agent 12 Assembly"
+   },
+   "url": "https://www.bilibili.com/video/BV1m2WezpEm7/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1BoWrzZEjC",
+   "cat": "devlog",
+   "date": "2025-10-17",
+   "w": 1,
+   "title": {
+    "en": "251016-视觉小说生成器开发：3万行代码后的重构思考 / Visual Novel Generator: Rethinking Architecture A",
+    "zh": "251016-视觉小说生成器开发：3万行代码后的重构思考 / Visual Novel Generator: Rethinking Architecture A"
+   },
+   "url": "https://www.bilibili.com/video/BV1BoWrzZEjC/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV15LWxzrEhs",
+   "cat": "devlog",
+   "date": "2025-10-18",
+   "w": 1,
+   "title": {
+    "en": "251017-调试视觉小说生成器：从Agent级到File级的精细化测试策略 / Debugging Visual Novel Generator: From",
+    "zh": "251017-调试视觉小说生成器：从Agent级到File级的精细化测试策略 / Debugging Visual Novel Generator: From"
+   },
+   "url": "https://www.bilibili.com/video/BV15LWxzrEhs/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1eFsczzE6B",
+   "cat": "devlog",
+   "date": "2025-10-19",
+   "w": 1,
+   "title": {
+    "en": "251018-测试驱动调试：用JSON测试用例验证Coding Agent的Bug分析 / Test-Driven Debugging: Validating",
+    "zh": "251018-测试驱动调试：用JSON测试用例验证Coding Agent的Bug分析 / Test-Driven Debugging: Validating"
+   },
+   "url": "https://www.bilibili.com/video/BV1eFsczzE6B/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ousuzeEfU",
+   "cat": "devlog",
+   "date": "2025-10-20",
+   "w": 1,
+   "title": {
+    "en": "251018-视觉小说生成器：用测试驱动开发修Bug，背景图加载已修复 / Visual Novel Generator: Test-Driven Bug Fi",
+    "zh": "251018-视觉小说生成器：用测试驱动开发修Bug，背景图加载已修复 / Visual Novel Generator: Test-Driven Bug Fi"
+   },
+   "url": "https://www.bilibili.com/video/BV1ousuzeEfU/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1CwWDz4EQw",
+   "cat": "devlog",
+   "date": "2025-10-21",
+   "w": 1,
+   "title": {
+    "en": "251020-测试用例未通过但Bug已修复？探索独立开发中的Testing工作流 / Tests Failed but Bug Fixed? Exploring",
+    "zh": "251020-测试用例未通过但Bug已修复？探索独立开发中的Testing工作流 / Tests Failed but Bug Fixed? Exploring"
+   },
+   "url": "https://www.bilibili.com/video/BV1CwWDz4EQw/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1AGs7zvE3x",
+   "cat": "devlog",
+   "date": "2025-10-24",
+   "w": 1,
+   "title": {
+    "en": "251023-视觉小说生成器测试流程升级：从文件级到Agent级 / Visual Novel Generator: Upgrading Testing fro",
+    "zh": "251023-视觉小说生成器测试流程升级：从文件级到Agent级 / Visual Novel Generator: Upgrading Testing fro"
+   },
+   "url": "https://www.bilibili.com/video/BV1AGs7zvE3x/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1kcsRzqETu",
+   "cat": "devlog",
+   "date": "2025-10-25",
+   "w": 1,
+   "title": {
+    "en": "251024-视觉小说生成器开发：立绘显示bug修复，探索人机协作新workflow / Visual Novel Generator Dev: Charact",
+    "zh": "251024-视觉小说生成器开发：立绘显示bug修复，探索人机协作新workflow / Visual Novel Generator Dev: Charact"
+   },
+   "url": "https://www.bilibili.com/video/BV1kcsRzqETu/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-866206890",
+   "cat": "chapter",
+   "date": "2025-10-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第225章 招兵买马",
+    "zh": "不使意难平 · 第225章 招兵买马"
+   },
+   "note": {
+    "en": "6,113 characters",
+    "zh": "6,113 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/866206890/",
+   "n": 225,
+   "chars": 6113,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-866336599",
+   "cat": "chapter",
+   "date": "2025-10-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第226章 首战",
+    "zh": "不使意难平 · 第226章 首战"
+   },
+   "note": {
+    "en": "5,407 characters",
+    "zh": "5,407 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/866336599/",
+   "n": 226,
+   "chars": 5407,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1vrs2zMEei",
+   "cat": "devlog",
+   "date": "2025-10-27",
+   "w": 1,
+   "title": {
+    "en": "251026-视觉小说生成器：透明背景立绘实现，测试纠缠3小时终突破 / Visual Novel Dev: Transparent Character Spr",
+    "zh": "251026-视觉小说生成器：透明背景立绘实现，测试纠缠3小时终突破 / Visual Novel Dev: Transparent Character Spr"
+   },
+   "url": "https://www.bilibili.com/video/BV1vrs2zMEei/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1YWyqBqEMe",
+   "cat": "devlog",
+   "date": "2025-10-28",
+   "w": 1,
+   "title": {
+    "en": "251027-视觉小说生成器开发：角色头像生成Agent的Bug修复之旅 / Visual Novel Dev: Fixing Character Avatar",
+    "zh": "251027-视觉小说生成器开发：角色头像生成Agent的Bug修复之旅 / Visual Novel Dev: Fixing Character Avatar"
+   },
+   "url": "https://www.bilibili.com/video/BV1YWyqBqEMe/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1aWyUBTECK",
+   "cat": "devlog",
+   "date": "2025-10-29",
+   "w": 1,
+   "title": {
+    "en": "251028-视觉小说生成器开发：核心渲染问题突破，角色立绘系统完善 / Visual Novel Generator Dev: Core Rendering",
+    "zh": "251028-视觉小说生成器开发：核心渲染问题突破，角色立绘系统完善 / Visual Novel Generator Dev: Core Rendering"
+   },
+   "url": "https://www.bilibili.com/video/BV1aWyUBTECK/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV13o1NBUEHU",
+   "cat": "devlog",
+   "date": "2025-10-31",
+   "w": 1,
+   "title": {
+    "en": "251030- B612测评：移动端美颜AI工具 | B612 Review: Mobile Beauty AI Application",
+    "zh": "251030- B612测评：移动端美颜AI工具 | B612 Review: Mobile Beauty AI Application"
+   },
+   "url": "https://www.bilibili.com/video/BV13o1NBUEHU/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1Lm1NBREHT",
+   "cat": "devlog",
+   "date": "2025-10-31",
+   "w": 1,
+   "title": {
+    "en": "251030- AI代理流程搭建完成，视觉小说生成器进入关键阶段 / AI Agent Pipeline Complete, Visual Novel Gene",
+    "zh": "251030- AI代理流程搭建完成，视觉小说生成器进入关键阶段 / AI Agent Pipeline Complete, Visual Novel Gene"
+   },
+   "url": "https://www.bilibili.com/video/BV1Lm1NBREHT/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-867741880",
+   "cat": "chapter",
+   "date": "2025-11-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第227章 论济阴县的民主",
+    "zh": "不使意难平 · 第227章 论济阴县的民主"
+   },
+   "note": {
+    "en": "7,538 characters",
+    "zh": "7,538 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/867741880/",
+   "n": 227,
+   "chars": 7538,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-867885731",
+   "cat": "chapter",
+   "date": "2025-11-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第228章 带我去见你的老板",
+    "zh": "不使意难平 · 第228章 带我去见你的老板"
+   },
+   "note": {
+    "en": "3,133 characters",
+    "zh": "3,133 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/867885731/",
+   "n": 228,
+   "chars": 3133,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-867908495",
+   "cat": "chapter",
+   "date": "2025-11-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第229章 民为贵，社稷次之，君为轻",
+    "zh": "不使意难平 · 第229章 民为贵，社稷次之，君为轻"
+   },
+   "note": {
+    "en": "5,455 characters",
+    "zh": "5,455 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/867908495/",
+   "n": 229,
+   "chars": 5455,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1aK2TBsE2w",
+   "cat": "devlog",
+   "date": "2025-11-07",
+   "w": 1,
+   "title": {
+    "en": "1106-视觉小说生成器开发:引入测试驱动开发流程 / Visual Novel Dev: Test-Driven Workflow Introduced",
+    "zh": "1106-视觉小说生成器开发:引入测试驱动开发流程 / Visual Novel Dev: Test-Driven Workflow Introduced"
+   },
+   "url": "https://www.bilibili.com/video/BV1aK2TBsE2w/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-869025320",
+   "cat": "chapter",
+   "date": "2025-11-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第230章 色欲",
+    "zh": "不使意难平 · 第230章 色欲"
+   },
+   "note": {
+    "en": "4,844 characters",
+    "zh": "4,844 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/869025320/",
+   "n": 230,
+   "chars": 4844,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1nUkoBNEAY",
+   "cat": "devlog",
+   "date": "2025-11-10",
+   "w": 1,
+   "title": {
+    "en": "视觉小说生成器开发：解决角色显示Bug,完善Hide命令 / Visual Novel Dev: Fixed Character Display Bug",
+    "zh": "视觉小说生成器开发：解决角色显示Bug,完善Hide命令 / Visual Novel Dev: Fixed Character Display Bug"
+   },
+   "url": "https://www.bilibili.com/video/BV1nUkoBNEAY/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1AVCxBQE4q",
+   "cat": "devlog",
+   "date": "2025-11-13",
+   "w": 1,
+   "title": {
+    "en": "251112-声音质量异常部分修复,测试生成模型选择问题待解决 / Voice Quality Issue Partially Fixed, Model Sel",
+    "zh": "251112-声音质量异常部分修复,测试生成模型选择问题待解决 / Voice Quality Issue Partially Fixed, Model Sel"
+   },
+   "url": "https://www.bilibili.com/video/BV1AVCxBQE4q/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1TeCMB5EpJ",
+   "cat": "devlog",
+   "date": "2025-11-14",
+   "w": 1,
+   "title": {
+    "en": "251113-视觉小说生成器开发:Agent修Bug的反思与认知训练 / Visual Novel Dev: Rethinking Bug Fixes & Co",
+    "zh": "251113-视觉小说生成器开发:Agent修Bug的反思与认知训练 / Visual Novel Dev: Rethinking Bug Fixes & Co"
+   },
+   "url": "https://www.bilibili.com/video/BV1TeCMB5EpJ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1Y1CCBXEsm",
+   "cat": "devlog",
+   "date": "2025-11-15",
+   "w": 1,
+   "title": {
+    "en": "251114-视觉小说生成器开发:从Bug修复到系统化预防 / Visual Novel Dev: From Bug Fixing to Systematic",
+    "zh": "251114-视觉小说生成器开发:从Bug修复到系统化预防 / Visual Novel Dev: From Bug Fixing to Systematic"
+   },
+   "url": "https://www.bilibili.com/video/BV1Y1CCBXEsm/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-870396585",
+   "cat": "chapter",
+   "date": "2025-11-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第231章 李克用",
+    "zh": "不使意难平 · 第231章 李克用"
+   },
+   "note": {
+    "en": "4,053 characters",
+    "zh": "4,053 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/870396585/",
+   "n": 231,
+   "chars": 4053,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1c9yEBNESC",
+   "cat": "devlog",
+   "date": "2025-11-19",
+   "w": 1,
+   "title": {
+    "en": "251118-视觉小说生成器:发现架构缺陷,转向预防性开发 / Visual Novel Generator: Architectural Flaws Foun",
+    "zh": "251118-视觉小说生成器:发现架构缺陷,转向预防性开发 / Visual Novel Generator: Architectural Flaws Foun"
+   },
+   "url": "https://www.bilibili.com/video/BV1c9yEBNESC/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1NGUPBrEbW",
+   "cat": "devlog",
+   "date": "2025-11-23",
+   "w": 1,
+   "title": {
+    "en": "251121-视觉小说生成器：多Agent工作流与系统性Bug分析 / VN Generator: Multi-Agent Workflow & Systema",
+    "zh": "251121-视觉小说生成器：多Agent工作流与系统性Bug分析 / VN Generator: Multi-Agent Workflow & Systema"
+   },
+   "url": "https://www.bilibili.com/video/BV1NGUPBrEbW/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-871718382",
+   "cat": "chapter",
+   "date": "2025-11-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第232章 联盟之请",
+    "zh": "不使意难平 · 第232章 联盟之请"
+   },
+   "note": {
+    "en": "6,205 characters",
+    "zh": "6,205 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/871718382/",
+   "n": 232,
+   "chars": 6205,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1f8UbBNEb9",
+   "cat": "devlog",
+   "date": "2025-11-26",
+   "w": 1,
+   "title": {
+    "en": "251124-视觉小说生成器开发：修复Unicode文件名Bug及多Agent工作流反思 / Visual Novel Dev: Unicode Bug Fix",
+    "zh": "251124-视觉小说生成器开发：修复Unicode文件名Bug及多Agent工作流反思 / Visual Novel Dev: Unicode Bug Fix"
+   },
+   "url": "https://www.bilibili.com/video/BV1f8UbBNEb9/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1VWSLBdEHf",
+   "cat": "devlog",
+   "date": "2025-11-28",
+   "w": 1,
+   "title": {
+    "en": "251125-视觉小说生成器部署成功,4个依赖Bug一网打尽 / Visual Novel Generator Deployed: 4 Dependency B",
+    "zh": "251125-视觉小说生成器部署成功,4个依赖Bug一网打尽 / Visual Novel Generator Deployed: 4 Dependency B"
+   },
+   "url": "https://www.bilibili.com/video/BV1VWSLBdEHf/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1QD28BXEMs",
+   "cat": "devlog",
+   "date": "2025-12-04",
+   "w": 1,
+   "title": {
+    "en": "251126-视觉小说生成器:发现认知盲区,优化多Agent协作流程 / Visual Novel Generator: Uncovering Blind Sp",
+    "zh": "251126-视觉小说生成器:发现认知盲区,优化多Agent协作流程 / Visual Novel Generator: Uncovering Blind Sp"
+   },
+   "url": "https://www.bilibili.com/video/BV1QD28BXEMs/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1ADmNB6EVQ",
+   "cat": "devlog",
+   "date": "2025-12-08",
+   "w": 1,
+   "title": {
+    "en": "251204-视觉小说生成器上线Digital Ocean,域名部署待解决 / Visual Novel Generator Live on Digital O",
+    "zh": "251204-视觉小说生成器上线Digital Ocean,域名部署待解决 / Visual Novel Generator Live on Digital O"
+   },
+   "url": "https://www.bilibili.com/video/BV1ADmNB6EVQ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "devlog-BV1FBmKBBEGZ",
+   "cat": "devlog",
+   "date": "2025-12-11",
+   "w": 1,
+   "title": {
+    "en": "251209-视觉小说生成器开发:注册验证码长度bug修复 / Visual Novel Generator: Registration Code Length",
+    "zh": "251209-视觉小说生成器开发:注册验证码长度bug修复 / Visual Novel Generator: Registration Code Length"
+   },
+   "url": "https://www.bilibili.com/video/BV1FBmKBBEGZ/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-875510203",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第233章 义眼",
+    "zh": "不使意难平 · 第233章 义眼"
+   },
+   "note": {
+    "en": "4,626 characters",
+    "zh": "4,626 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875510203/",
+   "n": 233,
+   "chars": 4626,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875512340",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第234章 蒲县大败",
+    "zh": "不使意难平 · 第234章 蒲县大败"
+   },
+   "note": {
+    "en": "4,316 characters",
+    "zh": "4,316 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875512340/",
+   "n": 234,
+   "chars": 4316,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875513470",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第235章 太原之围",
+    "zh": "不使意难平 · 第235章 太原之围"
+   },
+   "note": {
+    "en": "3,223 characters",
+    "zh": "3,223 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875513470/",
+   "n": 235,
+   "chars": 3223,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875514275",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第236章 是战是逃？",
+    "zh": "不使意难平 · 第236章 是战是逃？"
+   },
+   "note": {
+    "en": "3,922 characters",
+    "zh": "3,922 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875514275/",
+   "n": 236,
+   "chars": 3922,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875515966",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第237章 瘟疫",
+    "zh": "不使意难平 · 第237章 瘟疫"
+   },
+   "note": {
+    "en": "4,610 characters",
+    "zh": "4,610 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875515966/",
+   "n": 237,
+   "chars": 4610,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875517668",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第238章 结盟",
+    "zh": "不使意难平 · 第238章 结盟"
+   },
+   "note": {
+    "en": "4,262 characters",
+    "zh": "4,262 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875517668/",
+   "n": 238,
+   "chars": 4262,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875518329",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第239章 解围",
+    "zh": "不使意难平 · 第239章 解围"
+   },
+   "note": {
+    "en": "3,648 characters",
+    "zh": "3,648 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875518329/",
+   "n": 239,
+   "chars": 3648,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-875521376",
+   "cat": "chapter",
+   "date": "2025-12-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第240章 三喜临门",
+    "zh": "不使意难平 · 第240章 三喜临门"
+   },
+   "note": {
+    "en": "5,165 characters",
+    "zh": "5,165 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/875521376/",
+   "n": 240,
+   "chars": 5165,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1DFqaBAEtC",
+   "cat": "devlog",
+   "date": "2025-12-16",
+   "w": 1,
+   "title": {
+    "en": "251215-多Agent协作修Bug工作流实践：3个AI Agent协作解决生产环境问题 / Multi-Agent Bug Fix Workflow: 3",
+    "zh": "251215-多Agent协作修Bug工作流实践：3个AI Agent协作解决生产环境问题 / Multi-Agent Bug Fix Workflow: 3"
+   },
+   "url": "https://www.bilibili.com/video/BV1DFqaBAEtC/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-883419103",
+   "cat": "chapter",
+   "date": "2026-01-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第241章 凤翔李茂贞",
+    "zh": "不使意难平 · 第241章 凤翔李茂贞"
+   },
+   "note": {
+    "en": "4,496 characters",
+    "zh": "4,496 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/883419103/",
+   "n": 241,
+   "chars": 4496,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-883419723",
+   "cat": "chapter",
+   "date": "2026-01-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第242章 凤翔的困境",
+    "zh": "不使意难平 · 第242章 凤翔的困境"
+   },
+   "note": {
+    "en": "3,168 characters",
+    "zh": "3,168 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/883419723/",
+   "n": 242,
+   "chars": 3168,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-883422623",
+   "cat": "chapter",
+   "date": "2026-01-31",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第243章 剑拔弩张",
+    "zh": "不使意难平 · 第243章 剑拔弩张"
+   },
+   "note": {
+    "en": "5,169 characters",
+    "zh": "5,169 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/883422623/",
+   "n": 243,
+   "chars": 5169,
+   "src": "qidian"
+  },
+  {
+   "id": "devlog-BV1EFZ4BnEdp",
+   "cat": "devlog",
+   "date": "2026-02-15",
+   "w": 1,
+   "title": {
+    "en": "260215-AI智能体协作开发实践 | Multi-Agent AI Development Workflow",
+    "zh": "260215-AI智能体协作开发实践 | Multi-Agent AI Development Workflow"
+   },
+   "url": "https://www.bilibili.com/video/BV1EFZ4BnEdp/",
+   "src": "bilibili"
+  },
+  {
+   "id": "chapter-891637978",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第244章 岐王困阵",
+    "zh": "不使意难平 · 第244章 岐王困阵"
+   },
+   "note": {
+    "en": "4,054 characters",
+    "zh": "4,054 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891637978/",
+   "n": 244,
+   "chars": 4054,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891640078",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第245章 偷溜出城",
+    "zh": "不使意难平 · 第245章 偷溜出城"
+   },
+   "note": {
+    "en": "5,952 characters",
+    "zh": "5,952 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891640078/",
+   "n": 245,
+   "chars": 5952,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891641300",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第246章 将计就计",
+    "zh": "不使意难平 · 第246章 将计就计"
+   },
+   "note": {
+    "en": "6,127 characters",
+    "zh": "6,127 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891641300/",
+   "n": 246,
+   "chars": 6127,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891641887",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第247章 雀鼠谷风云",
+    "zh": "不使意难平 · 第247章 雀鼠谷风云"
+   },
+   "note": {
+    "en": "5,958 characters",
+    "zh": "5,958 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891641887/",
+   "n": 247,
+   "chars": 5958,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891643250",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第248章 空谷计",
+    "zh": "不使意难平 · 第248章 空谷计"
+   },
+   "note": {
+    "en": "5,182 characters",
+    "zh": "5,182 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891643250/",
+   "n": 248,
+   "chars": 5182,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891644564",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第249章 三家结盟",
+    "zh": "不使意难平 · 第249章 三家结盟"
+   },
+   "note": {
+    "en": "5,664 characters",
+    "zh": "5,664 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891644564/",
+   "n": 249,
+   "chars": 5664,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-891645875",
+   "cat": "chapter",
+   "date": "2026-03-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第250章 侯君归来",
+    "zh": "不使意难平 · 第250章 侯君归来"
+   },
+   "note": {
+    "en": "5,347 characters",
+    "zh": "5,347 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/891645875/",
+   "n": 250,
+   "chars": 5347,
+   "src": "qidian"
+  },
+  {
+   "id": "code-260328-hongyang-visual-novel-agent",
+   "cat": "code",
+   "date": "2026-03-28",
+   "w": 1,
+   "title": {
+    "en": "260328-Hongyang-VIsual-Novel-Agent",
+    "zh": "260328-Hongyang-VIsual-Novel-Agent"
+   },
+   "note": {
+    "en": "Hackathon agent that turns plain text into a playable visual novel (Mar 2026)",
+    "zh": "黑客松作品：把纯文本变成可玩视觉小说的 agent（2026 年 3 月）"
+   },
+   "url": "https://github.com/Barack-Liu/260328-Hongyang-VIsual-Novel-Agent",
+   "src": "github"
+  },
+  {
+   "id": "chapter-900087192",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第251章 一只鸽子推开冬日",
+    "zh": "不使意难平 · 第251章 一只鸽子推开冬日"
+   },
+   "note": {
+    "en": "6,373 characters",
+    "zh": "6,373 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900087192/",
+   "n": 251,
+   "chars": 6373,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900088034",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第252章 井底一声雷，头顶一蓬花",
+    "zh": "不使意难平 · 第252章 井底一声雷，头顶一蓬花"
+   },
+   "note": {
+    "en": "5,425 characters",
+    "zh": "5,425 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900088034/",
+   "n": 252,
+   "chars": 5425,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900088264",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第253章 同席两把椅，中间隔着河",
+    "zh": "不使意难平 · 第253章 同席两把椅，中间隔着河"
+   },
+   "note": {
+    "en": "5,735 characters",
+    "zh": "5,735 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900088264/",
+   "n": 253,
+   "chars": 5735,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900100348",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第254章 风里没有炊烟",
+    "zh": "不使意难平 · 第254章 风里没有炊烟"
+   },
+   "note": {
+    "en": "4,946 characters",
+    "zh": "4,946 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900100348/",
+   "n": 254,
+   "chars": 4946,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900100942",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第255章 胜鼓三响，起风了",
+    "zh": "不使意难平 · 第255章 胜鼓三响，起风了"
+   },
+   "note": {
+    "en": "5,871 characters",
+    "zh": "5,871 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900100942/",
+   "n": 255,
+   "chars": 5871,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900102274",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第256章 银雪里，落下刀片",
+    "zh": "不使意难平 · 第256章 银雪里，落下刀片"
+   },
+   "note": {
+    "en": "6,161 characters",
+    "zh": "6,161 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900102274/",
+   "n": 256,
+   "chars": 6161,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900102694",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第257章 他提着一柄吞光的刀",
+    "zh": "不使意难平 · 第257章 他提着一柄吞光的刀"
+   },
+   "note": {
+    "en": "7,555 characters",
+    "zh": "7,555 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900102694/",
+   "n": 257,
+   "chars": 7555,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900103003",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第258章 烟是黑的，路也是黑的",
+    "zh": "不使意难平 · 第258章 烟是黑的，路也是黑的"
+   },
+   "note": {
+    "en": "7,045 characters",
+    "zh": "7,045 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900103003/",
+   "n": 258,
+   "chars": 7045,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900103585",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第259章 烛影里的那句耳语",
+    "zh": "不使意难平 · 第259章 烛影里的那句耳语"
+   },
+   "note": {
+    "en": "6,984 characters",
+    "zh": "6,984 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900103585/",
+   "n": 259,
+   "chars": 6984,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-900104108",
+   "cat": "chapter",
+   "date": "2026-04-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第260章 三万子弟，换来两个字",
+    "zh": "不使意难平 · 第260章 三万子弟，换来两个字"
+   },
+   "note": {
+    "en": "8,096 characters",
+    "zh": "8,096 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/900104108/",
+   "n": 260,
+   "chars": 8096,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-908705640",
+   "cat": "chapter",
+   "date": "2026-06-02",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第261章 伤兵营外，一口锅还在咕嘟",
+    "zh": "不使意难平 · 第261章 伤兵营外，一口锅还在咕嘟"
+   },
+   "note": {
+    "en": "5,859 characters",
+    "zh": "5,859 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/908705640/",
+   "n": 261,
+   "chars": 5859,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-908903273",
+   "cat": "chapter",
+   "date": "2026-06-03",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第262章 一筒新火，一个旧鬼",
+    "zh": "不使意难平 · 第262章 一筒新火，一个旧鬼"
+   },
+   "note": {
+    "en": "5,001 characters",
+    "zh": "5,001 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/908903273/",
+   "n": 262,
+   "chars": 5001,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909090114",
+   "cat": "chapter",
+   "date": "2026-06-04",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第263章 这一次，三面鼓敲一个点",
+    "zh": "不使意难平 · 第263章 这一次，三面鼓敲一个点"
+   },
+   "note": {
+    "en": "3,999 characters",
+    "zh": "3,999 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909090114/",
+   "n": 263,
+   "chars": 3999,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909267233",
+   "cat": "chapter",
+   "date": "2026-06-05",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第264章 烧着的粮草，是句假话",
+    "zh": "不使意难平 · 第264章 烧着的粮草，是句假话"
+   },
+   "note": {
+    "en": "3,657 characters",
+    "zh": "3,657 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909267233/",
+   "n": 264,
+   "chars": 3657,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909529532",
+   "cat": "chapter",
+   "date": "2026-06-06",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第265章 他留一手，我留两手",
+    "zh": "不使意难平 · 第265章 他留一手，我留两手"
+   },
+   "note": {
+    "en": "4,234 characters",
+    "zh": "4,234 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909529532/",
+   "n": 265,
+   "chars": 4234,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909619678",
+   "cat": "chapter",
+   "date": "2026-06-07",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第266章 黑旗压境，旧人提枪",
+    "zh": "不使意难平 · 第266章 黑旗压境，旧人提枪"
+   },
+   "note": {
+    "en": "3,884 characters",
+    "zh": "3,884 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909619678/",
+   "n": 266,
+   "chars": 3884,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909745063",
+   "cat": "chapter",
+   "date": "2026-06-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第267章 眼看，就要赢了",
+    "zh": "不使意难平 · 第267章 眼看，就要赢了"
+   },
+   "note": {
+    "en": "3,767 characters",
+    "zh": "3,767 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909745063/",
+   "n": 267,
+   "chars": 3767,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909745914",
+   "cat": "chapter",
+   "date": "2026-06-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第268章 三万子弟，又站了起来",
+    "zh": "不使意难平 · 第268章 三万子弟，又站了起来"
+   },
+   "note": {
+    "en": "3,951 characters",
+    "zh": "3,951 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909745914/",
+   "n": 268,
+   "chars": 3951,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909746075",
+   "cat": "chapter",
+   "date": "2026-06-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第269章 火，是唯一的活路",
+    "zh": "不使意难平 · 第269章 火，是唯一的活路"
+   },
+   "note": {
+    "en": "3,711 characters",
+    "zh": "3,711 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909746075/",
+   "n": 269,
+   "chars": 3711,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909746210",
+   "cat": "chapter",
+   "date": "2026-06-08",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第270章 他第一次，抬头看了看天",
+    "zh": "不使意难平 · 第270章 他第一次，抬头看了看天"
+   },
+   "note": {
+    "en": "3,588 characters",
+    "zh": "3,588 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909746210/",
+   "n": 270,
+   "chars": 3588,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-909968981",
+   "cat": "chapter",
+   "date": "2026-06-09",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第271章 那只手，为什么没有抬第二下",
+    "zh": "不使意难平 · 第271章 那只手，为什么没有抬第二下"
+   },
+   "note": {
+    "en": "4,472 characters",
+    "zh": "4,472 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/909968981/",
+   "n": 271,
+   "chars": 4472,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910102012",
+   "cat": "chapter",
+   "date": "2026-06-10",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第272章 他给死人，备了一份大礼",
+    "zh": "不使意难平 · 第272章 他给死人，备了一份大礼"
+   },
+   "note": {
+    "en": "5,228 characters",
+    "zh": "5,228 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910102012/",
+   "n": 272,
+   "chars": 5228,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910319430",
+   "cat": "chapter",
+   "date": "2026-06-11",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第273章 这一回，地是我选的",
+    "zh": "不使意难平 · 第273章 这一回，地是我选的"
+   },
+   "note": {
+    "en": "5,305 characters",
+    "zh": "5,305 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910319430/",
+   "n": 273,
+   "chars": 5305,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910503136",
+   "cat": "chapter",
+   "date": "2026-06-12",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第274章 死人，到底还是站起来了",
+    "zh": "不使意难平 · 第274章 死人，到底还是站起来了"
+   },
+   "note": {
+    "en": "4,184 characters",
+    "zh": "4,184 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910503136/",
+   "n": 274,
+   "chars": 4184,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910725202",
+   "cat": "chapter",
+   "date": "2026-06-13",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第275章 烧成灰，就站不起来了",
+    "zh": "不使意难平 · 第275章 烧成灰，就站不起来了"
+   },
+   "note": {
+    "en": "5,468 characters",
+    "zh": "5,468 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910725202/",
+   "n": 275,
+   "chars": 5468,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910819807",
+   "cat": "chapter",
+   "date": "2026-06-14",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第276章 天下第一，亲自下场",
+    "zh": "不使意难平 · 第276章 天下第一，亲自下场"
+   },
+   "note": {
+    "en": "8,122 characters",
+    "zh": "8,122 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910819807/",
+   "n": 276,
+   "chars": 8122,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910916654",
+   "cat": "chapter",
+   "date": "2026-06-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第277章 那只手，只剩最后一下",
+    "zh": "不使意难平 · 第277章 那只手，只剩最后一下"
+   },
+   "note": {
+    "en": "5,148 characters",
+    "zh": "5,148 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910916654/",
+   "n": 277,
+   "chars": 5148,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910917255",
+   "cat": "chapter",
+   "date": "2026-06-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第278章 二十万黑旗，倒了",
+    "zh": "不使意难平 · 第278章 二十万黑旗，倒了"
+   },
+   "note": {
+    "en": "5,009 characters",
+    "zh": "5,009 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910917255/",
+   "n": 278,
+   "chars": 5009,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910916981",
+   "cat": "chapter",
+   "date": "2026-06-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第279章 败军之主的大殿",
+    "zh": "不使意难平 · 第279章 败军之主的大殿"
+   },
+   "note": {
+    "en": "3,133 characters",
+    "zh": "3,133 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910916981/",
+   "n": 279,
+   "chars": 3133,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-910917379",
+   "cat": "chapter",
+   "date": "2026-06-15",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第280章 欠的债，到期了",
+    "zh": "不使意难平 · 第280章 欠的债，到期了"
+   },
+   "note": {
+    "en": "3,576 characters",
+    "zh": "3,576 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/910917379/",
+   "n": 280,
+   "chars": 3576,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911160842",
+   "cat": "chapter",
+   "date": "2026-06-16",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第281章 天下已无梁王，尚无新朝",
+    "zh": "不使意难平 · 第281章 天下已无梁王，尚无新朝"
+   },
+   "note": {
+    "en": "8,088 characters",
+    "zh": "8,088 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911160842/",
+   "n": 281,
+   "chars": 8088,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911481130",
+   "cat": "chapter",
+   "date": "2026-06-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第282章 一犁入土，万物生",
+    "zh": "不使意难平 · 第282章 一犁入土，万物生"
+   },
+   "note": {
+    "en": "6,044 characters",
+    "zh": "6,044 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911481130/",
+   "n": 282,
+   "chars": 6044,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911484464",
+   "cat": "chapter",
+   "date": "2026-06-18",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第283章 一杆秤，两面铜",
+    "zh": "不使意难平 · 第283章 一杆秤，两面铜"
+   },
+   "note": {
+    "en": "3,831 characters",
+    "zh": "3,831 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911484464/",
+   "n": 283,
+   "chars": 3831,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911721415",
+   "cat": "chapter",
+   "date": "2026-06-19",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第284章 路通到哪里，朝廷就到哪里",
+    "zh": "不使意难平 · 第284章 路通到哪里，朝廷就到哪里"
+   },
+   "note": {
+    "en": "3,686 characters",
+    "zh": "3,686 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911721415/",
+   "n": 284,
+   "chars": 3686,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911794237",
+   "cat": "chapter",
+   "date": "2026-06-20",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第285章 字会走路，布暖人间",
+    "zh": "不使意难平 · 第285章 字会走路，布暖人间"
+   },
+   "note": {
+    "en": "3,733 characters",
+    "zh": "3,733 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911794237/",
+   "n": 285,
+   "chars": 3733,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-911917618",
+   "cat": "chapter",
+   "date": "2026-06-21",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第286章 刀枪不必入库，但要换刀法",
+    "zh": "不使意难平 · 第286章 刀枪不必入库，但要换刀法"
+   },
+   "note": {
+    "en": "3,751 characters",
+    "zh": "3,751 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/911917618/",
+   "n": 286,
+   "chars": 3751,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912060152",
+   "cat": "chapter",
+   "date": "2026-06-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第287章 一张纸，盖三个印",
+    "zh": "不使意难平 · 第287章 一张纸，盖三个印"
+   },
+   "note": {
+    "en": "3,648 characters",
+    "zh": "3,648 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912060152/",
+   "n": 287,
+   "chars": 3648,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912060632",
+   "cat": "chapter",
+   "date": "2026-06-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第288章 一口锅，一碗烟火",
+    "zh": "不使意难平 · 第288章 一口锅，一碗烟火"
+   },
+   "note": {
+    "en": "3,813 characters",
+    "zh": "3,813 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912060632/",
+   "n": 288,
+   "chars": 3813,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912060401",
+   "cat": "chapter",
+   "date": "2026-06-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第289章 一铺炕",
+    "zh": "不使意难平 · 第289章 一铺炕"
+   },
+   "note": {
+    "en": "3,711 characters",
+    "zh": "3,711 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912060401/",
+   "n": 289,
+   "chars": 3711,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912061123",
+   "cat": "chapter",
+   "date": "2026-06-22",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第290章 回归",
+    "zh": "不使意难平 · 第290章 回归"
+   },
+   "note": {
+    "en": "3,757 characters",
+    "zh": "3,757 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912061123/",
+   "n": 290,
+   "chars": 3757,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912219342",
+   "cat": "chapter",
+   "date": "2026-06-23",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第291章 轮回空间",
+    "zh": "不使意难平 · 第291章 轮回空间"
+   },
+   "note": {
+    "en": "4,235 characters",
+    "zh": "4,235 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912219342/",
+   "n": 291,
+   "chars": 4235,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912383567",
+   "cat": "chapter",
+   "date": "2026-06-24",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第292章 脚下的地，忽然空了",
+    "zh": "不使意难平 · 第292章 脚下的地，忽然空了"
+   },
+   "note": {
+    "en": "3,928 characters",
+    "zh": "3,928 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912383567/",
+   "n": 292,
+   "chars": 3928,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912630766",
+   "cat": "chapter",
+   "date": "2026-06-25",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第293章 原来后面，还排着六座山",
+    "zh": "不使意难平 · 第293章 原来后面，还排着六座山"
+   },
+   "note": {
+    "en": "3,936 characters",
+    "zh": "3,936 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912630766/",
+   "n": 293,
+   "chars": 3936,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-912829892",
+   "cat": "chapter",
+   "date": "2026-06-26",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第294章 纸上的人，会不会疼",
+    "zh": "不使意难平 · 第294章 纸上的人，会不会疼"
+   },
+   "note": {
+    "en": "3,952 characters",
+    "zh": "3,952 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/912829892/",
+   "n": 294,
+   "chars": 3952,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913079023",
+   "cat": "chapter",
+   "date": "2026-06-27",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第295章 桃源谷外，两把刀照了个面",
+    "zh": "不使意难平 · 第295章 桃源谷外，两把刀照了个面"
+   },
+   "note": {
+    "en": "3,391 characters",
+    "zh": "3,391 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913079023/",
+   "n": 295,
+   "chars": 3391,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913152015",
+   "cat": "chapter",
+   "date": "2026-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第296章 一碗汤，他终究喝下去",
+    "zh": "不使意难平 · 第296章 一碗汤，他终究喝下去"
+   },
+   "note": {
+    "en": "3,866 characters",
+    "zh": "3,866 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913152015/",
+   "n": 296,
+   "chars": 3866,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913153152",
+   "cat": "chapter",
+   "date": "2026-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第297章 她写字，他在旁边添乱",
+    "zh": "不使意难平 · 第297章 她写字，他在旁边添乱"
+   },
+   "note": {
+    "en": "3,763 characters",
+    "zh": "3,763 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913153152/",
+   "n": 297,
+   "chars": 3763,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913161682",
+   "cat": "chapter",
+   "date": "2026-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第298章 那声哥哥，跨了两方天地",
+    "zh": "不使意难平 · 第298章 那声哥哥，跨了两方天地"
+   },
+   "note": {
+    "en": "3,613 characters",
+    "zh": "3,613 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913161682/",
+   "n": 298,
+   "chars": 3613,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913163087",
+   "cat": "chapter",
+   "date": "2026-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第299章 怼遍天地，独怵这一身红",
+    "zh": "不使意难平 · 第299章 怼遍天地，独怵这一身红"
+   },
+   "note": {
+    "en": "3,585 characters",
+    "zh": "3,585 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913163087/",
+   "n": 299,
+   "chars": 3585,
+   "src": "qidian"
+  },
+  {
+   "id": "chapter-913172376",
+   "cat": "chapter",
+   "date": "2026-06-28",
+   "w": 1,
+   "title": {
+    "en": "Let No Regrets Remain · 第300章 如果故事，停在这一页",
+    "zh": "不使意难平 · 第300章 如果故事，停在这一页"
+   },
+   "note": {
+    "en": "4,013 characters",
+    "zh": "4,013 字"
+   },
+   "url": "https://www.qidian.com/chapter/1040689941/913172376/",
+   "n": 300,
+   "chars": 4013,
+   "src": "qidian"
+  },
+  {
+   "id": "film-huoqubing",
+   "cat": "film",
+   "date": "2026-07-22",
+   "w": 3,
+   "cover": "huoqubing",
+   "title": {
+    "en": "Huo Qubing — A Portrait",
+    "zh": "霍去病传"
+   },
+   "url": "https://youtu.be/1JIO725MJYI",
+   "url_zh": "https://www.bilibili.com/video/BV1m9g669EGh/",
+   "src": "manual"
+  },
+  {
+   "id": "project-hongyi",
+   "cat": "project",
+   "date": "2026-07-28",
+   "w": 3,
+   "title": {
+    "en": "Hongyi 宏依 — AI music films for everyday stories",
+    "zh": "宏依 Hongyi — AI 音乐微电影公益计划"
+   },
+   "url": "https://hongyi.ai/",
+   "src": "manual"
+  },
+  {
+   "id": "film-daiyu",
+   "cat": "film",
+   "date": "2026-07-31",
+   "w": 3,
+   "cover": "daiyu",
+   "title": {
+    "en": "Daiyu — A Portrait",
+    "zh": "黛玉传"
+   },
+   "url": "https://youtu.be/2wY-5y7lIKU",
+   "url_zh": "https://www.bilibili.com/video/BV1pEGT64EzJ/",
+   "src": "manual"
+  },
+  {
+   "id": "film-zhaoyun",
+   "cat": "film",
+   "date": "2026-08-02",
+   "w": 3,
+   "cover": "zhaoyun",
+   "title": {
+    "en": "Zhao Yun — A Portrait",
+    "zh": "赵云传"
+   },
+   "url": "https://youtu.be/r4x5oedfW9c",
+   "url_zh": "https://www.bilibili.com/video/BV1mF3Q6WEQv/",
+   "src": "manual"
+  },
+  {
+   "id": "film-wuzetian",
+   "cat": "film",
+   "date": "2026-08-13",
+   "w": 3,
+   "cover": "wuzetian",
+   "title": {
+    "en": "Wu Zetian — A Portrait",
+    "zh": "武则天传"
+   },
+   "url": "https://youtu.be/kxuHc0lTjbU",
+   "url_zh": "https://www.bilibili.com/video/BV1HygT6QEpD/",
+   "src": "manual"
+  },
+  {
+   "id": "film-back-to-1981",
+   "cat": "film",
+   "date": "2026-08-21",
+   "w": 3,
+   "cover": "back1981",
+   "title": {
+    "en": "Back to 1981",
+    "zh": "回到1981"
+   },
+   "note": {
+    "en": "Nominee, Best Music Video, LAAIMPA (Sep 2026)",
+    "zh": "LAAIMPA 最佳音乐影片提名（2026 年 9 月）"
+   },
+   "url": "https://youtu.be/gylbKZEazTo",
+   "url_zh": "https://www.bilibili.com/video/BV15j866UEsv/",
+   "src": "manual"
+  },
+  {
+   "id": "film-small-town",
+   "cat": "film",
+   "date": "2026-08-22",
+   "w": 3,
+   "cover": "smalltown",
+   "title": {
+    "en": "A Life of a Small-Town Test-Taker",
+    "zh": "小镇做题家的一生"
+   },
+   "url": "https://youtu.be/PHQs__KvTAA",
+   "src": "manual"
+  },
+  {
+   "id": "film-yuefei",
+   "cat": "film",
+   "date": "2026-08-23",
+   "w": 3,
+   "cover": "yuefei",
+   "title": {
+    "en": "Yue Fei — Twelve Gold Tablets",
+    "zh": "岳飞传"
+   },
+   "url": "https://youtu.be/tlzJYRkJKdo",
+   "url_zh": "https://www.bilibili.com/video/BV1Xy8a64E62/",
+   "src": "manual"
+  },
+  {
+   "id": "film-xiaoyaoyou",
+   "cat": "film",
+   "date": "2026-08-27",
+   "w": 3,
+   "cover": "xiaoyaoyou",
+   "title": {
+    "en": "Free and Easy Wandering",
+    "zh": "逍遥游"
+   },
+   "url": "https://youtu.be/bRb80qnxhEk",
+   "url_zh": "https://www.bilibili.com/video/BV1Fztc6CE1m/",
+   "src": "manual"
+  },
+  {
+   "id": "film-entj-intp",
+   "cat": "film",
+   "date": "2026-08-28",
+   "w": 3,
+   "cover": "entj",
+   "title": {
+    "en": "When an ENTJ Met an INTP",
+    "zh": "ENTJ 男遇见 INTP 女"
+   },
+   "url": "https://youtu.be/Oj8QEYrqFlc",
+   "url_zh": "https://www.bilibili.com/video/BV1jKtW6eETX/",
+   "src": "manual"
+  },
+  {
+   "id": "code-free-and-easy-wandering",
+   "cat": "code",
+   "date": "2026-08-28",
+   "w": 1,
+   "title": {
+    "en": "free-and-easy-wandering",
+    "zh": "free-and-easy-wandering"
+   },
+   "note": {
+    "en": "Scripts, prompts and keyframes behind the film Free and Easy Wandering",
+    "zh": "影片《逍遥游》背后的脚本、提示词与关键帧"
+   },
+   "url": "https://github.com/Barack-Liu/free-and-easy-wandering",
+   "src": "github"
+  },
+  {
+   "id": "film-qiexuxing",
+   "cat": "film",
+   "date": "2026-09-03",
+   "w": 3,
+   "cover": "qiexuxing",
+   "title": {
+    "en": "Walk On Slowly — Travel Stories EP2",
+    "zh": "且徐行 · 旅途故事 EP2"
+   },
+   "url": "https://youtu.be/ltKtKEAfDlA",
+   "url_zh": "https://www.bilibili.com/video/BV1gVt96GEpy/",
+   "src": "manual"
+  },
+  {
+   "id": "film-shanshui",
+   "cat": "film",
+   "date": "2026-09-11",
+   "w": 3,
+   "cover": "shanshui",
+   "title": {
+    "en": "Somewhere with Mountains and Water — Travel Stories EP3",
+    "zh": "有山有水的地方 · 旅途故事 EP3"
+   },
+   "url": "https://youtu.be/WPh3qzUfEQs",
+   "url_zh": "https://www.bilibili.com/video/BV1hHYm6uEDB/",
+   "src": "manual"
+  },
+  {
+   "id": "film-kanjian",
+   "cat": "film",
+   "date": "2026-09-11",
+   "w": 3,
+   "cover": "kanjian",
+   "title": {
+    "en": "Beyond What I Saw — Travel Stories EP4",
+    "zh": "看见之外 · 旅途故事 EP4"
+   },
+   "url": "https://youtu.be/5-m3iyP7mVo",
+   "url_zh": "https://www.bilibili.com/video/BV1pzYm6oEV2/",
+   "src": "manual"
+  },
+  {
+   "id": "film-next-fire",
+   "cat": "film",
+   "date": "2026-09-17",
+   "w": 3,
+   "cover": "nextfire",
+   "title": {
+    "en": "The Next Fire",
+    "zh": "下一团火"
+   },
+   "url": "https://youtu.be/ry8KVjPHCiY",
+   "url_zh": "https://www.bilibili.com/video/BV17Le26EELi/",
+   "src": "manual"
+  },
+  {
+   "id": "film-mulan",
+   "cat": "film",
+   "date": "2026-09-25",
+   "w": 3,
+   "cover": "mulan",
+   "title": {
+    "en": "Hua Mulan — A Ballad Portrait",
+    "zh": "花木兰传"
+   },
+   "url": "https://youtu.be/CBe5NubwtSE",
+   "url_zh": "https://www.bilibili.com/video/BV1DuhS6MEWX/",
+   "src": "manual"
+  },
+  {
+   "id": "blooper-1-mulan",
+   "cat": "blooper",
+   "date": "2026-09-29",
+   "w": 1,
+   "title": {
+    "en": "Bloopers Vol. 1 — how the AI failed Mulan",
+    "zh": "【花絮】AI 拍花木兰翻车锦集（一）"
+   },
+   "url": "https://youtu.be/_Zw3dz1sSEY",
+   "url_zh": "https://www.bilibili.com/video/BV1JKan6rEqv/",
+   "src": "manual"
+  },
+  {
+   "id": "blooper-2-yuefei",
+   "cat": "blooper",
+   "date": "2026-09-30",
+   "w": 1,
+   "title": {
+    "en": "Bloopers Vol. 2 — Yue Fei",
+    "zh": "【花絮】AI 拍岳飞翻车锦集（二）"
+   },
+   "url": "https://youtu.be/WtpR-GJyeNs",
+   "url_zh": "https://www.bilibili.com/video/BV1aCa96sEsZ/",
+   "src": "manual"
+  },
+  {
+   "id": "blooper-3-wuzetian",
+   "cat": "blooper",
+   "date": "2026-09-30",
+   "w": 1,
+   "title": {
+    "en": "Bloopers Vol. 3 — Wu Zetian",
+    "zh": "【花絮】AI 拍武则天翻车锦集（三）"
+   },
+   "url": "https://youtu.be/e45FlJt7V7k",
+   "url_zh": "https://www.bilibili.com/video/BV1U3a96jEcQ/",
+   "src": "manual"
+  },
+  {
+   "id": "blooper-4-zhaoyun",
+   "cat": "blooper",
+   "date": "2026-09-30",
+   "w": 1,
+   "title": {
+    "en": "Bloopers Vol. 4 — Zhao Yun",
+    "zh": "【花絮】AI 拍赵云翻车锦集（四）"
+   },
+   "url": "https://youtu.be/RoBn5fzcdfs",
+   "url_zh": "https://www.bilibili.com/video/BV1bZaZ6hEDD/",
+   "src": "manual"
+  }
+ ]
+}

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barack Liu - 个人网站 | Barack Liu - Personal Website</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    
+    <!-- Modern CSS Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/modern-styles.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- barackliu.org archive notice: begin --><meta name="robots" content="noindex, follow"><!-- barackliu.org archive notice: end -->
+</head>
+
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text" data-zh="brand-text" data-en="brand-text"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-zh="nav-experience" data-en="nav-experience"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" data-zh="nav-education" data-en="nav-education"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications" data-zh="nav-publications" data-en="nav-publications"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" data-zh="nav-portfolio" data-en="nav-portfolio"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-zh="nav-contact" data-en="nav-contact"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="name" data-zh="hero-name" data-en="hero-name"></span>
+                        </h1>
+                        <p class="hero-subtitle" data-zh="hero-subtitle" data-en="hero-subtitle"></p>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-primary btn-lg">
+                                <span data-zh="hero-learn-more" data-en="hero-learn-more"></span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                <span data-zh="hero-contact" data-en="hero-contact"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-experience" data-en="section-experience"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-current-title" data-en="experience-current-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-current-company" data-en="experience-current-company"></span>
+                                    <span class="work-period" data-zh="experience-current-period" data-en="experience-current-period"></span>
+                                </div>
+                                <p data-zh="experience-current-text" data-en="experience-current-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-microsoft-title" data-en="experience-microsoft-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-microsoft-company" data-en="experience-microsoft-company"></span>
+                                    <span class="work-period" data-zh="experience-microsoft-period" data-en="experience-microsoft-period"></span>
+                                </div>
+                                <p data-zh="experience-microsoft-text" data-en="experience-microsoft-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-tencent-title" data-en="experience-tencent-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-tencent-company" data-en="experience-tencent-company"></span>
+                                    <span class="work-period" data-zh="experience-tencent-period" data-en="experience-tencent-period"></span>
+                                </div>
+                                <p data-zh="experience-tencent-text" data-en="experience-tencent-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="experience-entrepreneurship-title" data-en="experience-entrepreneurship-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="experience-entrepreneurship-company" data-en="experience-entrepreneurship-company"></span>
+                                    <span class="work-period" data-zh="experience-entrepreneurship-period" data-en="experience-entrepreneurship-period"></span>
+                                </div>
+                                <p data-zh="experience-entrepreneurship-text" data-en="experience-entrepreneurship-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-education" data-en="section-education"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-uw-title" data-en="education-uw-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-uw-institution" data-en="education-uw-institution"></span>
+                                    <span class="work-period" data-zh="education-uw-period" data-en="education-uw-period"></span>
+                                </div>
+                                <p data-zh="education-uw-details" data-en="education-uw-details"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-sjtu-title" data-en="education-sjtu-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-sjtu-institution" data-en="education-sjtu-institution"></span>
+                                    <span class="work-period" data-zh="education-sjtu-period" data-en="education-sjtu-period"></span>
+                                </div>
+                                <p data-zh="education-sjtu-details" data-en="education-sjtu-details"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="education-hust-title" data-en="education-hust-title"></h3>
+                                <div class="experience-meta">
+                                    <span class="company-name" data-zh="education-hust-institution" data-en="education-hust-institution"></span>
+                                    <span class="work-period" data-zh="education-hust-period" data-en="education-hust-period"></span>
+                                </div>
+                                <p data-zh="education-hust-details" data-en="education-hust-details"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Patents Section -->
+    <section id="publications" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center" data-zh="section-publications" data-en="section-publications"></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="publication-blockchain" data-en="publication-blockchain"></h3>
+                                <p data-zh="publication-blockchain-text" data-en="publication-blockchain-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="patent-barrage-review" data-en="patent-barrage-review"></h3>
+                                <p data-zh="patent-barrage-review-text" data-en="patent-barrage-review-text"></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3 data-zh="patent-barrage-distribution" data-en="patent-barrage-distribution"></h3>
+                                <p data-zh="patent-barrage-distribution-text" data-en="patent-barrage-distribution-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-zh="section-portfolio" data-en="section-portfolio"></h2>
+                    <p class="section-subtitle" data-zh="portfolio-subtitle" data-en="portfolio-subtitle"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item" data-img="img/01-p.jpg" data-title="柯南">
+                            <img src="img/01-p.jpg" alt="柯南" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="柯南" data-en="Conan"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/02-p.jpg" data-title="灰原哀">
+                            <img src="img/02-p.jpg" alt="灰原哀" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="灰原哀" data-en="Ai Haibara"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/03-p.jpg" data-title="艾斯">
+                            <img src="img/03-p.jpg" alt="艾斯" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="艾斯" data-en="Ace"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/04-p.jpg" data-title="游戏王">
+                            <img src="img/04-p.jpg" alt="游戏王" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="游戏王" data-en="Yu-Gi-Oh!"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/05-p.jpg" data-title="爱因斯坦">
+                            <img src="img/05-p.jpg" alt="爱因斯坦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="爱因斯坦" data-en="Einstein"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/06-p.jpg" data-title="犬夜叉">
+                            <img src="img/06-p.jpg" alt="犬夜叉" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="犬夜叉" data-en="Inuyasha"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/07-p.jpg" data-title="疯狂动物城">
+                            <img src="img/07-p.jpg" alt="疯狂动物城" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="疯狂动物城" data-en="Zootopia"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/08-p.jpg" data-title="不知火舞">
+                            <img src="img/08-p.jpg" alt="不知火舞" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="不知火舞" data-en="Mai Shiranui"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/09-p.jpg" data-title="蛇姬">
+                            <img src="img/09-p.jpg" alt="蛇姬" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="蛇姬" data-en="Boa Hancock"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/10-p.jpg" data-title="你的名字">
+                            <img src="img/10-p.jpg" alt="你的名字" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="你的名字" data-en="Your Name"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/11-p.jpg" data-title="周恩来">
+                            <img src="img/11-p.jpg" alt="Zhou Enlai" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="周恩来" data-en="Zhou Enlai"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/12-p.jpg" data-title="罗宾">
+                            <img src="img/12-p.jpg" alt="罗宾" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="罗宾" data-en="Robin"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/13-p.jpg" data-title="乔巴">
+                            <img src="img/13-p.jpg" alt="乔巴" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="乔巴" data-en="Chopper"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/14-p.jpg" data-title="东海龙王">
+                            <img src="img/14-p.jpg" alt="东海龙王" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="东海龙王" data-en="Dragon King"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/15-p.jpg" data-title="索隆">
+                            <img src="img/15-p.jpg" alt="索隆" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="索隆" data-en="Zoro"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/16-p.jpg" data-title="田园风光">
+                            <img src="img/16-p.jpg" alt="田园风光" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="田园风光" data-en="Rural Landscape"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/17-p.jpg" data-title="香吉士">
+                            <img src="img/17-p.jpg" alt="香吉士" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="香吉士" data-en="Sanji"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/18-p.jpg" data-title="我要读书">
+                            <img src="img/18-p.jpg" alt="我要读书" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="我要读书" data-en="I Want to Study"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/19-p.jpg" data-title="游园惊梦">
+                            <img src="img/19-p.jpg" alt="游园惊梦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="游园惊梦" data-en="Dream in the Garden"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/20-p.jpg" data-title="王下七武海">
+                            <img src="img/20-p.jpg" alt="王下七武海" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="王下七武海" data-en="Seven Warlords"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/21-p.jpg" data-title="索隆">
+                            <img src="img/21-p.jpg" alt="索隆" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="索隆" data-en="Zoro"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/22-p.jpg" data-title="佚名">
+                            <img src="img/22-p.jpg" alt="佚名" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="佚名" data-en="Anonymous"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/23-p.jpg" data-title="草薙京">
+                            <img src="img/23-p.jpg" alt="草薙京" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="草薙京" data-en="Kyo Kusanagi"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/24-p.jpg" data-title="哆啦A梦">
+                            <img src="img/24-p.jpg" alt="哆啦A梦" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="哆啦A梦" data-en="Doraemon"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/25-p.jpg" data-title="佚名">
+                            <img src="img/25-p.jpg" alt="佚名" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="佚名" data-en="Anonymous"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/240810-海贼王-路飞.png" data-title="海贼王-路飞">
+                            <img src="img/240810-海贼王-路飞.png" alt="海贼王-路飞" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="海贼王-路飞" data-en="One Piece - Luffy"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/180325-蜡笔小新.jpg" data-title="蜡笔小新">
+                            <img src="img/180325-蜡笔小新.jpg" alt="蜡笔小新" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="蜡笔小新" data-en="Crayon Shin-chan"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200321-速写-凯旋门-Final.jpg" data-title="速写-凯旋门">
+                            <img src="img/200321-速写-凯旋门-Final.jpg" alt="速写-凯旋门" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-凯旋门" data-en="Sketch - Arc de Triomphe"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/190417-神乐.jpg" data-title="神乐">
+                            <img src="img/190417-神乐.jpg" alt="神乐" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="神乐" data-en="Kagura"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200320-速写-东大门-Final.jpg" data-title="速写-东大门">
+                            <img src="img/200320-速写-东大门-Final.jpg" alt="速写-东大门" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-东大门" data-en="Sketch - Dongdaemun"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/180527-皮卡丘.jpg" data-title="皮卡丘">
+                            <img src="img/180527-皮卡丘.jpg" alt="皮卡丘" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="皮卡丘" data-en="Pikachu"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200322-速写-电信群楼-Final.jpg" data-title="速写-电信群楼">
+                            <img src="img/200322-速写-电信群楼-Final.jpg" alt="速写-电信群楼" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-电信群楼" data-en="Sketch - Telecom Building"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200211-怪盗基德-Final.jpg" data-title="怪盗基德">
+                            <img src="img/200211-怪盗基德-Final.jpg" alt="怪盗基德" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="怪盗基德" data-en="Kaitou Kid"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/200323-速写-I LOVE SJTU-Final.jpg" data-title="速写-I LOVE SJTU">
+                            <img src="img/200323-速写-I LOVE SJTU-Final.jpg" alt="速写-I LOVE SJTU" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="速写-I LOVE SJTU" data-en="Sketch - I LOVE SJTU"></h4>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-img="img/190422-やつがれを見たミ!!.jpg" data-title="やつがれを見たミ!!">
+                            <img src="img/190422-やつがれを見たミ!!.jpg" alt="やつがれを見たミ!!" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4 data-zh="やつがれを見たミ!!" data-en="やつがれを見たミ!!"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h3 id="modalTitle"></h3>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-zh="section-contact" data-en="section-contact"></h2>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                                <div class="contact-card">
+                                    <i class="fas fa-envelope"></i>
+                                    <h4 data-zh="contact-email" data-en="contact-email"></h4>
+                                    <p>yanghongliu2013@outlook.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <h3 data-zh="social-media" data-en="social-media"></h3>
+                        <div class="social-grid">
+                            <a href="https://www.linkedin.com/in/barackliu/" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.goodreads.com/user/show/112166097-barack-liu" target="_blank" class="social-link goodreads">
+                                <i class="fas fa-book-open"></i>
+                                <span>GoodReads</span>
+                            </a>
+                            <a href="https://www.douban.com/people/208732375/?_i=4676572TobW03e,46816786PirZx8" target="_blank" class="social-link douban">
+                                <i class="fas fa-star"></i>
+                                <span data-zh="豆瓣" data-en="Douban"></span>
+                            </a>
+                            <a href="https://hongyi.ai/" target="_blank" class="social-link ai-product">
+                                <i class="fas fa-robot"></i>
+                                <span data-zh="AI产品名：" data-en="AI Product: "></span><span class="product-name" data-zh="宏依" data-en="Hongyi.ai"></span>
+                            </a>
+                            <a href="https://space.bilibili.com/428266039/lists/4654943?type=series" target="_blank" class="social-link bilibili">
+                                <i class="fab fa-bilibili"></i>
+                                <span>Bilibili</span>
+                            </a>
+                            <a href="https://www.qidian.com/book/1040689941/" target="_blank" class="social-link qidian">
+                                <i class="fas fa-book"></i>
+                                <span data-zh="起点" data-en="Qidian"></span>
+                            </a>
+                            <a href="https://www.youtube.com/playlist?list=PL70VRVU1GJLX_w-1dKT4lBBtEmmU2vZva" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 <span data-zh="brand-text" data-en="brand-text"></span>. <span data-zh="footer-copyright" data-en="footer-copyright"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/modern-scripts.js?v=1.1"></script>
+<!-- barackliu.org archive notice: begin --><a href="/" data-archive-pill style="position:fixed;left:12px;bottom:12px;z-index:2147483647;display:block;padding:8px 11px;background:#f4f5f2;color:#1a1d21;border:1.5px solid #1a1d21;font:500 12px/1.45 ui-monospace,Menlo,monospace;text-decoration:none;letter-spacing:.02em;box-shadow:3px 3px 0 #c63d2a">ARCHIVE · 2025-08<br>2025 年 8 月版存档<br><b style="color:#c63d2a">→ 新版 / new site</b></a><!-- barackliu.org archive notice: end -->
+</body>
+</html>

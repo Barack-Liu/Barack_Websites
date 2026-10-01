@@ -1,0 +1,628 @@
+{
+  "_readme": "Hand-curated public works for the Rings. Auto-fetched sources (Qidian chapters, Bilibili devlog, GitHub repos) are merged in by fetch_works.mjs. Every item must point to something a stranger can open. Item fields: id, cat, date (YYYY-MM-DD), title {en, zh}, url (EN page), url_zh (optional), note {en, zh} (optional), w (1 small, 2 medium, 3 large). exclude_ids: auto-fetched items to leave out. github_allow: the only GitHub repos that may appear (new repos stay off until added here). overrides: replace title/note of an auto-fetched item (null removes the note).",
+  "items": [
+    {
+      "id": "project-vdanmu",
+      "cat": "project",
+      "date": "2014-10-01",
+      "w": 3,
+      "title": {
+        "en": "Vdanmu 微弹幕 — co-founded (product site, archived)",
+        "zh": "微弹幕 Vdanmu — 联合创办（官网存档）"
+      },
+      "url": "https://web.archive.org/web/20160825110045/http://www.vdanmu.com:80/"
+    },
+    {
+      "id": "project-hongyi",
+      "cat": "project",
+      "date": "2026-07-28",
+      "w": 3,
+      "title": {
+        "en": "Hongyi 宏依 — AI music films for everyday stories",
+        "zh": "宏依 Hongyi — AI 音乐微电影公益计划"
+      },
+      "url": "https://hongyi.ai/"
+    },
+    {
+      "id": "research-patent-089",
+      "cat": "research",
+      "date": "2018-02-23",
+      "w": 2,
+      "title": {
+        "en": "Patent CN106412089B — danmaku message processing with moderation and keyword filtering",
+        "zh": "发明专利 CN106412089B · 一种带审核机制与关键字过滤的弹幕消息处理方法"
+      },
+      "url": "https://patents.google.com/patent/CN106412089B/zh"
+    },
+    {
+      "id": "research-patent-485",
+      "cat": "research",
+      "date": "2018-04-10",
+      "w": 2,
+      "title": {
+        "en": "Patent CN106454485B — lane allocation for variable-speed danmaku",
+        "zh": "发明专利 CN106454485B · 一种速度可变弹幕的弹道分配方法"
+      },
+      "url": "https://patents.google.com/patent/CN106454485B/zh"
+    },
+    {
+      "id": "research-trustcom-2019",
+      "cat": "research",
+      "date": "2019-08-05",
+      "w": 2,
+      "title": {
+        "en": "A Secure and Practical Blockchain Scheme for IoT — IEEE TrustCom 2019 (first author)",
+        "zh": "A Secure and Practical Blockchain Scheme for IoT · IEEE TrustCom 2019（第一作者）"
+      },
+      "url": "https://doi.org/10.1109/TrustCom/BigDataSE.2019.00078"
+    },
+    {
+      "id": "research-nss-2019",
+      "cat": "research",
+      "date": "2019-12-01",
+      "w": 2,
+      "title": {
+        "en": "A Practical Dynamic Enhanced BFT Protocol — NSS 2019",
+        "zh": "A Practical Dynamic Enhanced BFT Protocol · NSS 2019"
+      },
+      "url": "https://doi.org/10.1007/978-3-030-36938-5_17"
+    },
+    {
+      "id": "research-thesis-2024",
+      "cat": "research",
+      "date": "2024-08-16",
+      "w": 2,
+      "title": {
+        "en": "M.S. thesis — A Comprehensive Categorization Framework for Interactive Fiction Games",
+        "zh": "硕士论文 · A Comprehensive Categorization Framework for Interactive Fiction Games"
+      },
+      "url": "https://hdl.handle.net/1773/52459"
+    },
+    {
+      "id": "code-css452-v1",
+      "cat": "code",
+      "date": "2023-03-15",
+      "w": 1,
+      "title": {
+        "en": "CSS 452 game demo — dialogue system, v1.0 (playable)",
+        "zh": "CSS 452 游戏 Demo · 对话系统 v1.0（可试玩）"
+      },
+      "url": "https://barackliu.org/452_Version_1.0/"
+    },
+    {
+      "id": "code-css452-v2",
+      "cat": "code",
+      "date": "2023-03-15",
+      "w": 1,
+      "title": {
+        "en": "CSS 452 game demo — dialogue system, v2.0 (playable)",
+        "zh": "CSS 452 游戏 Demo · 对话系统 v2.0（可试玩）"
+      },
+      "url": "https://barackliu.org/452_Version_2.0/"
+    },
+    {
+      "id": "code-css553",
+      "cat": "code",
+      "date": "2023-05-27",
+      "w": 1,
+      "title": {
+        "en": "CSS 553 demo game — The Adventures of Dye (playable)",
+        "zh": "CSS 553 Demo 游戏 · The Adventures of Dye（可试玩）"
+      },
+      "url": "https://barackliu.org/CSS-553/"
+    },
+    {
+      "id": "film-huoqubing",
+      "cat": "film",
+      "date": "2026-07-22",
+      "w": 3,
+      "cover": "huoqubing",
+      "title": {
+        "en": "Huo Qubing — A Portrait",
+        "zh": "霍去病传"
+      },
+      "url": "https://youtu.be/1JIO725MJYI",
+      "url_zh": "https://www.bilibili.com/video/BV1m9g669EGh/"
+    },
+    {
+      "id": "film-daiyu",
+      "cat": "film",
+      "date": "2026-07-31",
+      "w": 3,
+      "cover": "daiyu",
+      "title": {
+        "en": "Daiyu — A Portrait",
+        "zh": "黛玉传"
+      },
+      "url": "https://youtu.be/2wY-5y7lIKU",
+      "url_zh": "https://www.bilibili.com/video/BV1pEGT64EzJ/"
+    },
+    {
+      "id": "film-zhaoyun",
+      "cat": "film",
+      "date": "2026-08-02",
+      "w": 3,
+      "cover": "zhaoyun",
+      "title": {
+        "en": "Zhao Yun — A Portrait",
+        "zh": "赵云传"
+      },
+      "url": "https://youtu.be/r4x5oedfW9c",
+      "url_zh": "https://www.bilibili.com/video/BV1mF3Q6WEQv/"
+    },
+    {
+      "id": "film-wuzetian",
+      "cat": "film",
+      "date": "2026-08-13",
+      "w": 3,
+      "cover": "wuzetian",
+      "title": {
+        "en": "Wu Zetian — A Portrait",
+        "zh": "武则天传"
+      },
+      "url": "https://youtu.be/kxuHc0lTjbU",
+      "url_zh": "https://www.bilibili.com/video/BV1HygT6QEpD/"
+    },
+    {
+      "id": "film-back-to-1981",
+      "cat": "film",
+      "date": "2026-08-21",
+      "w": 3,
+      "cover": "back1981",
+      "title": {
+        "en": "Back to 1981",
+        "zh": "回到1981"
+      },
+      "note": {
+        "en": "Nominee, Best Music Video, LAAIMPA (Sep 2026)",
+        "zh": "LAAIMPA 最佳音乐影片提名（2026 年 9 月）"
+      },
+      "url": "https://youtu.be/gylbKZEazTo",
+      "url_zh": "https://www.bilibili.com/video/BV15j866UEsv/"
+    },
+    {
+      "id": "film-small-town",
+      "cat": "film",
+      "date": "2026-08-22",
+      "w": 3,
+      "cover": "smalltown",
+      "title": {
+        "en": "A Life of a Small-Town Test-Taker",
+        "zh": "小镇做题家的一生"
+      },
+      "url": "https://youtu.be/PHQs__KvTAA"
+    },
+    {
+      "id": "film-yuefei",
+      "cat": "film",
+      "date": "2026-08-23",
+      "w": 3,
+      "cover": "yuefei",
+      "title": {
+        "en": "Yue Fei — Twelve Gold Tablets",
+        "zh": "岳飞传"
+      },
+      "url": "https://youtu.be/tlzJYRkJKdo",
+      "url_zh": "https://www.bilibili.com/video/BV1Xy8a64E62/"
+    },
+    {
+      "id": "film-xiaoyaoyou",
+      "cat": "film",
+      "date": "2026-08-27",
+      "w": 3,
+      "cover": "xiaoyaoyou",
+      "title": {
+        "en": "Free and Easy Wandering",
+        "zh": "逍遥游"
+      },
+      "url": "https://youtu.be/bRb80qnxhEk",
+      "url_zh": "https://www.bilibili.com/video/BV1Fztc6CE1m/"
+    },
+    {
+      "id": "film-entj-intp",
+      "cat": "film",
+      "date": "2026-08-28",
+      "w": 3,
+      "cover": "entj",
+      "title": {
+        "en": "When an ENTJ Met an INTP",
+        "zh": "ENTJ 男遇见 INTP 女"
+      },
+      "url": "https://youtu.be/Oj8QEYrqFlc",
+      "url_zh": "https://www.bilibili.com/video/BV1jKtW6eETX/"
+    },
+    {
+      "id": "film-qiexuxing",
+      "cat": "film",
+      "date": "2026-09-03",
+      "w": 3,
+      "cover": "qiexuxing",
+      "title": {
+        "en": "Walk On Slowly — Travel Stories EP2",
+        "zh": "且徐行 · 旅途故事 EP2"
+      },
+      "url": "https://youtu.be/ltKtKEAfDlA",
+      "url_zh": "https://www.bilibili.com/video/BV1gVt96GEpy/"
+    },
+    {
+      "id": "film-shanshui",
+      "cat": "film",
+      "date": "2026-09-11",
+      "w": 3,
+      "cover": "shanshui",
+      "title": {
+        "en": "Somewhere with Mountains and Water — Travel Stories EP3",
+        "zh": "有山有水的地方 · 旅途故事 EP3"
+      },
+      "url": "https://youtu.be/WPh3qzUfEQs",
+      "url_zh": "https://www.bilibili.com/video/BV1hHYm6uEDB/"
+    },
+    {
+      "id": "film-kanjian",
+      "cat": "film",
+      "date": "2026-09-11",
+      "w": 3,
+      "cover": "kanjian",
+      "title": {
+        "en": "Beyond What I Saw — Travel Stories EP4",
+        "zh": "看见之外 · 旅途故事 EP4"
+      },
+      "url": "https://youtu.be/5-m3iyP7mVo",
+      "url_zh": "https://www.bilibili.com/video/BV1pzYm6oEV2/"
+    },
+    {
+      "id": "film-next-fire",
+      "cat": "film",
+      "date": "2026-09-17",
+      "w": 3,
+      "cover": "nextfire",
+      "title": {
+        "en": "The Next Fire",
+        "zh": "下一团火"
+      },
+      "url": "https://youtu.be/ry8KVjPHCiY",
+      "url_zh": "https://www.bilibili.com/video/BV17Le26EELi/"
+    },
+    {
+      "id": "film-mulan",
+      "cat": "film",
+      "date": "2026-09-25",
+      "w": 3,
+      "cover": "mulan",
+      "title": {
+        "en": "Hua Mulan — A Ballad Portrait",
+        "zh": "花木兰传"
+      },
+      "url": "https://youtu.be/CBe5NubwtSE",
+      "url_zh": "https://www.bilibili.com/video/BV1DuhS6MEWX/"
+    },
+    {
+      "id": "blooper-1-mulan",
+      "cat": "blooper",
+      "date": "2026-09-29",
+      "w": 1,
+      "title": {
+        "en": "Bloopers Vol. 1 — how the AI failed Mulan",
+        "zh": "【花絮】AI 拍花木兰翻车锦集（一）"
+      },
+      "url": "https://youtu.be/_Zw3dz1sSEY",
+      "url_zh": "https://www.bilibili.com/video/BV1JKan6rEqv/"
+    },
+    {
+      "id": "blooper-2-yuefei",
+      "cat": "blooper",
+      "date": "2026-09-30",
+      "w": 1,
+      "title": {
+        "en": "Bloopers Vol. 2 — Yue Fei",
+        "zh": "【花絮】AI 拍岳飞翻车锦集（二）"
+      },
+      "url": "https://youtu.be/WtpR-GJyeNs",
+      "url_zh": "https://www.bilibili.com/video/BV1aCa96sEsZ/"
+    },
+    {
+      "id": "blooper-3-wuzetian",
+      "cat": "blooper",
+      "date": "2026-09-30",
+      "w": 1,
+      "title": {
+        "en": "Bloopers Vol. 3 — Wu Zetian",
+        "zh": "【花絮】AI 拍武则天翻车锦集（三）"
+      },
+      "url": "https://youtu.be/e45FlJt7V7k",
+      "url_zh": "https://www.bilibili.com/video/BV1U3a96jEcQ/"
+    },
+    {
+      "id": "blooper-4-zhaoyun",
+      "cat": "blooper",
+      "date": "2026-09-30",
+      "w": 1,
+      "title": {
+        "en": "Bloopers Vol. 4 — Zhao Yun",
+        "zh": "【花絮】AI 拍赵云翻车锦集（四）"
+      },
+      "url": "https://youtu.be/RoBn5fzcdfs",
+      "url_zh": "https://www.bilibili.com/video/BV1bZaZ6hEDD/"
+    },
+    {
+      "id": "drawing-ace",
+      "cat": "drawing",
+      "date": "2017-07-15",
+      "w": 2,
+      "img": "ace",
+      "title": {
+        "en": "Ace — pencil, 3h45m",
+        "zh": "艾斯 · 铅笔 3 小时 45 分"
+      }
+    },
+    {
+      "id": "drawing-mai",
+      "cat": "drawing",
+      "date": "2017-08-19",
+      "w": 2,
+      "img": "mai",
+      "title": {
+        "en": "Mai Shiranui — pencil, 4h50m",
+        "zh": "不知火舞 · 铅笔 4 小时 50 分"
+      }
+    },
+    {
+      "id": "drawing-kyo",
+      "cat": "drawing",
+      "date": "2017-09-16",
+      "w": 2,
+      "img": "kyo",
+      "title": {
+        "en": "Kyo Kusanagi — pencil, 4h10m",
+        "zh": "草薙京 · 铅笔 4 小时 10 分"
+      }
+    },
+    {
+      "id": "drawing-inuyasha",
+      "cat": "drawing",
+      "date": "2017-09-23",
+      "w": 2,
+      "img": "inuyasha",
+      "title": {
+        "en": "Inuyasha — pencil, 4h25m",
+        "zh": "犬夜叉 · 铅笔 4 小时 25 分"
+      }
+    },
+    {
+      "id": "drawing-your-name",
+      "cat": "drawing",
+      "date": "2017-10-29",
+      "w": 2,
+      "img": "your-name",
+      "title": {
+        "en": "Your Name — pencil, 3h18m",
+        "zh": "你的名字 · 铅笔 3 小时 18 分"
+      }
+    },
+    {
+      "id": "drawing-yugioh",
+      "cat": "drawing",
+      "date": "2017-11-05",
+      "w": 2,
+      "img": "yugioh",
+      "title": {
+        "en": "Yu-Gi-Oh! — pencil, 3h03m",
+        "zh": "游戏王 · 铅笔 3 小时 03 分"
+      }
+    },
+    {
+      "id": "drawing-shinchan",
+      "cat": "drawing",
+      "date": "2018-03-25",
+      "w": 2,
+      "img": "shinchan",
+      "title": {
+        "en": "Crayon Shin-chan — pencil",
+        "zh": "蜡笔小新 · 铅笔"
+      }
+    },
+    {
+      "id": "drawing-pikachu",
+      "cat": "drawing",
+      "date": "2018-05-27",
+      "w": 2,
+      "img": "pikachu",
+      "title": {
+        "en": "Pikachu — pencil, 60 min",
+        "zh": "皮卡丘 · 铅笔 60 分钟"
+      }
+    },
+    {
+      "id": "drawing-kagura",
+      "cat": "drawing",
+      "date": "2019-04-17",
+      "w": 2,
+      "img": "kagura",
+      "title": {
+        "en": "Kagura — pencil",
+        "zh": "神乐 · 铅笔"
+      }
+    },
+    {
+      "id": "drawing-yatsugare",
+      "cat": "drawing",
+      "date": "2019-04-22",
+      "w": 2,
+      "img": "yatsugare",
+      "title": {
+        "en": "やつがれを見たミ!! — pencil, 120 min",
+        "zh": "やつがれを見たミ!! · 铅笔 120 分钟"
+      }
+    },
+    {
+      "id": "drawing-kid",
+      "cat": "drawing",
+      "date": "2020-02-11",
+      "w": 2,
+      "img": "kid",
+      "title": {
+        "en": "Kaitou Kid — pencil",
+        "zh": "怪盗基德 · 铅笔"
+      }
+    },
+    {
+      "id": "drawing-sjtu-east-gate",
+      "cat": "drawing",
+      "date": "2020-03-20",
+      "w": 2,
+      "img": "sjtu-east-gate",
+      "title": {
+        "en": "Sketch — SJTU East Gate, Xuhui campus",
+        "zh": "速写 · 交大徐汇校区东大门"
+      }
+    },
+    {
+      "id": "drawing-sjtu-minhang-gate",
+      "cat": "drawing",
+      "date": "2020-03-21",
+      "w": 2,
+      "img": "sjtu-minhang-gate",
+      "title": {
+        "en": "Sketch — SJTU Minhang campus gate",
+        "zh": "速写 · 交大闵行校区「凯旋门」"
+      }
+    },
+    {
+      "id": "drawing-sjtu-seiee",
+      "cat": "drawing",
+      "date": "2020-03-22",
+      "w": 2,
+      "img": "sjtu-seiee",
+      "title": {
+        "en": "Sketch — SJTU SEIEE buildings",
+        "zh": "速写 · 交大电信群楼"
+      }
+    },
+    {
+      "id": "drawing-i-love-sjtu",
+      "cat": "drawing",
+      "date": "2020-03-23",
+      "w": 2,
+      "img": "i-love-sjtu",
+      "title": {
+        "en": "Sketch — I LOVE SJTU",
+        "zh": "速写 · I LOVE SJTU"
+      }
+    },
+    {
+      "id": "drawing-luffy",
+      "cat": "drawing",
+      "date": "2024-08-10",
+      "w": 2,
+      "img": "luffy",
+      "title": {
+        "en": "Luffy (One Piece) — pencil",
+        "zh": "海贼王 · 路飞 · 铅笔"
+      }
+    }
+  ],
+  "exclude_ids": [
+    "devlog-BV1NwxHzQES5",
+    "devlog-BV1HUxhz3E2s",
+    "devlog-BV1VLxLzUERU",
+    "devlog-BV1CHxrzzEQs",
+    "devlog-BV16g1eBCE4p",
+    "devlog-BV14G1kB5Ehk",
+    "devlog-BV1XS1ZBPEQw",
+    "devlog-BV1WmyTBzEYk",
+    "devlog-BV15aABzdEiq",
+    "devlog-BV1WK4jzqEt4",
+    "devlog-BV1fkyhBcEjW",
+    "devlog-BV1g515BuEDr",
+    "devlog-BV1FcydBKEVp"
+  ],
+  "github_allow": [
+    "Statics-Learning",
+    "Software-Innovation",
+    "Machine-Learning",
+    "ChainspaceTest",
+    "CSS_451_FinalProject",
+    "CSS452_MP5_Davion_Barack",
+    "Barack_Davion_FinalProject_DialogueSystem",
+    "CSS-553-G3",
+    "A-Comprehensive-Categorization-Framework-for-Interactive-Fiction-Games",
+    "Let-No-Regrets-Remain",
+    "Leave-No-Regrests-Unity",
+    "260328-Hongyang-VIsual-Novel-Agent",
+    "free-and-easy-wandering"
+  ],
+  "overrides": {
+    "code-css452_mp5_davion_barack": {
+      "title": {
+        "en": "CSS 452 game-engine project (team of two)",
+        "zh": "CSS 452 游戏引擎课程项目（两人合作）"
+      },
+      "note": null
+    },
+    "code-barack_davion_finalproject_dialoguesystem": {
+      "title": {
+        "en": "CSS 452 final project: dialogue system (team of two)",
+        "zh": "CSS 452 期末项目：对话系统（两人合作）"
+      },
+      "note": null
+    },
+    "code-free-and-easy-wandering": {
+      "note": {
+        "en": "Scripts, prompts and keyframes behind the film Free and Easy Wandering",
+        "zh": "影片《逍遥游》背后的脚本、提示词与关键帧"
+      }
+    },
+    "code-260328-hongyang-visual-novel-agent": {
+      "note": {
+        "en": "Hackathon agent that turns plain text into a playable visual novel (Mar 2026)",
+        "zh": "黑客松作品：把纯文本变成可玩视觉小说的 agent（2026 年 3 月）"
+      }
+    },
+    "code-statics-learning": {
+      "title": {
+        "en": "Statistical learning course project (SJTU)",
+        "zh": "统计学习课程项目（上海交大）"
+      },
+      "note": null
+    },
+    "code-software-innovation": {
+      "note": {
+        "en": "A minimal app taken through a full DevOps flow (course project)",
+        "zh": "把一个最小应用走完整个 DevOps 流程（课程项目）"
+      }
+    },
+    "code-machine-learning": {
+      "note": {
+        "en": "License-plate recognition with machine learning (course project)",
+        "zh": "用机器学习做车牌识别（课程项目）"
+      }
+    },
+    "code-css_451_finalproject": {
+      "title": {
+        "en": "CSS 451 final project: 3D computer graphics",
+        "zh": "CSS 451 期末项目：3D 计算机图形学"
+      },
+      "note": null
+    },
+    "code-css-553-g3": {
+      "title": {
+        "en": "CSS 553 group project",
+        "zh": "CSS 553 小组项目"
+      },
+      "note": null
+    },
+    "code-a-comprehensive-categorization-framework-for-interactive-fiction-games": {
+      "title": {
+        "en": "Interactive-fiction games: thesis data and survey",
+        "zh": "互动小说游戏：学位论文数据与综述"
+      },
+      "note": null
+    },
+    "code-chainspacetest": {
+      "note": {
+        "en": "Tests of the Chainspace blockchain prototype (SJTU research)",
+        "zh": "Chainspace 区块链原型测试（上海交大研究）"
+      }
+    }
+  }
+}
