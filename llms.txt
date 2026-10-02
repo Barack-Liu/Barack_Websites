@@ -38,7 +38,7 @@ Barack Liu (legal name Hongyang Liu; Chinese name 刘宏阳) is a Technical Acco
 - Lin, F., Liu, H. CN106454485B (lane allocation for variable-speed danmaku), Chinese invention patent filed by HUST, granted 2018. https://patents.google.com/patent/CN106454485B/zh
 
 ## Creative work
-- AI music films: 14 films released 2026-07-22 to 2026-09-25, made with a 7-step, 22-task pipeline packaged as 30 Claude Code skills (886 logged lessons as of 2026-10-01). Recognition: Official nominee, Best Music Video, LAAIMPA (Los Angeles AI Motion Pictures Awards, a monthly AI film award), September 2026 edition, for "Back to 1981". Nominees announced 2026-09-28; nomination confirmed by LAAIMPA by email on 2026-10-01. Nominee status only. Certificate: https://barackliu.org/assets/img/laaimpa-nominee-certificate.jpg
+- AI music films: 14 films released 2026-07-22 to 2026-09-25, made with a 7-step, 22-task pipeline packaged as 30 Claude Code skills (886 logged lessons as of 2026-10-01). Recognition: Official nominee, Best Music Video, LAAIMPA (Los Angeles AI Motion Pictures Awards, a monthly AI film award), September 2026 edition, for "Back to 1981". Nominees announced 2026-09-28; nomination confirmed by LAAIMPA by email on 2026-10-01. Nominee status only. Certificate (issued in his legal name, Hongyang Liu): https://barackliu.org/assets/img/laaimpa-nominee-certificate.jpg
   - 2026-07-22 — Huo Qubing — A Portrait (霍去病传) — https://youtu.be/1JIO725MJYI · https://www.bilibili.com/video/BV1m9g669EGh/
   - 2026-07-31 — Daiyu — A Portrait (黛玉传) — https://youtu.be/2wY-5y7lIKU · https://www.bilibili.com/video/BV1pEGT64EzJ/
   - 2026-08-02 — Zhao Yun — A Portrait (赵云传) — https://youtu.be/r4x5oedfW9c · https://www.bilibili.com/video/BV1mF3Q6WEQv/
