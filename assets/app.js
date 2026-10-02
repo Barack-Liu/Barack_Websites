@@ -71,6 +71,11 @@
       if (e.key === 'ArrowRight') step(1);
     });
     window.openDrawing = (src, text) => open(-1, src, text);
+    // any link marked data-lightbox (e.g. the nomination certificate) opens here instead of a new page
+    document.querySelectorAll('a[data-lightbox]').forEach(a => a.addEventListener('click', e => {
+      e.preventDefault();
+      open(-1, a.getAttribute('href'), a.dataset.caption || '');
+    }));
   }
 
   // copy email
