@@ -519,6 +519,23 @@
         "en": "Luffy (One Piece) — pencil",
         "zh": "海贼王 · 路飞 · 铅笔"
       }
+    },
+    {
+      "id": "short-say-it-back",
+      "cat": "short",
+      "date": "2026-10-11",
+      "w": 3,
+      "cover": "sayitback",
+      "title": {
+        "en": "Say It Back (Team Dawn, my keepsake cut)",
+        "zh": "Say It Back（Team Dawn 团队作品 · 我剪的纪念版）"
+      },
+      "note": {
+        "en": "1st Prize, Advanced Track, STORY101 LAB 2026",
+        "zh": "STORY101 LAB 2026 Advanced 组一等奖"
+      },
+      "url": "https://youtu.be/oUWL5Ar4SS8",
+      "url_zh": "https://www.bilibili.com/video/BV1TZpX69Egt/"
     }
   ],
   "exclude_ids": [

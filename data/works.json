@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-01T07:37:09.639Z",
- "total": 476,
+ "generated": "2026-10-16T05:16:12.173Z",
+ "total": 477,
  "counts": {
   "project": 2,
   "drawing": 16,
@@ -9,29 +9,30 @@
   "chapter": 300,
   "devlog": 119,
   "film": 14,
-  "blooper": 4
+  "blooper": 4,
+  "short": 1
  },
  "first": "2014-10-01",
- "last": "2026-09-30",
+ "last": "2026-10-11",
  "sources": {
   "manual": {
    "ok": true,
-   "count": 44
+   "count": 45
   },
   "qidian": {
    "ok": true,
    "count": 300,
-   "fetched": "2026-10-01T07:37:08.745Z"
+   "fetched": "2026-10-16T05:16:10.599Z"
   },
   "bilibili": {
    "ok": true,
    "count": 119,
-   "fetched": "2026-10-01T07:37:09.503Z"
+   "fetched": "2026-10-16T05:16:11.281Z"
   },
   "github": {
    "ok": true,
    "count": 13,
-   "fetched": "2026-10-01T07:37:09.634Z"
+   "fetched": "2026-10-16T05:16:12.170Z"
   }
  },
  "extra": {
@@ -7435,8 +7436,8 @@
     "zh": "回到1981"
    },
    "note": {
-    "en": "Nominee, Best Music Video, LAAIMPA (Sep 2026)",
-    "zh": "LAAIMPA 最佳音乐影片提名（2026 年 9 月）"
+    "en": "Official nominee, Best Music Video, LAAIMPA (Sep 2026)",
+    "zh": "LAAIMPA 2026 年 9 月最佳音乐影片正式提名"
    },
    "url": "https://youtu.be/gylbKZEazTo",
    "url_zh": "https://www.bilibili.com/video/BV15j866UEsv/",
@@ -7633,6 +7634,24 @@
    },
    "url": "https://youtu.be/RoBn5fzcdfs",
    "url_zh": "https://www.bilibili.com/video/BV1bZaZ6hEDD/",
+   "src": "manual"
+  },
+  {
+   "id": "short-say-it-back",
+   "cat": "short",
+   "date": "2026-10-11",
+   "w": 3,
+   "cover": "sayitback",
+   "title": {
+    "en": "Say It Back (Team Dawn, my keepsake cut)",
+    "zh": "Say It Back（Team Dawn 团队作品 · 我剪的纪念版）"
+   },
+   "note": {
+    "en": "1st Prize, Advanced Track, STORY101 LAB 2026",
+    "zh": "STORY101 LAB 2026 Advanced 组一等奖"
+   },
+   "url": "https://youtu.be/oUWL5Ar4SS8",
+   "url_zh": "https://www.bilibili.com/video/BV1TZpX69Egt/",
    "src": "manual"
   }
  ]

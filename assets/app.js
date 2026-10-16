@@ -78,6 +78,22 @@
     }));
   }
 
+  // click-to-play films: the player loads only when asked (no third-party requests before that)
+  document.querySelectorAll('.player').forEach(p => p.querySelector('.play').addEventListener('click', () => {
+    if (p.classList.contains('playing')) return;
+    const src = p.dataset.lang === 'zh'
+      ? `https://player.bilibili.com/player.html?bvid=${p.dataset.bili}&autoplay=1&high_quality=1&danmaku=0`
+      : `https://www.youtube-nocookie.com/embed/${p.dataset.yt}?autoplay=1&rel=0`;
+    const f = document.createElement('iframe');
+    f.src = src;
+    f.title = p.dataset.title || 'video';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    p.appendChild(f);
+    p.classList.add('playing');
+  }));
+
   // copy email
   document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', async () => {
     try {
