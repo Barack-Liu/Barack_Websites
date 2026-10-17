@@ -463,6 +463,24 @@ a.ext:hover::after { transform: translate(1px, -1px); }
 .pubs a { font: 500 12.5px/1 var(--mono); color: var(--accent-ink); text-decoration: none; white-space: nowrap; }
 .pubs a:hover { text-decoration: underline; }
 @media (max-width: 900px) { .edu { grid-template-columns: 1fr; } }
+.certs { margin: 36px 0 0; }
+.certs h3 { font: 700 20px/1.3 var(--display); margin: 0 0 6px; }
+.certs-note { margin: 0 0 12px; color: var(--muted); font-size: 14.5px; }
+.certs ul { list-style: none; margin: 0; padding: 0; border-top: 1.5px solid var(--ink); }
+.certs li { display: grid; grid-template-columns: minmax(0, 1fr) 245px 275px auto; gap: 4px 20px; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.cert-meta, .cert-status { white-space: nowrap; }
+@media (max-width: 1180px) { .certs li { grid-template-columns: minmax(0, 1fr) auto; } }
+.cert-name { font-weight: 600; color: var(--ink); }
+.cert-meta { font: 500 12.5px/1.5 var(--mono); color: var(--muted); }
+.cert-meta .label { color: var(--muted); }
+.cert-status { font: 600 12.5px/1.5 var(--mono); color: #2f8a46; }
+.certs li.expired .cert-status { color: var(--muted); }
+.certs li.expired .cert-name { color: var(--ink-2); font-weight: 500; }
+.cert-verify { font: 500 12.5px/1.5 var(--mono); color: var(--accent-ink); text-decoration: none; white-space: nowrap; }
+.cert-verify:hover { text-decoration: underline; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cert-status { color: #8fd49a; } }
+:root[data-theme="dark"] .cert-status { color: #8fd49a; }
+@media (max-width: 760px) { .certs li { grid-template-columns: 1fr; gap: 2px; } .cert-meta, .cert-status { white-space: normal; } }
 
 /* ---------- drawings ---------- */
 .gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; list-style: none; margin: 0; padding: 0; }

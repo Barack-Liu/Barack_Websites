@@ -1,5 +1,5 @@
 {
-  "_readme": "Hand-curated public works for the Rings. Auto-fetched sources (Qidian chapters, Bilibili devlog, GitHub repos) are merged in by fetch_works.mjs. Every item must point to something a stranger can open. Item fields: id, cat, date (YYYY-MM-DD), title {en, zh}, url (EN page), url_zh (optional), note {en, zh} (optional), w (1 small, 2 medium, 3 large). exclude_ids: auto-fetched items to leave out. github_allow: the only GitHub repos that may appear (new repos stay off until added here). overrides: replace title/note of an auto-fetched item (null removes the note).",
+  "_readme": "Hand-curated public works for the Rings. Auto-fetched sources (Qidian chapters, Bilibili devlog, GitHub repos) are merged in by fetch_works.mjs. Every item must point to something a stranger can open. Item fields: id, cat, date (YYYY-MM-DD), title {en, zh}, url (EN page), url_zh (optional), note {en, zh} (optional), w (1 small, 2 medium, 3 large). exclude_ids: auto-fetched items to leave out. github_allow: the only GitHub repos that may appear (new repos stay off until added here). overrides: replace title/note of an auto-fetched item (null removes the note). credentials: Microsoft Learn credential IDs (public); their live status is pulled monthly into extra.credentials.",
   "items": [
     {
       "id": "project-vdanmu",
@@ -641,5 +641,13 @@
         "zh": "Chainspace 区块链原型测试（上海交大研究）"
       }
     }
-  }
+  },
+  "credentials": [
+    "b2b44aa3d467054d",
+    "148b31ec4d30172f",
+    "b32eb549bdb899a3",
+    "cc9f34b67ad7dc08",
+    "164d0a8d2d05bfe4",
+    "7f28dc9f84d2445e"
+  ]
 }

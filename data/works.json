@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T05:16:12.173Z",
+ "generated": "2026-10-17T17:58:44.677Z",
  "total": 477,
  "counts": {
   "project": 2,
@@ -22,17 +22,22 @@
   "qidian": {
    "ok": true,
    "count": 300,
-   "fetched": "2026-10-16T05:16:10.599Z"
+   "fetched": "2026-10-17T17:58:42.144Z"
   },
   "bilibili": {
    "ok": true,
    "count": 119,
-   "fetched": "2026-10-16T05:16:11.281Z"
+   "fetched": "2026-10-17T17:58:42.827Z"
   },
   "github": {
    "ok": true,
    "count": 13,
-   "fetched": "2026-10-16T05:16:12.170Z"
+   "fetched": "2026-10-17T17:58:43.634Z"
+  },
+  "credentials": {
+   "ok": true,
+   "count": 0,
+   "fetched": "2026-10-17T17:58:44.670Z"
   }
  },
  "extra": {
@@ -42,7 +47,57 @@
    "chapters": 300,
    "chars": 1216712,
    "updated": "2026-06-28 08:40:26"
-  }
+  },
+  "credentials": [
+   {
+    "id": "b2b44aa3d467054d",
+    "title": "Microsoft Certified: Fabric Analytics Engineer Associate",
+    "status": "Active",
+    "awardedOn": "2024-12-26T21:06:22+00:00",
+    "expiresOn": "2027-12-26T23:59:59.997+00:00",
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/b2b44aa3d467054d"
+   },
+   {
+    "id": "148b31ec4d30172f",
+    "title": "Microsoft Certified: Fabric Data Engineer Associate",
+    "status": "Active",
+    "awardedOn": "2025-03-01T02:34:25+00:00",
+    "expiresOn": "2028-03-01T23:59:59.997+00:00",
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/148b31ec4d30172f"
+   },
+   {
+    "id": "b32eb549bdb899a3",
+    "title": "Microsoft 365 Certified: Teams Administrator Associate",
+    "status": "Active",
+    "awardedOn": "2020-11-18T01:16:03+00:00",
+    "expiresOn": "2027-11-18T23:59:59.997+00:00",
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/b32eb549bdb899a3"
+   },
+   {
+    "id": "cc9f34b67ad7dc08",
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "status": "Active",
+    "awardedOn": "2020-10-16T08:10:34+00:00",
+    "expiresOn": null,
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/cc9f34b67ad7dc08"
+   },
+   {
+    "id": "164d0a8d2d05bfe4",
+    "title": "Microsoft 365 Certified: Fundamentals",
+    "status": "Active",
+    "awardedOn": "2020-12-01T02:18:10+00:00",
+    "expiresOn": null,
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/164d0a8d2d05bfe4"
+   },
+   {
+    "id": "7f28dc9f84d2445e",
+    "title": "Microsoft 365 Certified: Security Administrator Associate",
+    "status": "Expired",
+    "awardedOn": "2021-01-05T07:19:08+00:00",
+    "expiresOn": "2025-01-05T23:59:59.997+00:00",
+    "page": "https://learn.microsoft.com/en-us/users/barackliu/credentials/7f28dc9f84d2445e"
+   }
+  ]
  },
  "items": [
   {

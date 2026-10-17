@@ -118,11 +118,25 @@ async function fromGithub() {
   return { items };
 }
 
+// Microsoft certifications: the live record (title, status, dates) for each credential ID listed in
+// works.manual.json → credentials. Public endpoint behind learn.microsoft.com/users/<user>/credentials/<id>.
+let CREDENTIAL_IDS = [];
+async function fromCredentials() {
+  const list = [];
+  for (const id of CREDENTIAL_IDS) {
+    const d = await (await get(`https://learn.microsoft.com/api/credentials/${id}?locale=en-us`, { 'User-Agent': UA_DESKTOP, Accept: 'application/json' })).json();
+    if (!d.title || !d.awardedOn) throw new Error(`credentials: ${id} has no title/awardedOn`);
+    list.push({ id, title: d.title, status: d.credentialStatus || null, awardedOn: d.awardedOn, expiresOn: d.expiresOn || null, page: `https://learn.microsoft.com/en-us/users/barackliu/credentials/${id}` });
+  }
+  return { items: [], extra: { credentials: list } };
+}
+
 async function main() {
   const manualFile = JSON.parse(await readFile(MANUAL, 'utf8'));
   const excludeIds = new Set(manualFile.exclude_ids || []);
   const overrides = manualFile.overrides || {};
   if (Array.isArray(manualFile.github_allow)) GITHUB_ALLOW = new Set(manualFile.github_allow);
+  CREDENTIAL_IDS = manualFile.credentials || [];
   const manual = manualFile.items.map(it => ({
     ...it,
     url: it.url || (it.img ? `/assets/drawings/${it.img}.jpg` : undefined),
@@ -131,7 +145,7 @@ async function main() {
   const previous = existsSync(OUT) ? JSON.parse(await readFile(OUT, 'utf8')) : { items: [], sources: {} };
 
   const sources = { manual: { ok: true, count: manual.length } };
-  const remote = { qidian: fromQidian, bilibili: fromBilibili, github: fromGithub };
+  const remote = { qidian: fromQidian, bilibili: fromBilibili, github: fromGithub, ...(CREDENTIAL_IDS.length ? { credentials: fromCredentials } : {}) };
   let items = [...manual];
   let extra = previous.extra || {};
 

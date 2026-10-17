@@ -94,6 +94,30 @@
     p.classList.add('playing');
   }));
 
+  // Certifications: the HTML is written at build time, but the monthly data refresh only updates
+  // /data/works.json, so re-read status and dates from there (renewals and expiries show up on their own).
+  const certLabels = document.getElementById('cert-labels');
+  if (certLabels) {
+    const L = JSON.parse(certLabels.textContent);
+    const M = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const day = iso => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso));
+    const fmt = iso => { const [y, m, d] = day(iso).split('-').map(Number); return L.lang === 'zh' ? day(iso).replace(/-/g, '.') : `${M[m - 1]} ${d}, ${y}`; };
+    const v = (document.querySelector('script[src*="app.js"]') || {}).src;
+    fetch(`/data/works.json${v ? '?v=' + new URL(v).searchParams.get('v') : ''}`).then(r => r.json()).then(data => {
+      const list = (data.extra && data.extra.credentials) || [];
+      list.forEach(c => {
+        const li = document.querySelector(`[data-cred="${c.id}"]`);
+        if (!li) return;
+        const expired = c.status === 'Expired';
+        li.classList.toggle('expired', expired);
+        li.classList.toggle('active', !expired);
+        li.querySelector('[data-cred-status]').textContent = expired ? L.expired.replace('{date}', fmt(c.expiresOn)) : c.expiresOn ? L.activeUntil.replace('{date}', fmt(c.expiresOn)) : L.noExpiry;
+      });
+      const n = document.querySelector('[data-cred-count]');
+      if (n && list.length) n.textContent = n.textContent.replace(/\d+/, list.filter(c => c.status === 'Active').length);
+    }).catch(() => {});
+  }
+
   // copy email
   document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', async () => {
     try {
