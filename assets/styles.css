@@ -142,6 +142,7 @@ time, .mono, .num { font-variant-numeric: tabular-nums; }
 .site-header .wrap { display: flex; align-items: center; gap: 16px; height: 60px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font: 700 17px/1 var(--display); letter-spacing: -.01em; white-space: nowrap; }
 .brand svg { width: 28px; height: 28px; flex: none; color: var(--ink); }
+.brand .avatar { width: 32px; height: 32px; flex: none; border-radius: 7px; object-fit: cover; box-shadow: 0 0 0 1px var(--line-2); }
 .brand .core { fill: var(--accent); }
 .brand .core-ring { stroke: var(--accent); }
 .nav { margin-left: auto; display: flex; align-items: center; gap: 2px; }
